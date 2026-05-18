@@ -1,0 +1,3 @@
+main.adb:58:26: (style) "and then" required [-gnatyB]
+universe.ads:30:01: (style) multiple blank lines [-gnatyu]
+vector.ads:6:07: (style) space required [-gnatyt]

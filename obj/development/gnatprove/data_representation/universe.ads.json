@@ -1,0 +1,54 @@
+[
+{
+  "name": "Universe.Universe_Item",
+  "location": "universe.ads:81:9",
+  "Alignment": "??",
+  "record": [
+    {
+      "name": "Pos",
+      "Position": "??",
+      "First_Bit": 0,
+      "Size": "??"
+    },
+    {
+      "name": "Vel",
+      "Position": "??",
+      "First_Bit": 0,
+      "Size": "??"
+    },
+    {
+      "name": "Rad",
+      "Position": "??",
+      "First_Bit": 0,
+      "Size": "??"
+    }
+  ]
+}
+,
+{
+  "name": "Universe.Itemarray",
+  "location": "universe.ads:87:9",
+  "Alignment": "??",
+  "Component_Size": "??"
+}
+,
+{
+  "name": "Universe.Universe",
+  "location": "universe.ads:90:9",
+  "Alignment": "??",
+  "record": [
+    {
+      "name": "Items",
+      "Position": "??",
+      "First_Bit": 0,
+      "Size": "??"
+    },
+    {
+      "name": "Item_Count",
+      "Position": "??",
+      "First_Bit": 0,
+      "Size": "??"
+    }
+  ]
+}
+]

@@ -1,0 +1,83 @@
+
+[01m[Kmain.adb:137:11: [m[K[01;31m[Kmedium:[m[K precondition might fail, in call inlined at main.adb:148
+  137>|      Univ.Add_Item (U,
+  ... | ...
+  140 |                     Initial_Radii (1));
+  [01;36m[Kpossible fix: [m[Kcall at line 136, instance at line 148 should mention U (for argument U) in a postcondition
+  136 |      Univ.Init (U);
+      |          [01;36m[K^ here[m[K
+
+[01m[Kmain.adb:137:11: [m[K[01;31m[Kmedium:[m[K precondition might fail, in call inlined at main.adb:183
+  137>|      Univ.Add_Item (U,
+  ... | ...
+  140 |                     Initial_Radii (1));
+  [01;36m[Kpossible fix: [m[Kcall at line 136, instance at line 183 should mention U (for argument U) in a postcondition
+  136 |      Univ.Init (U);
+      |          [01;36m[K^ here[m[K
+
+[01m[Kmain.adb:141:11: [m[K[01;31m[Kmedium:[m[K precondition might fail, in call inlined at main.adb:148
+  141>|      Univ.Add_Item (U,
+  ... | ...
+  144 |                     Initial_Radii (2));
+  [01;36m[Kpossible fix: [m[Kcall at line 137, instance at line 148 should mention U (for argument U) in a postcondition
+  137 |      Univ.Add_Item (U,
+      |          [01;36m[K^ here[m[K
+
+[01m[Kmain.adb:141:11: [m[K[01;31m[Kmedium:[m[K precondition might fail, in call inlined at main.adb:183
+  141>|      Univ.Add_Item (U,
+  ... | ...
+  144 |                     Initial_Radii (2));
+  [01;36m[Kpossible fix: [m[Kcall at line 137, instance at line 183 should mention U (for argument U) in a postcondition
+  137 |      Univ.Add_Item (U,
+      |          [01;36m[K^ here[m[K
+
+[01m[Kmain.adb:162:43: [m[K[01;31m[Kmedium:[m[K precondition might fail
+  162 |         Flags : constant Bounce_Array := [01;31m[KDetect_Bounces (U[m[K);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+  [01;36m[Kpossible fix: [m[Kcall at line 158 should mention U (for argument U) in a postcondition
+  158 |      Univ.Tick (U);
+      |          [01;36m[K^ here[m[K
+
+[01m[Kmain.adb:168:39: [m[K[01;31m[Kmedium:[m[K loop invariant might fail in first iteration
+  168 |               pragma Loop_Invariant ([01;31m[KUniv.Item_Count (U) = 2[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[Kuniverse.ads:32:14: [m[K[01;31m[Khigh:[m[K all paths in "Init" raise exceptions or do not terminate normally, in instantiation at main.adb:11
+   32 |   procedure Init (U : out Universe);
+      |             [01;31m[K^ here[m[K
+
+[01m[Kuniverse.ads:35:14: [m[K[01;31m[Khigh:[m[K all paths in "Add_Item" raise exceptions or do not terminate normally, in instantiation at main.adb:11
+   35 |   procedure Add_Item
+      |             [01;31m[K^ here[m[K
+
+[01m[Kuniverse.ads:44:14: [m[K[01;31m[Khigh:[m[K all paths in "Tick" raise exceptions or do not terminate normally, in instantiation at main.adb:11
+   44 |   procedure Tick (U : in out Universe);
+      |             [01;31m[K^ here[m[K
+
+[01m[Kuniverse.ads:47:14: [m[K[01;31m[Khigh:[m[K all paths in "Reflect_Velocity_X" raise exceptions or do not terminate normally, in instantiation at main.adb:11
+   47 |   procedure Reflect_Velocity_X
+      |             [01;31m[K^ here[m[K
+
+[01m[Kuniverse.ads:62:14: [m[K[01;31m[Khigh:[m[K all paths in "Reflect_Velocity_Y" raise exceptions or do not terminate normally, in instantiation at main.adb:11
+   62 |   procedure Reflect_Velocity_Y
+      |             [01;31m[K^ here[m[K
+
+[01m[Kuniverse.adb:8:07: [m[K[01;31m[Kmedium:[m[K unexpected exception might be raised, in instantiation at main.adb:11
+    8 |      [01;31m[Kraise Program_Error with "[m[KInit not yet implemented";
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[Kuniverse.adb:19:07: [m[K[01;31m[Kmedium:[m[K unexpected exception might be raised, in instantiation at main.adb:11
+   19 |      [01;31m[Kraise Program_Error with "[m[KAdd_Item not yet implemented";
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[Kuniverse.adb:26:07: [m[K[01;31m[Kmedium:[m[K unexpected exception might be raised, in instantiation at main.adb:11
+   26 |      [01;31m[Kraise Program_Error with "[m[KReflect_Velocity_X not yet implemented";
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[Kuniverse.adb:33:07: [m[K[01;31m[Kmedium:[m[K unexpected exception might be raised, in instantiation at main.adb:11
+   33 |      [01;31m[Kraise Program_Error with "[m[KReflect_Velocity_Y not yet implemented";
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[Kuniverse.adb:57:07: [m[K[01;31m[Kmedium:[m[K unexpected exception might be raised, in instantiation at main.adb:11
+   57 |      [01;31m[Kraise Program_Error with "[m[KTick not yet implemented";
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
