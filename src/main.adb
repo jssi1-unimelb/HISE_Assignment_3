@@ -1,6 +1,17 @@
+--  Task 1: Code Understanding
+--  Question 1
+--  By using the distinct types Position and Velocity for calculations instead of Vector, it prevents silent errors where incorrect data is
+--  utilized due to the format of the data being identical. For example, if the function
+--
+--  Additionally, it provides further clarity to the meaning of the data returned by each function.
+--  Question 2
+--
+--
+--
+
 with Universe;
 with Spatial;
-with Vector; use Vector;
+with Vector;                             use Vector;
 with Display;
 with Ada.Text_IO;
 with Ada.Numerics.Big_Numbers.Big_Reals;
@@ -39,23 +50,25 @@ procedure Main with SPARK_Mode is
 
    --  TODO: define Position_Invariant
 
-   function Squared_Dist
-     (U : Univ.Universe; I, J : Integer) return Big_Real is
-       (Vector.Dot
-          (Vector.Sub
-             (Spatial.To_Vector (Univ.Get_Position (U, I)),
-              Spatial.To_Vector (Univ.Get_Position (U, J))),
-           Vector.Sub
-             (Spatial.To_Vector (Univ.Get_Position (U, I)),
-              Spatial.To_Vector (Univ.Get_Position (U, J))))) with
-      Pre => I >= 1 and then I <= Univ.Item_Count (U)
-             and then J >= 1 and then J <= Univ.Item_Count (U);
+   function Squared_Dist (U : Univ.Universe; I, J : Integer) return Big_Real
+   is (Vector.Dot
+         (Vector.Sub
+            (Spatial.To_Vector (Univ.Get_Position (U, I)),
+             Spatial.To_Vector (Univ.Get_Position (U, J))),
+          Vector.Sub
+            (Spatial.To_Vector (Univ.Get_Position (U, I)),
+             Spatial.To_Vector (Univ.Get_Position (U, J)))))
+   with
+     Pre =>
+       I >= 1
+       and then I <= Univ.Item_Count (U)
+       and then J >= 1
+       and then J <= Univ.Item_Count (U);
 
-   function Pair_Sep2
-     (I, J : Integer) return Big_Real is
-       ((Initial_Radii (I) + Initial_Radii (J)) *
-        (Initial_Radii (I) + Initial_Radii (J))) with
-      Pre => I in 1 .. 2 and J in 1 .. 2;
+   function Pair_Sep2 (I, J : Integer) return Big_Real
+   is ((Initial_Radii (I) + Initial_Radii (J))
+       * (Initial_Radii (I) + Initial_Radii (J)))
+   with Pre => I in 1 .. 2 and J in 1 .. 2;
 
    --  TODO: define No_Future_Collision_Pair
 
@@ -68,19 +81,15 @@ procedure Main with SPARK_Mode is
 
    type Bounce_Array is array (1 .. 2) of Bounce_Flags;
 
-   function Detect_Bounces
-     (U : Univ.Universe) return Bounce_Array
-     with Pre => Univ.Item_Count (U) = 2;
+   function Detect_Bounces (U : Univ.Universe) return Bounce_Array
+   with Pre => Univ.Item_Count (U) = 2;
 
-   function Detect_Bounces
-     (U : Univ.Universe) return Bounce_Array
-   is
+   function Detect_Bounces (U : Univ.Universe) return Bounce_Array is
       Result : Bounce_Array := (others => (X => False, Y => False));
    begin
       for Item in 1 .. 2 loop
          declare
-            P : constant Spatial.Position :=
-              Univ.Get_Position (U, Item);
+            P : constant Spatial.Position := Univ.Get_Position (U, Item);
             R : constant Big_Real := Univ.Get_Radius (U, Item);
          begin
             if Spatial.Pos_X (P) + R > Arena_X_Max
@@ -100,48 +109,44 @@ procedure Main with SPARK_Mode is
 
    procedure Print_Collision (Frame : Integer);
 
-   procedure Print_Collision (Frame : Integer)
-     with SPARK_Mode => Off
-   is
+   procedure Print_Collision (Frame : Integer) with SPARK_Mode => Off is
    begin
       Ada.Text_IO.Put_Line
-        ("Collision will occur after bounce at frame"
-         & Integer'Image (Frame));
+        ("Collision will occur after bounce at frame" & Integer'Image (Frame));
       for Item in 1 .. 2 loop
          declare
             V : constant Vector.Vector :=
               Spatial.Vel_To_Vector (Initial_Velocities (Item));
-            P : constant Spatial.Position :=
-              Initial_Positions (Item);
+            P : constant Spatial.Position := Initial_Positions (Item);
          begin
             Ada.Text_IO.Put_Line
-              ("  Item" & Integer'Image (Item)
+              ("  Item"
+               & Integer'Image (Item)
                & " pos=("
-               & To_String (Spatial.Pos_X (P)) & ", "
-               & To_String (Spatial.Pos_Y (P)) & ")"
+               & To_String (Spatial.Pos_X (P))
+               & ", "
+               & To_String (Spatial.Pos_Y (P))
+               & ")"
                & " vel=("
-               & To_String (V.X) & ", "
-               & To_String (V.Y) & ")");
+               & To_String (V.X)
+               & ", "
+               & To_String (V.Y)
+               & ")");
          end;
       end loop;
-      Ada.Text_IO.Put_Line
-        ("  Sep2=" & To_String (Pair_Sep2 (1, 2)));
+      Ada.Text_IO.Put_Line ("  Sep2=" & To_String (Pair_Sep2 (1, 2)));
    end Print_Collision;
 
    procedure Reset_Universe
-   --  TODO: add postcondition
+     --  TODO: add postcondition
    is
    begin
       Tick_Count := To_Big_Real (0);
       Univ.Init (U);
-      Univ.Add_Item (U,
-                     Initial_Positions (1),
-                     Initial_Velocities (1),
-                     Initial_Radii (1));
-      Univ.Add_Item (U,
-                     Initial_Positions (2),
-                     Initial_Velocities (2),
-                     Initial_Radii (2));
+      Univ.Add_Item
+        (U, Initial_Positions (1), Initial_Velocities (1), Initial_Radii (1));
+      Univ.Add_Item
+        (U, Initial_Positions (2), Initial_Velocities (2), Initial_Radii (2));
    end Reset_Universe;
 
 begin
@@ -161,8 +166,10 @@ begin
       declare
          Flags : constant Bounce_Array := Detect_Bounces (U);
       begin
-         if Flags (1).X or else Flags (1).Y
-           or else Flags (2).X or else Flags (2).Y
+         if Flags (1).X
+           or else Flags (1).Y
+           or else Flags (2).X
+           or else Flags (2).Y
          then
             for Item in 1 .. 2 loop
                pragma Loop_Invariant (Univ.Item_Count (U) = 2);
@@ -174,22 +181,20 @@ begin
                end if;
             end loop;
             Initial_Positions :=
-              (Univ.Get_Position (U, 1),
-               Univ.Get_Position (U, 2));
+              (Univ.Get_Position (U, 1), Univ.Get_Position (U, 2));
             Initial_Velocities :=
-              (Univ.Get_Velocity (U, 1),
-               Univ.Get_Velocity (U, 2));
+              (Univ.Get_Velocity (U, 1), Univ.Get_Velocity (U, 2));
 
             Reset_Universe;
 
-            --  TODO: add post-bounce collision check
+         --  TODO: add post-bounce collision check
+
          end if;
       end;
    end loop;
 
    Disp.Capture (U);
-   Disp.Save ("simulation.html",
-              Arena_X_Min, Arena_X_Max,
-              Arena_Y_Min, Arena_Y_Max);
+   Disp.Save
+     ("simulation.html", Arena_X_Min, Arena_X_Max, Arena_Y_Min, Arena_Y_Max);
    Ada.Text_IO.Put_Line ("Wrote simulation.html");
 end Main;
