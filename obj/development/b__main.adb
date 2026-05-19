@@ -273,13 +273,13 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   /workspaces/student/obj/development/vector.o
-   --   /workspaces/student/obj/development/spatial.o
-   --   /workspaces/student/obj/development/universe.o
-   --   /workspaces/student/obj/development/display.o
-   --   /workspaces/student/obj/development/main.o
-   --   -L/workspaces/student/obj/development/
-   --   -L/workspaces/student/obj/development/
+   --   /workspaces/HISE_Assignment_3/obj/development/vector.o
+   --   /workspaces/HISE_Assignment_3/obj/development/spatial.o
+   --   /workspaces/HISE_Assignment_3/obj/development/universe.o
+   --   /workspaces/HISE_Assignment_3/obj/development/display.o
+   --   /workspaces/HISE_Assignment_3/obj/development/main.o
+   --   -L/workspaces/HISE_Assignment_3/obj/development/
+   --   -L/workspaces/HISE_Assignment_3/obj/development/
    --   -L/home/vscode/.local/share/alire/toolchains/gnat_native_15.1.2_f0e902c0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/adalib/
    --   -static
    --   -lgnat

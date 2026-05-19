@@ -1,13 +1,28 @@
 --  Task 1: Code Understanding
+--------------------------------------------------------------------------------
 --  Question 1
---  By using the distinct types Position and Velocity for calculations instead of Vector, it prevents silent errors where incorrect data is
---  utilized due to the format of the data being identical. For example, if the function
 --
---  Additionally, it provides further clarity to the meaning of the data returned by each function.
+--  By using the distinct types "Position" and "Velocity" for calculations
+--  instead of Vector, it prevents silent errors where incorrect data is
+--  utilized due to the format of the data being identical. For example, when
+--  using the procedure "Add_Item" to add bodies to the universe, if "pos" and
+--  "vel" were declared as type "Vector.Vector", it would be possible to
+--  mistakenly assign "pos" to the velocity vector and "vel" to the position
+--  vector.
+--
+--  Additionally, it provides further clarity to the meaning of the data
+--  returned by each function.
+--
+--------------------------------------------------------------------------------
 --  Question 2
 --
+--  Pre => Index >= 1 and then Index <= Item_Count (U)
+--  Ensures the index is within the bounds of the number of items in the
+--  universe
 --
---
+--  Pre  => Item_Count (U) < Max_Items;
+--  Ensures the number of items in the universe does not exceed the max number
+--  of items
 
 with Universe;
 with Spatial;

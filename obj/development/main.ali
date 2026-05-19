@@ -103,13 +103,13 @@ D a-tiflio.ads		20250425081800 48a0360d ada.text_io.float_io%s
 D a-tiinio.ads		20250425081800 76699c8f ada.text_io.integer_io%s
 D a-unccon.ads		20250425081800 0e9b276f ada.unchecked_conversion%s
 D a-uncdea.ads		20250425081800 c3a8ac65 ada.unchecked_deallocation%s
-D display.ads		20260423111105 f13f63c7 display%s
-D display.adb		20260423111105 d94afbf9 display%b
+D display.ads		20260519014937 f13f63c7 display%s
+D display.adb		20260519014937 d94afbf9 display%b
 D interfac.ads		20250425081800 9111f9c1 interfaces%s
 D i-c.ads		20250425081800 e94c966a interfaces.c%s
 D i-cstrea.ads		20250425081800 ffd01b9d interfaces.c_streams%s
-D main.adb		20260423111212 623c76ed main%b
-D spatial.ads		20260423111105 01ce2b0a spatial%s
+D main.adb		20260519014937 623c76ed main%b
+D spatial.ads		20260519014937 01ce2b0a spatial%s
 D system.ads		20250425081800 14286b0f system%s
 D s-assert.ads		20250425081800 9c4520c7 system.assertions%s
 D s-crtl.ads		20250425081800 beb39b9e system.crtl%s
@@ -153,129 +153,129 @@ D s-vsllli.ads		20250425081800 3a5ba700 system.vs_llli%s
 D s-vslllu.ads		20250425081800 678200a0 system.vs_lllu%s
 D s-vs_uns.ads		20250425081800 e7f47a27 system.vs_uns%s
 D s-wchcon.ads		20250425081800 d9032363 system.wch_con%s
-D universe.ads		20260423111123 2886a87c universe%s
-D universe.adb		20260424004313 793c38b0 universe%b
-D vector.ads		20260423111105 1ec89a95 vector%s
+D universe.ads		20260519014937 2886a87c universe%s
+D universe.adb		20260519014937 793c38b0 universe%b
+D vector.ads		20260519014937 1ec89a95 vector%s
 G a e
-G c Z b b [main standard 9 11 none]
-G r i none [main standard 9 11 none] [universe standard 9 9 none]
-G r i none [main standard 9 11 none] [display standard 8 9 none]
-G r s vector [main standard 9 11 none] [vectorIP vector 7 9 none]
-G r l position [main standard 9 11 none] [positionDI spatial 26 9 none]
-G r l velocity [main standard 9 11 none] [velocityDI spatial 27 9 none]
-G r k velocity [main standard 9 11 none] [velocityDF spatial 27 9 none]
-G r k position [main standard 9 11 none] [positionDF spatial 26 9 none]
-G r c none [main standard 9 11 none] [to_position spatial 13 13 none]
-G r j position [main standard 9 11 none] [positionDA spatial 26 9 none]
-G r k vector [main standard 9 11 none] [vectorDF vector 7 9 none]
-G r c none [main standard 9 11 none] [to_velocity spatial 14 13 none]
-G r j velocity [main standard 9 11 none] [velocityDA spatial 27 9 none]
-G r l vector [main standard 9 11 none] [vectorDI vector 7 9 none]
-G r c none [main standard 9 11 none] [vel_to_vector spatial 17 13 none]
-G r j vector [main standard 9 11 none] [vectorDA vector 7 9 none]
-G r c none [main standard 9 11 none] [pos_x spatial 10 13 none]
-G r c none [main standard 9 11 none] [pos_y spatial 11 13 none]
+G c Z b b [main standard 20 11 none]
+G r i none [main standard 20 11 none] [universe standard 9 9 none]
+G r i none [main standard 20 11 none] [display standard 8 9 none]
+G r s vector [main standard 20 11 none] [vectorIP vector 7 9 none]
+G r l position [main standard 20 11 none] [positionDI spatial 26 9 none]
+G r l velocity [main standard 20 11 none] [velocityDI spatial 27 9 none]
+G r k velocity [main standard 20 11 none] [velocityDF spatial 27 9 none]
+G r k position [main standard 20 11 none] [positionDF spatial 26 9 none]
+G r c none [main standard 20 11 none] [to_position spatial 13 13 none]
+G r j position [main standard 20 11 none] [positionDA spatial 26 9 none]
+G r k vector [main standard 20 11 none] [vectorDF vector 7 9 none]
+G r c none [main standard 20 11 none] [to_velocity spatial 14 13 none]
+G r j velocity [main standard 20 11 none] [velocityDA spatial 27 9 none]
+G r l vector [main standard 20 11 none] [vectorDI vector 7 9 none]
+G r c none [main standard 20 11 none] [vel_to_vector spatial 17 13 none]
+G r j vector [main standard 20 11 none] [vectorDA vector 7 9 none]
+G r c none [main standard 20 11 none] [pos_x spatial 10 13 none]
+G r c none [main standard 20 11 none] [pos_y spatial 11 13 none]
 X 1 ada.ads
-18K9*Ada 22e8 29|5r6 6r6 7r5 107r7 117r13 127r7 194r4
+18K9*Ada 22e8 29|16r6 17r6 18r5 114r7 122r13 137r7 199r4
 X 8 a-numeri.ads
-20K13*Numerics 36e17 29|6r10 7r9
+20K13*Numerics 36e17 29|17r10 18r9
 X 9 a-nubinu.ads
-19K22*Big_Numbers 30e29 29|6r19 7r18
+19K22*Big_Numbers 30e29 29|17r19 18r18
 X 12 a-nbnbre.ads
-20K34*Big_Reals 181e39 29|6w31 7r30
-25R9*Big_Real 179e14 29|18r27 19r27 20r27 21r27 35r47 38r17 43r49 55r30 84r26
-60V13*To_Big_Real{34R12} 29|38s29 135s21 159s34
-71V14*"<"{boolean} 29|87s45 92s45
-75V14*">"{boolean} 29|86s38 91s38
-85k12*Float_Conversions 98e25 29|13r22
-87V16 To_Big_Real{34R12} 29|18s42[13] 19s42[13] 20s42[13] 21s42[13] 25s19[13]
-. 25s46[13] 27s19[13] 27s46[13] 31s19[13] 31s46[13] 33s19[13] 33s46[13] 36s10[13]
-. 36s32[13]
-117V13*To_String{string} 29|120s18 121s18 123s18 124s18 128s22
-154V14*"+"{34R12} 29|56s28 57s28 86s34 91s34 159s32
-157V14*"-"{34R12} 29|87s41 92s41
-160V14*"*"{34R12} 29|56s49
+20K34*Big_Reals 181e39 29|17w31 18r30
+25R9*Big_Real 179e14 29|29r27 30r27 31r27 32r27 46r47 49r17 53r69 68r47 93r26
+60V13*To_Big_Real{34R12} 29|49s29 144s21 164s34
+71V14*"<"{boolean} 29|96s45 101s45
+75V14*">"{boolean} 29|95s38 100s38
+85k12*Float_Conversions 98e25 29|24r22
+87V16 To_Big_Real{34R12} 29|29s42[24] 30s42[24] 31s42[24] 32s42[24] 36s19[24]
+. 36s46[24] 38s19[24] 38s46[24] 42s19[24] 42s46[24] 44s19[24] 44s46[24] 47s10[24]
+. 47s32[24]
+117V13*To_String{string} 29|126s18 128s18 131s18 133s18 137s41
+154V14*"+"{34R12} 29|69s27 70s29 95s34 100s34 164s32
+157V14*"-"{34R12} 29|96s41 101s41
+160V14*"*"{34R12} 29|70s8
 X 19 a-textio.ads
-58K13*Text_IO 785e16 29|5w10 107r11 117r17 127r11 194r8
-565U14*Put_Line 29|107s19 117s25 127s19 194s16
+58K13*Text_IO 785e16 29|16w10 114r11 122r17 137r11 199r8
+565U14*Put_Line 29|114s19 122s25 137s19 199s16
 X 24 display.ads
-7i4 Max_Frames{positive} 29|14r39
-8k9*Display 23e12 29|4w6 14r24
-10U14 Capture 29|157s12[14] 190s9[14]
-15U14 Save 29|191s9[14]
+7i4 Max_Frames{positive} 29|25r39
+8k9*Display 23e12 29|15w6 25r24
+10U14 Capture 29|162s12[25] 196s9[25]
+15U14 Save 29|197s9[25]
 X 29 main.adb
-9U11*Main 9b11 195l5 195t9
-11K12 Univ[74|9] 14r33 16r8 43r11 46r34 47r34 49r34 50r34 51r35 52r44 72r11
-. 73r18 76r11 83r15 84r38 136r7 137r7 141r7 158r7 168r39 170r19 173r19 177r16
-. 178r16 180r16 181r16
-13K12 FC[12|85] 18r39 19r39 20r39 21r39 25r16 25r43 27r16 27r43 31r16 31r43
-. 33r16 33r43 36r7 36r29
-14K12 Disp[24|8] 157r7 190r4 191r4
-16r4 U{74|15R9[11]} 136m18 137m22 137r22 141m22 141r22 157r21 158m18 158r18
-. 162r59 168r56 170m44 170r44 173m44 173r44 177r35 178r35 180r35 181r35 190r18
-18r4 Arena_X_Min{12|25R9} 87r47 192r15
-19r4 Arena_X_Max{12|25R9} 86r40 192r28
-20r4 Arena_Y_Min{12|25R9} 92r47 193r15
-21r4 Arena_Y_Max{12|25R9} 91r40 193r28
-23a4 Initial_Positions(30|7R9) 115r15 138r22 142r22 176m13
-29a4 Initial_Velocities(30|8R9) 113r38 139r22 143r22 179m13
-35a4 Initial_Radii(12|25R9) 56r10 56r30 57r10 57r30 140r22 144r22
-38r4 Tick_Count{12|25R9} 135m7 135r7 159m7 159r7 159r21
-42V13 Squared_Dist{12|25R9} 42b13 43>7 43>26 43>29
-43r7 U{74|15R9[11]} 46r53 47r53 49r53 50r53 51r52 52r61
-43i26 I{integer} 46r56 49r56 51r14 51r30
-43i29 J{integer} 47r56 50r56 52r23 52r39
-54V13 Pair_Sep2{12|25R9} 54b13 55>7 55>10 128s33
-55i7 I{integer} 56r25 57r25 58r14
-55i10 J{integer} 56r45 57r45 58r30
-64R9 Bounce_Flags 67e14 69r43
-65b7 X{boolean} 78m44 89m30 164r23 165r30 169r32
-66b7 Y{boolean} 78m56 94m30 164r43 165r50 172r32
-69A9 Bounce_Array(64R9)<integer> 72r33 76r33 78r16 162r27
-71V13 Detect_Bounces{69A9} 72>7 75b13 99l8 99t22 162s43
-72r7 U{74|15R9[11]} 73r35 76b7 83r34 84r55
-78a7 Result{69A9} 89m16 94m16 98r14
-80i11 Item{integer} 83r37 84r58 89r24 94r24
-82r13 P{30|7R9} 86r31 87r38 91r31 92r38
-84r13 R{12|25R9} 86r36 87r43 91r36 92r43
-101U14 Print_Collision 101>31 103b14 129l8 129t23
-101i31 Frame{integer} 103b31 109r27
-110i11 Item{integer} 113r58 115r34 118r42
-112r13 V{76|7R9} 123r29 124r29
-114r13 P{30|7R9} 120r44 121r44
-131U14 Reset_Universe 131b14 145l8 145t22 148s4 183s13
-152i8 Frame{integer}
-162a10 Flags{69A9} 164r13 164r33 165r20 165r40 169r19 172r19
-167i17 Item{integer} 169r26 170r47 172r26 173r47
+20U11*Main 20b11 200l5 200t9
+22K12 Univ[74|9] 25r33 27r8 53r31 56r33 57r33 59r33 60r33 64r22 66r22 84r33
+. 85r16 87r33 92r46 93r38 145r7 146r7 148r7 163r7 175r39 177r19 180r19 184r16
+. 184r42 186r16 186r42
+24K12 FC[12|85] 29r39 30r39 31r39 32r39 36r16 36r43 38r16 38r43 42r16 42r43
+. 44r16 44r43 47r7 47r29
+25K12 Disp[24|8] 162r7 196r4 197r4
+27r4 U{74|15R9[22]} 145m18 147m10 147r10 149m10 149r10 162r21 163m18 163r18
+. 167r59 175r56 177m44 177r44 180m44 180r44 184r35 184r61 186r35 186r61 196r18
+29r4 Arena_X_Min{12|25R9} 96r47 198r26
+30r4 Arena_X_Max{12|25R9} 95r40 198r39
+31r4 Arena_Y_Min{12|25R9} 101r47 198r52
+32r4 Arena_Y_Max{12|25R9} 100r40 198r65
+34a4 Initial_Positions(30|7R9) 120r46 147r13 149r13 183m13
+40a4 Initial_Velocities(30|8R9) 119r38 147r36 149r36 185m13
+46a4 Initial_Radii(12|25R9) 69r9 69r29 70r11 70r31 147r60 149r60
+49r4 Tick_Count{12|25R9} 144m7 144r7 164m7 164r7 164r21
+53V13 Squared_Dist{12|25R9} 53b13 53>27 53>46 53>49
+53r27 U{74|15R9[22]} 56r52 57r52 59r52 60r52 64r39 66r39
+53i46 I{integer} 56r55 59r55 63r8 64r17
+53i49 J{integer} 57r55 60r55 65r17 66r17
+68V13 Pair_Sep2{12|25R9} 68b13 68>24 68>27 137s52
+68i24 I{integer} 69r24 70r26 71r16
+68i27 J{integer} 69r44 70r46 71r32
+77R9 Bounce_Flags 80e14 82r43
+78b7 X{boolean} 88m44 98m30 169r23 171r30 176r32
+79b7 Y{boolean} 88m56 103m30 170r30 172r30 179r32
+82A9 Bounce_Array(77R9)<integer> 84r55 87r55 88r16 167r27
+84V13 Detect_Bounces{82A9} 84>29 87b13 108l8 108t22 167s43
+84r29 U{74|15R9[22]} 85r33 87b29 92r65 93r55
+88a7 Result{82A9} 98m16 103m16 107r14
+90i11 Item{integer} 92r68 93r58 98r24 103r24
+92r13 P{30|7R9} 95r31 96r38 100r31 101r38
+93r13 R{12|25R9} 95r36 96r43 100r36 101r43
+110U14 Print_Collision 110>31 112b14 138l8 138t23
+110i31 Frame{integer} 112b31 115r72
+116i11 Item{integer} 119r58 120r65 124r33
+118r13 V{76|7R9} 131r29 133r29
+120r13 P{30|7R9} 126r44 128r44
+140U14 Reset_Universe 140b14 150l8 150t22 153s4 188s13
+157i8 Frame{integer}
+167a10 Flags{82A9} 169r13 170r20 171r20 172r20 176r19 179r19
+174i17 Item{integer} 176r26 177r47 179r26 180r47
 X 30 spatial.ads
-5K9*Spatial 29|2w6 10r13 23r42 24r7 26r7 29r43 30r7 32r7 46r15 47r15 49r15
-. 50r15 82r26 86r16 87r23 91r16 92r23 113r15 114r26 120r29 121r29 30|59e12
-7R9*Position<76|7R9> 29|23r50 82r34 114r34
-8R9*Velocity<76|7R9> 29|10r21 29r51
-10V13*Pos_X{12|25R9} 29|86s24 87s31 120s37
-11V13*Pos_Y{12|25R9} 29|91s24 92s31 121s37
-13V13*To_Position{7R9} 29|24s15 26s15
-14V13*To_Velocity{8R9} 29|30s15 32s15
-16V13*To_Vector{76|7R9} 29|46s23 47s23 49s23 50s23
-17V13*Vel_To_Vector{76|7R9} 29|113s23
+5K9*Spatial 29|13w6 21r13 34r42 35r7 37r7 40r43 41r7 43r7 56r14 57r14 59r14
+. 60r14 92r26 95r16 96r23 100r16 101r23 119r15 120r26 126r29 128r29 30|59e12
+7R9*Position<76|7R9> 29|34r50 92r34 120r34
+8R9*Velocity<76|7R9> 29|21r21 40r51
+10V13*Pos_X{12|25R9} 29|95s24 96s31 126s37
+11V13*Pos_Y{12|25R9} 29|100s24 101s31 128s37
+13V13*To_Position{7R9} 29|35s15 37s15
+14V13*To_Velocity{8R9} 29|41s15 43s15
+16V13*To_Vector{76|7R9} 29|56s22 57s22 59s22 60s22
+17V13*Vel_To_Vector{76|7R9} 29|119s23
 X 74 universe.ads
-9k9*Universe 29|1w6 11r24 74|110e13
-15R9 Universe 29|16r13[11] 43r16[11] 72r16[11] 76r16[11]
-17V13 Item_Count{integer} 29|51s40[11] 52s49[11] 73s23[11] 168s44[11]
-19V13 Get_Position{30|7R9} 29|46s39[11] 47s39[11] 49s39[11] 50s39[11] 83s20[11]
-. 177s21[11] 178s21[11]
-23V13 Get_Velocity{30|8R9} 29|180s21[11] 181s21[11]
-27V13 Get_Radius{12|25R9} 29|84s43[11]
-32U14 Init 29|136s12[11]
-35U14 Add_Item 29|137s12[11] 141s12[11]
-44U14 Tick 29|158s12[11]
-47U14 Reflect_Velocity_X 29|170s24[11]
-62U14 Reflect_Velocity_Y 29|173s24[11]
+9k9*Universe 29|12w6 22r24 74|110e13
+15R9 Universe 29|27r13[22] 53r36[22] 84r38[22] 87r38[22]
+17V13 Item_Count{integer} 29|64s27[22] 66s27[22] 85s21[22] 175s44[22]
+19V13 Get_Position{30|7R9} 29|56s38[22] 57s38[22] 59s38[22] 60s38[22] 92s51[22]
+. 184s21[22] 184s47[22]
+23V13 Get_Velocity{30|8R9} 29|186s21[22] 186s47[22]
+27V13 Get_Radius{12|25R9} 29|93s43[22]
+32U14 Init 29|145s12[22]
+35U14 Add_Item 29|146s12[22] 148s12[22]
+44U14 Tick 29|163s12[22]
+47U14 Reflect_Velocity_X 29|177s24[22]
+62U14 Reflect_Velocity_Y 29|180s24[22]
 X 76 vector.ads
-4K9*Vector 29|3w6 3r18 44r9 45r12 48r12 112r26 76|26e11
-7R9*Vector 29|112r33 76|10e14
-8r7*X{12|25R9} 29|25m11 27m11 31m11 33m11 123r31
-9r7*Y{12|25R9} 29|25m38 27m38 31m38 33m38 124r31
-15V13*Sub{7R9} 29|45s19 48s19
-21V13*Dot{12|25R9} 29|44s16
+4K9*Vector 29|14w6 14r46 54r8 55r11 58r11 118r26 76|26e11
+7R9*Vector 29|118r33 76|10e14
+8r7*X{12|25R9} 29|36m11 38m11 42m11 44m11 131r31
+9r7*Y{12|25R9} 29|36m38 38m38 42m38 44m38 133r31
+15V13*Sub{7R9} 29|55s18 58s18
+21V13*Dot{12|25R9} 29|54s15
 

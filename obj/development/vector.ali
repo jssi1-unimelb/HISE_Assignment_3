@@ -106,8 +106,8 @@ D s-stratt.ads		20250425081800 516607ae system.stream_attributes%s
 D s-traent.ads		20250425081800 c81cbf8c system.traceback_entries%s
 D s-unstyp.ads		20250425081800 fa2a7f59 system.unsigned_types%s
 D s-wchcon.ads		20250425081800 d9032363 system.wch_con%s
-D vector.ads		20260423111105 1ec89a95 vector%s
-D vector.adb		20260423111105 30a9e583 vector%b
+D vector.ads		20260519014937 1ec89a95 vector%s
+D vector.adb		20260519014937 30a9e583 vector%b
 G a e
 G c Z s s [add vector 12 13 none]
 G c Z s s [sub vector 15 13 none]

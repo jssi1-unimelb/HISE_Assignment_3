@@ -1,0 +1,7 @@
+main.adb:3:80: (style) this line is too long: 139 [-gnatyM]
+main.adb:4:80: (style) this line is too long: 88 [-gnatyM]
+main.adb:6:80: (style) this line is too long: 99 [-gnatyM]
+main.adb:71:28: (style) "and then" required [-gnatyB]
+main.adb:141:06: (style) bad column [-gnaty0]
+universe.ads:30:01: (style) multiple blank lines [-gnatyu]
+vector.ads:6:07: (style) space required [-gnatyt]

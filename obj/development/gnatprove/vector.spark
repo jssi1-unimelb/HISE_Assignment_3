@@ -69,28 +69,28 @@
   "stop_reason": "STOP_REASON_NONE",
   "timings": {
     " 1": {
-      "gnat2why.vc_generation": 2.11900006979704E-03
+      "gnat2why.vc_generation": 1.56300002709031E-03
     },
     " 2": {
-      "gnat2why.vc_generation": 6.00000021222513E-06
+      "gnat2why.vc_generation": 1.99999999495049E-06
     },
     " 3": {
-      "gnat2why.vc_generation": 3.00000010611257E-06
+      "gnat2why.vc_generation": 1.99999999495049E-06
     },
     " 4": {
-      "gnat2why.vc_generation": 3.00000010611257E-06
+      "gnat2why.vc_generation": 9.99999997475243E-07
     },
     " 5": {
-      "gnat2why.vc_generation": 3.00000010611257E-06
+      "gnat2why.vc_generation": 9.99999997475243E-07
     },
     "global": {
-      "flow analysis": 4.80000016978011E-05,
-      "globals (advanced)": 4.45850007236004E-02,
-      "globals (basic)": 4.87169995903969E-02,
-      "init_why_sections": 6.02999993134290E-04,
-      "marking": 2.39160005003214E-02,
-      "properties (advanced)": 3.50000009348150E-05,
-      "translation of standard": 1.65800005197525E-03
+      "flow analysis": 4.40000003436580E-05,
+      "globals (advanced)": 2.54309996962547E-02,
+      "globals (basic)": 3.80589999258518E-02,
+      "init_why_sections": 4.06000006478280E-04,
+      "marking": 1.10050002112985E-02,
+      "properties (advanced)": 2.70000000455184E-05,
+      "translation of standard": 1.33799994364381E-03
     }
   }
 }
