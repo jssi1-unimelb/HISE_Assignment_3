@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#af9a890b#;
+   u00001 : constant Version_32 := 16#28960809#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#b2cfab41#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -420,7 +420,7 @@ package ada_main is
    pragma Export (C, u00189, "system__stream_attributes__xdrS");
    u00190 : constant Version_32 := 16#e21629df#;
    pragma Export (C, u00190, "displayB");
-   u00191 : constant Version_32 := 16#e64f09a7#;
+   u00191 : constant Version_32 := 16#3b995ec7#;
    pragma Export (C, u00191, "displayS");
    u00192 : constant Version_32 := 16#20f07383#;
    pragma Export (C, u00192, "spatialS");
@@ -428,9 +428,9 @@ package ada_main is
    pragma Export (C, u00193, "vectorB");
    u00194 : constant Version_32 := 16#213e5889#;
    pragma Export (C, u00194, "vectorS");
-   u00195 : constant Version_32 := 16#931e5eb6#;
+   u00195 : constant Version_32 := 16#be33ff8d#;
    pragma Export (C, u00195, "universeB");
-   u00196 : constant Version_32 := 16#0876dbff#;
+   u00196 : constant Version_32 := 16#d5a08c9f#;
    pragma Export (C, u00196, "universeS");
    u00197 : constant Version_32 := 16#0ddbd91f#;
    pragma Export (C, u00197, "system__memoryB");

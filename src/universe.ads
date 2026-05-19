@@ -6,7 +6,8 @@ with Vector;
 generic
    Max_Items : Positive;
 
-package Universe with SPARK_Mode is
+package Universe with SPARK_Mode
+is
 
    use type Spatial.Position;
    use type Spatial.Velocity;
@@ -18,64 +19,80 @@ package Universe with SPARK_Mode is
 
    function Get_Position
      (U : Universe; Index : Integer) return Spatial.Position
-     with Pre => Index >= 1 and then Index <= Item_Count (U);
+   with Pre => Index >= 1 and then Index <= Item_Count (U);
 
    function Get_Velocity
      (U : Universe; Index : Integer) return Spatial.Velocity
-     with Pre => Index >= 1 and then Index <= Item_Count (U);
+   with Pre => Index >= 1 and then Index <= Item_Count (U);
 
-   function Get_Radius
-     (U : Universe; Index : Integer) return Big_Real
-     with Pre => Index >= 1 and then Index <= Item_Count (U);
+   function Get_Radius (U : Universe; Index : Integer) return Big_Real
+   with Pre => Index >= 1 and then Index <= Item_Count (U);
 
-
-   procedure Init (U : out Universe);
-   --  TODO: add postcondition
+   procedure Init (U : out Universe)
+   with Post => Item_Count (U) = 0;
 
    procedure Add_Item
      (U   : in out Universe;
       pos : Spatial.Position;
       vel : Spatial.Velocity;
       rad : Big_Real)
-     with
-       Pre  => Item_Count (U) < Max_Items;
-   --  TODO: add postcondition
+   with
+     Pre  => Item_Count (U) in 1 .. Max_Items - 1,
+     Post =>
+       Item_Count (U) = Item_Count (U'Old) + 1
+       and then Item_Was_Added (U, pos, vel, rad);
 
-   procedure Tick (U : in out Universe);
-   --  TODO: add postcondition
+   -- Helper function for proving Add_Item
+   function Item_Was_Added
+     (U   : Universe;
+      pos : Spatial.Position;
+      vel : Spatial.Velocity;
+      rad : Big_Real) return Boolean
+   with Ghost, Pre => Item_Count (U) in 1 .. Max_Items;
 
-   procedure Reflect_Velocity_X
-     (U : in out Universe; Index : Integer)
-     with
-       Pre  => Index >= 1 and then Index <= Item_Count (U),
-       Post =>
-         Item_Count (U) = Item_Count (U'Old)
-         and then Get_Velocity (U, Index) =
-           Spatial.Negate_Vel_X (Get_Velocity (U'Old, Index))
-         and then
-           (for all I in 1 .. Item_Count (U) =>
-              Get_Position (U, I) = Get_Position (U'Old, I)
-              and then Get_Radius (U, I) = Get_Radius (U'Old, I)
-              and then (if I /= Index then
-                Get_Velocity (U, I) = Get_Velocity (U'Old, I)));
+   procedure Tick (U : in out Universe)
+   with
+     Post =>
+       Item_Count (U) = Item_Count (U'Old)
+       and then
+         (for all I in 1 .. Item_Count (U) =>
+            Get_Position (U, I)
+            = Spatial.Move (Get_Position (U, I), Get_Velocity (U, I)));
 
-   procedure Reflect_Velocity_Y
-     (U : in out Universe; Index : Integer)
-     with
-       Pre  => Index >= 1 and then Index <= Item_Count (U),
-       Post =>
-         Item_Count (U) = Item_Count (U'Old)
-         and then Get_Velocity (U, Index) =
-           Spatial.Negate_Vel_Y (Get_Velocity (U'Old, Index))
-         and then
-           (for all I in 1 .. Item_Count (U) =>
-              Get_Position (U, I) = Get_Position (U'Old, I)
-              and then Get_Radius (U, I) = Get_Radius (U'Old, I)
-              and then (if I /= Index then
-                Get_Velocity (U, I) = Get_Velocity (U'Old, I)));
+   procedure Reflect_Velocity_X (U : in out Universe; Index : Integer)
+   with
+     Pre  => Index >= 1 and then Index <= Item_Count (U),
+     Post =>
+       Item_Count (U) = Item_Count (U'Old)
+       and then
+         Get_Velocity (U, Index)
+         = Spatial.Negate_Vel_X (Get_Velocity (U'Old, Index))
+       and then
+         (for all I in 1 .. Item_Count (U) =>
+            Get_Position (U, I) = Get_Position (U'Old, I)
+            and then Get_Radius (U, I) = Get_Radius (U'Old, I)
+            and then
+              (if I /= Index
+               then Get_Velocity (U, I) = Get_Velocity (U'Old, I)));
+
+   procedure Reflect_Velocity_Y (U : in out Universe; Index : Integer)
+   with
+     Pre  => Index >= 1 and then Index <= Item_Count (U),
+     Post =>
+       Item_Count (U) = Item_Count (U'Old)
+       and then
+         Get_Velocity (U, Index)
+         = Spatial.Negate_Vel_Y (Get_Velocity (U'Old, Index))
+       and then
+         (for all I in 1 .. Item_Count (U) =>
+            Get_Position (U, I) = Get_Position (U'Old, I)
+            and then Get_Radius (U, I) = Get_Radius (U'Old, I)
+            and then
+              (if I /= Index
+               then Get_Velocity (U, I) = Get_Velocity (U'Old, I)));
 
    procedure Print (U : Universe)
-     with SPARK_Mode => Off;
+   with SPARK_Mode => Off;
 
 private
    type Universe_Item is record
@@ -84,27 +101,25 @@ private
       rad : Big_Real;
    end record;
 
-   type ItemArray is
-     array (Integer range 1 .. Max_Items) of Universe_Item;
+   type ItemArray is array (Integer range 1 .. Max_Items) of Universe_Item;
 
    type Universe is record
-      items          : ItemArray;
-      item_count     : Integer range 0 .. Max_Items;
+      items      : ItemArray;
+      item_count : Integer range 0 .. Max_Items;
    end record;
 
-   function Item_Count
-     (U : Universe) return Integer is (U.item_count);
+   function Item_Count (U : Universe) return Integer
+   is (U.item_count);
 
    function Get_Position
-     (U : Universe; Index : Integer)
-      return Spatial.Position is (U.items (Index).pos);
+     (U : Universe; Index : Integer) return Spatial.Position
+   is (U.items (Index).pos);
 
    function Get_Velocity
-     (U : Universe; Index : Integer)
-      return Spatial.Velocity is (U.items (Index).vel);
+     (U : Universe; Index : Integer) return Spatial.Velocity
+   is (U.items (Index).vel);
 
-   function Get_Radius
-     (U : Universe; Index : Integer)
-      return Big_Real is (U.items (Index).rad);
+   function Get_Radius (U : Universe; Index : Integer) return Big_Real
+   is (U.items (Index).rad);
 
 end Universe;

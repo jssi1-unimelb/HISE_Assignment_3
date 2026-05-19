@@ -63,7 +63,17 @@ procedure Main with SPARK_Mode is
 
    Tick_Count : Big_Real := To_Big_Real (0);
 
-   --  TODO: define Position_Invariant
+   function Position_Invariant (U : Univ.Universe) return Boolean
+   is (Univ.Item_Count (U) = 2
+       and then Tick_Count >= 0.0
+       and then
+         (for all I in 1 .. 2 =>
+            Spatial.To_Vector (Univ.Get_Position (U, I))
+            = Vector.Add
+                (Spatial.To_Vector (Initial_Positions (I)),
+                 Vector.Scale
+                   (Spatial.Vel_To_Vector (Initial_Velocities (I)),
+                    Tick_Count))));
 
    function Squared_Dist (U : Univ.Universe; I, J : Integer) return Big_Real
    is (Vector.Dot

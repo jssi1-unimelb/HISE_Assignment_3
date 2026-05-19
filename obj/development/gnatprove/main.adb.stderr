@@ -1,79 +1,26 @@
 
-[01m[Kmain.adb:146:11: [m[K[01;31m[Kmedium:[m[K precondition might fail, in call inlined at main.adb:153
-  146>|      Univ.Add_Item
-  147 |        (U, Initial_Positions (1), Initial_Velocities (1), Initial_Radii (1));
-  [01;36m[Kpossible fix: [m[Kcall at line 145, instance at line 153 should mention U (for argument U) in a postcondition
-  145 |      Univ.Init (U);
-      |          [01;36m[K^ here[m[K
+[01m[Kmain.adb:171:11: [m[K[01;31m[Kmedium:[m[K precondition might fail, in call inlined at main.adb:178
+  171>|      Univ.Add_Item
+  172 |        (U, Initial_Positions (1), Initial_Velocities (1), Initial_Radii (1));
 
-[01m[Kmain.adb:146:11: [m[K[01;31m[Kmedium:[m[K precondition might fail, in call inlined at main.adb:188
-  146>|      Univ.Add_Item
-  147 |        (U, Initial_Positions (1), Initial_Velocities (1), Initial_Radii (1));
-  [01;36m[Kpossible fix: [m[Kcall at line 145, instance at line 188 should mention U (for argument U) in a postcondition
-  145 |      Univ.Init (U);
-      |          [01;36m[K^ here[m[K
+[01m[Kmain.adb:171:11: [m[K[01;31m[Kmedium:[m[K precondition might fail, in call inlined at main.adb:213
+  171>|      Univ.Add_Item
+  172 |        (U, Initial_Positions (1), Initial_Velocities (1), Initial_Radii (1));
 
-[01m[Kmain.adb:148:11: [m[K[01;31m[Kmedium:[m[K precondition might fail, in call inlined at main.adb:153
-  148>|      Univ.Add_Item
-  149 |        (U, Initial_Positions (2), Initial_Velocities (2), Initial_Radii (2));
-  [01;36m[Kpossible fix: [m[Kcall at line 146, instance at line 153 should mention U (for argument U) in a postcondition
-  146 |      Univ.Add_Item
-      |          [01;36m[K^ here[m[K
-
-[01m[Kmain.adb:148:11: [m[K[01;31m[Kmedium:[m[K precondition might fail, in call inlined at main.adb:188
-  148>|      Univ.Add_Item
-  149 |        (U, Initial_Positions (2), Initial_Velocities (2), Initial_Radii (2));
-  [01;36m[Kpossible fix: [m[Kcall at line 146, instance at line 188 should mention U (for argument U) in a postcondition
-  146 |      Univ.Add_Item
-      |          [01;36m[K^ here[m[K
-
-[01m[Kmain.adb:167:43: [m[K[01;31m[Kmedium:[m[K precondition might fail
-  167 |         Flags : constant Bounce_Array := [01;31m[KDetect_Bounces (U[m[K);
+[01m[Kmain.adb:192:43: [m[K[01;31m[Kmedium:[m[K precondition might fail
+  192 |         Flags : constant Bounce_Array := [01;31m[KDetect_Bounces (U[m[K);
       |                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
-  [01;36m[Kpossible fix: [m[Kcall at line 163 should mention U (for argument U) in a postcondition
-  163 |      Univ.Tick (U);
-      |          [01;36m[K^ here[m[K
 
-[01m[Kmain.adb:175:39: [m[K[01;31m[Kmedium:[m[K loop invariant might fail in first iteration
-  175 |               pragma Loop_Invariant ([01;31m[KUniv.Item_Count (U) = 2[m[K);
+[01m[Kmain.adb:200:39: [m[K[01;31m[Kmedium:[m[K loop invariant might fail in first iteration
+  200 |               pragma Loop_Invariant ([01;31m[KUniv.Item_Count (U) = 2[m[K);
       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
 
-[01m[Kuniverse.ads:32:14: [m[K[01;31m[Khigh:[m[K all paths in "Init" raise exceptions or do not terminate normally, in instantiation at main.adb:22
-   32 |   procedure Init (U : out Universe);
-      |             [01;31m[K^ here[m[K
+[01m[Kuniverse.adb:72:17: [m[K[01;31m[Kmedium:[m[K loop invariant might fail in first iteration, cannot prove Get_Position (U, J) = Spatial.To_Position (Vector.Add (Spatial.To_Vector (Get_Position (U_Old, J)), Spatial.Vel_To_Vector (Get_Velocity (U_Old, J)))), in instantiation at main.adb:37
+   72>|                Get_Position (U, J)
+  ... | ...
+   76 |                        Spatial.Vel_To_Vector (Get_Velocity (U_Old, J)))));
 
-[01m[Kuniverse.ads:35:14: [m[K[01;31m[Khigh:[m[K all paths in "Add_Item" raise exceptions or do not terminate normally, in instantiation at main.adb:22
-   35 |   procedure Add_Item
-      |             [01;31m[K^ here[m[K
-
-[01m[Kuniverse.ads:44:14: [m[K[01;31m[Khigh:[m[K all paths in "Tick" raise exceptions or do not terminate normally, in instantiation at main.adb:22
-   44 |   procedure Tick (U : in out Universe);
-      |             [01;31m[K^ here[m[K
-
-[01m[Kuniverse.ads:47:14: [m[K[01;31m[Khigh:[m[K all paths in "Reflect_Velocity_X" raise exceptions or do not terminate normally, in instantiation at main.adb:22
-   47 |   procedure Reflect_Velocity_X
-      |             [01;31m[K^ here[m[K
-
-[01m[Kuniverse.ads:62:14: [m[K[01;31m[Khigh:[m[K all paths in "Reflect_Velocity_Y" raise exceptions or do not terminate normally, in instantiation at main.adb:22
-   62 |   procedure Reflect_Velocity_Y
-      |             [01;31m[K^ here[m[K
-
-[01m[Kuniverse.adb:8:07: [m[K[01;31m[Kmedium:[m[K unexpected exception might be raised, in instantiation at main.adb:22
-    8 |      [01;31m[Kraise Program_Error with "[m[KInit not yet implemented";
-      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-
-[01m[Kuniverse.adb:19:07: [m[K[01;31m[Kmedium:[m[K unexpected exception might be raised, in instantiation at main.adb:22
-   19 |      [01;31m[Kraise Program_Error with "[m[KAdd_Item not yet implemented";
-      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-
-[01m[Kuniverse.adb:26:07: [m[K[01;31m[Kmedium:[m[K unexpected exception might be raised, in instantiation at main.adb:22
-   26 |      [01;31m[Kraise Program_Error with "[m[KReflect_Velocity_X not yet implemented";
-      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-
-[01m[Kuniverse.adb:33:07: [m[K[01;31m[Kmedium:[m[K unexpected exception might be raised, in instantiation at main.adb:22
-   33 |      [01;31m[Kraise Program_Error with "[m[KReflect_Velocity_Y not yet implemented";
-      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-
-[01m[Kuniverse.adb:57:07: [m[K[01;31m[Kmedium:[m[K unexpected exception might be raised, in instantiation at main.adb:22
-   57 |      [01;31m[Kraise Program_Error with "[m[KTick not yet implemented";
-      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kuniverse.adb:72:17: [m[K[01;31m[Kmedium:[m[K loop invariant might not be preserved by an arbitrary iteration, cannot prove Get_Position (U, J) = Spatial.To_Position (Vector.Add (Spatial.To_Vector (Get_Position (U_Old, J)), Spatial.Vel_To_Vector (Get_Velocity (U_Old, J)))), in instantiation at main.adb:37
+   72>|                Get_Position (U, J)
+  ... | ...
+   76 |                        Spatial.Vel_To_Vector (Get_Velocity (U_Old, J)))));

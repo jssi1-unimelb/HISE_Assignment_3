@@ -3,33 +3,361 @@
     {
       "assumptions": [
         {
+          "arg": 29,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
           "arg": 10,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 30,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 31,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 32,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 33,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 34,
           "predicate": "CLAIM_EFFECTS"
         }
       ],
       "claim": {
-        "arg": 6,
+        "arg": 13,
         "predicate": "CLAIM_EFFECTS"
       }
     },
     {
       "assumptions": [
         {
-          "arg": 10,
+          "arg": 35,
           "predicate": "CLAIM_EFFECTS"
         },
         {
-          "arg": 10,
+          "arg": 36,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 12,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 6,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 28,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 5,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
           "predicate": "CLAIM_AORTE"
         }
       ],
       "claim": {
-        "arg": 6,
+        "arg": 5,
         "predicate": "CLAIM_AORTE"
       }
     },
     {
       "assumptions": [
+      ],
+      "claim": {
+        "arg": 17,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 37,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 38,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 7,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 37,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 38,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 37,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 38,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 7,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 32,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 39,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 40,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 1,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 32,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 39,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 40,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 32,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 39,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 40,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 1,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 29,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 41,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 29,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 41,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 15,
+        "predicate": "CLAIM_POST"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 29,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 41,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 15,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 29,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 41,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 29,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 41,
+          "predicate": "CLAIM_AORTE"
+        }
       ],
       "claim": {
         "arg": 15,
@@ -39,13 +367,577 @@
     {
       "assumptions": [
         {
-          "arg": 19,
+          "arg": 2,
           "predicate": "CLAIM_EFFECTS"
         },
         {
-          "arg": 19,
+          "arg": 9,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 9,
           "predicate": "CLAIM_AORTE"
         }
+      ],
+      "claim": {
+        "arg": 12,
+        "predicate": "CLAIM_POST"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 18,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 4,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 9,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 12,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 9,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 9,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 12,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 4,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 29,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 42,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 29,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 42,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 14,
+        "predicate": "CLAIM_POST"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 29,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 42,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 14,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 29,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 42,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 29,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 42,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 14,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "arg": 21,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "arg": 2,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "arg": 2,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 29,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 43,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 44,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 32,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 33,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 34,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 45,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 8,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 29,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 43,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 44,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 32,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 33,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 34,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 45,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 29,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 43,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 44,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 32,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 33,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 34,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 45,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 8,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 44,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 31,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 46,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 44,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 31,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 46,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 6,
+        "predicate": "CLAIM_POST"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 10,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 29,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 9,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 29,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 29,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 9,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 10,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 44,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 31,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 46,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 6,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 44,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 31,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 46,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 44,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 31,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 46,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 6,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
       ],
       "claim": {
         "arg": 16,
@@ -55,327 +947,7 @@
     {
       "assumptions": [
         {
-          "arg": 27,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 28,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 29,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 30,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 6,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 12,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 10,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 31,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 32,
-          "predicate": "CLAIM_EFFECTS"
-        }
-      ],
-      "claim": {
-        "arg": 11,
-        "predicate": "CLAIM_EFFECTS"
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "arg": 27,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 28,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 29,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 30,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 6,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 12,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 10,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 31,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 32,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 27,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 28,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 29,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 30,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 6,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 12,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 10,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 31,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 32,
-          "predicate": "CLAIM_AORTE"
-        }
-      ],
-      "claim": {
-        "arg": 11,
-        "predicate": "CLAIM_AORTE"
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "arg": 10,
-          "predicate": "CLAIM_EFFECTS"
-        }
-      ],
-      "claim": {
-        "arg": 12,
-        "predicate": "CLAIM_EFFECTS"
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "arg": 10,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 10,
-          "predicate": "CLAIM_AORTE"
-        }
-      ],
-      "claim": {
-        "arg": 12,
-        "predicate": "CLAIM_AORTE"
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "arg": 19,
-        "predicate": "CLAIM_AORTE"
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "arg": 10,
-        "predicate": "CLAIM_EFFECTS"
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "arg": 33,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 27,
-          "predicate": "CLAIM_EFFECTS"
-        }
-      ],
-      "claim": {
-        "arg": 9,
-        "predicate": "CLAIM_EFFECTS"
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "arg": 33,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 27,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 33,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 27,
-          "predicate": "CLAIM_AORTE"
-        }
-      ],
-      "claim": {
-        "arg": 9,
-        "predicate": "CLAIM_AORTE"
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "arg": 10,
-        "predicate": "CLAIM_AORTE"
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "arg": 6,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 10,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 34,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
           "arg": 35,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 36,
-          "predicate": "CLAIM_EFFECTS"
-        }
-      ],
-      "claim": {
-        "arg": 13,
-        "predicate": "CLAIM_EFFECTS"
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "arg": 6,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 10,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 34,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 35,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 36,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 6,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 10,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 34,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 35,
-          "predicate": "CLAIM_AORTE"
-        },
-        {
-          "arg": 36,
-          "predicate": "CLAIM_AORTE"
-        }
-      ],
-      "claim": {
-        "arg": 13,
-        "predicate": "CLAIM_AORTE"
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "arg": 10,
-          "predicate": "CLAIM_EFFECTS"
-        }
-      ],
-      "claim": {
-        "arg": 8,
-        "predicate": "CLAIM_EFFECTS"
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "arg": 10,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 10,
-          "predicate": "CLAIM_AORTE"
-        }
-      ],
-      "claim": {
-        "arg": 8,
-        "predicate": "CLAIM_AORTE"
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "arg": 37,
           "predicate": "CLAIM_EFFECTS"
         },
         {
@@ -383,43 +955,11 @@
           "predicate": "CLAIM_EFFECTS"
         },
         {
-          "arg": 2,
+          "arg": 36,
           "predicate": "CLAIM_EFFECTS"
         },
         {
-          "arg": 1,
-          "predicate": "CLAIM_EFFECTS"
-        }
-      ],
-      "claim": {
-        "arg": 26,
-        "predicate": "CLAIM_EFFECTS"
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "arg": 14,
-        "predicate": "CLAIM_AORTE"
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "arg": 37,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 27,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 38,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 39,
+          "arg": 47,
           "predicate": "CLAIM_EFFECTS"
         },
         {
@@ -427,15 +967,23 @@
           "predicate": "CLAIM_EFFECTS"
         },
         {
-          "arg": 22,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 23,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
           "arg": 24,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 25,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 26,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
           "predicate": "CLAIM_EFFECTS"
         },
         {
@@ -443,35 +991,7 @@
           "predicate": "CLAIM_EFFECTS"
         },
         {
-          "arg": 17,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 14,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 2,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 6,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 8,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 1,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 10,
-          "predicate": "CLAIM_EFFECTS"
-        },
-        {
-          "arg": 4,
+          "arg": 12,
           "predicate": "CLAIM_EFFECTS"
         },
         {
@@ -479,48 +999,188 @@
           "predicate": "CLAIM_EFFECTS"
         },
         {
-          "arg": 3,
+          "arg": 10,
           "predicate": "CLAIM_EFFECTS"
         },
         {
-          "arg": 40,
+          "arg": 6,
           "predicate": "CLAIM_EFFECTS"
         },
         {
-          "arg": 41,
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 15,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 31,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 46,
           "predicate": "CLAIM_EFFECTS"
         }
       ],
       "claim": {
-        "arg": 7,
+        "arg": 3,
         "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 38,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 48,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 49,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 50,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 51,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 52,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 11,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 38,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 48,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 49,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 50,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 51,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 52,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 38,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 48,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 49,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 50,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 51,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 52,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 11,
+        "predicate": "CLAIM_AORTE"
       }
     }
   ],
   "entities": {
     " 1": {
-      "name": "Main.Univ.Init",
+      "name": "Main.Squared_Dist",
       "sloc": [
         {
-          "file": "universe.ads",
-          "line": 32
-        },
-        {
           "file": "main.adb",
-          "line": 22
+          "line": 78
         }
       ]
     },
     " 10": {
-      "name": "Main.Univ.Item_Count",
+      "name": "Main.Univ.Get_Velocity",
       "sloc": [
         {
           "file": "universe.ads",
-          "line": 17
+          "line": 24
         },
         {
           "file": "main.adb",
-          "line": 22
+          "line": 37
         }
       ]
     },
@@ -529,64 +1189,94 @@
       "sloc": [
         {
           "file": "main.adb",
-          "line": 84
+          "line": 109
         }
       ]
     },
     " 12": {
-      "name": "Main.Univ.Get_Radius",
+      "name": "Main.Univ.Add_Item",
       "sloc": [
         {
           "file": "universe.ads",
-          "line": 27
+          "line": 34
         },
         {
           "file": "main.adb",
-          "line": 22
+          "line": 37
         }
       ]
     },
     " 13": {
-      "name": "Main.Squared_Dist",
+      "name": "Main.Univ.Tick",
       "sloc": [
         {
-          "file": "main.adb",
+          "file": "universe.ads",
           "line": 53
+        },
+        {
+          "file": "main.adb",
+          "line": 37
         }
       ]
     },
     " 14": {
-      "name": "Main.Univ",
+      "name": "Main.Univ.Reflect_Velocity_X",
       "sloc": [
         {
+          "file": "universe.ads",
+          "line": 62
+        },
+        {
           "file": "main.adb",
-          "line": 22
+          "line": 37
         }
       ]
     },
     " 15": {
-      "name": "Main.Univ.Universe",
+      "name": "Main.Univ.Reflect_Velocity_Y",
       "sloc": [
         {
           "file": "universe.ads",
-          "line": 90
+          "line": 78
         },
         {
           "file": "main.adb",
-          "line": 22
+          "line": 37
         }
       ]
     },
     " 16": {
-      "name": "Main.FC",
+      "name": "Main.Univ",
       "sloc": [
         {
           "file": "main.adb",
-          "line": 24
+          "line": 37
         }
       ]
     },
     " 17": {
+      "name": "Main.Univ.Universe",
+      "sloc": [
+        {
+          "file": "universe.ads",
+          "line": 106
+        },
+        {
+          "file": "main.adb",
+          "line": 37
+        }
+      ]
+    },
+    " 18": {
+      "name": "Main.FC",
+      "sloc": [
+        {
+          "file": "main.adb",
+          "line": 39
+        }
+      ]
+    },
+    " 19": {
       "name": "Main.FC.To_Big_Real",
       "sloc": [
         {
@@ -595,11 +1285,24 @@
         },
         {
           "file": "main.adb",
-          "line": 24
+          "line": 39
         }
       ]
     },
-    " 18": {
+    " 2": {
+      "name": "Main.Univ.Item_Count",
+      "sloc": [
+        {
+          "file": "universe.ads",
+          "line": 18
+        },
+        {
+          "file": "main.adb",
+          "line": 37
+        }
+      ]
+    },
+    " 20": {
       "name": "Main.FC.From_Big_Real",
       "sloc": [
         {
@@ -608,11 +1311,11 @@
         },
         {
           "file": "main.adb",
-          "line": 24
+          "line": 39
         }
       ]
     },
-    " 19": {
+    " 21": {
       "name": "Main.FC.Conv",
       "sloc": [
         {
@@ -621,24 +1324,11 @@
         },
         {
           "file": "main.adb",
-          "line": 24
+          "line": 39
         }
       ]
     },
-    " 2": {
-      "name": "Main.Univ.Add_Item",
-      "sloc": [
-        {
-          "file": "universe.ads",
-          "line": 35
-        },
-        {
-          "file": "main.adb",
-          "line": 22
-        }
-      ]
-    },
-    " 20": {
+    " 22": {
       "name": "Main.FC.Conv.To_Big_Integer",
       "sloc": [
         {
@@ -651,11 +1341,11 @@
         },
         {
           "file": "main.adb",
-          "line": 24
+          "line": 39
         }
       ]
     },
-    " 21": {
+    " 23": {
       "name": "Main.FC.Conv.From_Big_Integer",
       "sloc": [
         {
@@ -668,20 +1358,20 @@
         },
         {
           "file": "main.adb",
-          "line": 24
+          "line": 39
         }
       ]
     },
-    " 22": {
+    " 24": {
       "name": "Main.Disp",
       "sloc": [
         {
           "file": "main.adb",
-          "line": 25
+          "line": 40
         }
       ]
     },
-    " 23": {
+    " 25": {
       "name": "Main.Disp.Capture",
       "sloc": [
         {
@@ -690,11 +1380,11 @@
         },
         {
           "file": "main.adb",
-          "line": 25
+          "line": 40
         }
       ]
     },
-    " 24": {
+    " 26": {
       "name": "Main.Disp.Save",
       "sloc": [
         {
@@ -703,172 +1393,56 @@
         },
         {
           "file": "main.adb",
-          "line": 25
-        }
-      ]
-    },
-    " 25": {
-      "name": "Main.Print_Collision",
-      "sloc": [
-        {
-          "file": "main.adb",
-          "line": 110
-        }
-      ]
-    },
-    " 26": {
-      "name": "Main.Reset_Universe",
-      "sloc": [
-        {
-          "file": "main.adb",
-          "line": 140
+          "line": 40
         }
       ]
     },
     " 27": {
-      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"+\"",
+      "name": "Main.Print_Collision",
       "sloc": [
         {
-          "file": "a-nbnbre.ads",
-          "line": 154
+          "file": "main.adb",
+          "line": 135
         }
       ]
     },
     " 28": {
-      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"-\"",
+      "name": "Main.Reset_Universe",
       "sloc": [
         {
-          "file": "a-nbnbre.ads",
-          "line": 157
+          "file": "main.adb",
+          "line": 165
         }
       ]
     },
     " 29": {
-      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"<\"",
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"=\"",
       "sloc": [
         {
           "file": "a-nbnbre.ads",
-          "line": 71
+          "line": 69
         }
       ]
     },
     " 3": {
-      "name": "Main.Univ.Tick",
+      "name": "Main",
       "sloc": [
         {
-          "file": "universe.ads",
-          "line": 44
-        },
-        {
           "file": "main.adb",
-          "line": 22
+          "line": 35
         }
       ]
     },
     " 30": {
-      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\">\"",
+      "name": "Spatial.Move",
       "sloc": [
         {
-          "file": "a-nbnbre.ads",
-          "line": 75
+          "file": "spatial.ads",
+          "line": 19
         }
       ]
     },
     " 31": {
-      "name": "Spatial.Pos_X",
-      "sloc": [
-        {
-          "file": "spatial.ads",
-          "line": 10
-        }
-      ]
-    },
-    " 32": {
-      "name": "Spatial.Pos_Y",
-      "sloc": [
-        {
-          "file": "spatial.ads",
-          "line": 11
-        }
-      ]
-    },
-    " 33": {
-      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"*\"",
-      "sloc": [
-        {
-          "file": "a-nbnbre.ads",
-          "line": 160
-        }
-      ]
-    },
-    " 34": {
-      "name": "Spatial.To_Vector",
-      "sloc": [
-        {
-          "file": "spatial.ads",
-          "line": 16
-        }
-      ]
-    },
-    " 35": {
-      "name": "Vector.Dot",
-      "sloc": [
-        {
-          "file": "vector.ads",
-          "line": 21
-        }
-      ]
-    },
-    " 36": {
-      "name": "Vector.Sub",
-      "sloc": [
-        {
-          "file": "vector.ads",
-          "line": 15
-        }
-      ]
-    },
-    " 37": {
-      "name": "Ada.Numerics.Big_Numbers.Big_Integers.From_String",
-      "sloc": [
-        {
-          "file": "a-nbnbin.ads",
-          "line": 118
-        }
-      ]
-    },
-    " 38": {
-      "name": "Ada.Numerics.Big_Numbers.Big_Reals.To_Big_Real",
-      "sloc": [
-        {
-          "file": "a-nbnbre.ads",
-          "line": 60
-        }
-      ]
-    },
-    " 39": {
-      "name": "Ada.Text_IO.Put_Line",
-      "sloc": [
-        {
-          "file": "a-textio.ads",
-          "line": 565
-        }
-      ]
-    },
-    " 4": {
-      "name": "Main.Univ.Reflect_Velocity_X",
-      "sloc": [
-        {
-          "file": "universe.ads",
-          "line": 47
-        },
-        {
-          "file": "main.adb",
-          "line": 22
-        }
-      ]
-    },
-    " 40": {
       "name": "Spatial.To_Position",
       "sloc": [
         {
@@ -877,7 +1451,146 @@
         }
       ]
     },
+    " 32": {
+      "name": "Spatial.To_Vector",
+      "sloc": [
+        {
+          "file": "spatial.ads",
+          "line": 16
+        }
+      ]
+    },
+    " 33": {
+      "name": "Spatial.Vel_To_Vector",
+      "sloc": [
+        {
+          "file": "spatial.ads",
+          "line": 17
+        }
+      ]
+    },
+    " 34": {
+      "name": "Vector.Add",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 12
+        }
+      ]
+    },
+    " 35": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Integers.From_String",
+      "sloc": [
+        {
+          "file": "a-nbnbin.ads",
+          "line": 118
+        }
+      ]
+    },
+    " 36": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.To_Big_Real",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 60
+        }
+      ]
+    },
+    " 37": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"*\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 160
+        }
+      ]
+    },
+    " 38": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"+\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 154
+        }
+      ]
+    },
+    " 39": {
+      "name": "Vector.Dot",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 21
+        }
+      ]
+    },
+    " 4": {
+      "name": "Main.Univ.Get_Radius",
+      "sloc": [
+        {
+          "file": "universe.ads",
+          "line": 28
+        },
+        {
+          "file": "main.adb",
+          "line": 37
+        }
+      ]
+    },
+    " 40": {
+      "name": "Vector.Sub",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 15
+        }
+      ]
+    },
     " 41": {
+      "name": "Spatial.Negate_Vel_Y",
+      "sloc": [
+        {
+          "file": "spatial.ads",
+          "line": 23
+        }
+      ]
+    },
+    " 42": {
+      "name": "Spatial.Negate_Vel_X",
+      "sloc": [
+        {
+          "file": "spatial.ads",
+          "line": 21
+        }
+      ]
+    },
+    " 43": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\">=\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 77
+        }
+      ]
+    },
+    " 44": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.From_String",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 125
+        }
+      ]
+    },
+    " 45": {
+      "name": "Vector.Scale",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 18
+        }
+      ]
+    },
+    " 46": {
       "name": "Spatial.To_Velocity",
       "sloc": [
         {
@@ -886,60 +1599,114 @@
         }
       ]
     },
-    " 5": {
-      "name": "Main.Univ.Reflect_Velocity_Y",
+    " 47": {
+      "name": "Ada.Text_IO.Put_Line",
       "sloc": [
         {
-          "file": "universe.ads",
-          "line": 62
-        },
-        {
-          "file": "main.adb",
-          "line": 22
+          "file": "a-textio.ads",
+          "line": 565
         }
       ]
     },
-    " 6": {
+    " 48": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"-\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 157
+        }
+      ]
+    },
+    " 49": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"<\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 71
+        }
+      ]
+    },
+    " 5": {
       "name": "Main.Univ.Get_Position",
       "sloc": [
         {
           "file": "universe.ads",
-          "line": 19
+          "line": 20
         },
         {
           "file": "main.adb",
-          "line": 22
+          "line": 37
+        }
+      ]
+    },
+    " 50": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\">\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 75
+        }
+      ]
+    },
+    " 51": {
+      "name": "Spatial.Pos_X",
+      "sloc": [
+        {
+          "file": "spatial.ads",
+          "line": 10
+        }
+      ]
+    },
+    " 52": {
+      "name": "Spatial.Pos_Y",
+      "sloc": [
+        {
+          "file": "spatial.ads",
+          "line": 11
+        }
+      ]
+    },
+    " 6": {
+      "name": "Main.Univ.Init",
+      "sloc": [
+        {
+          "file": "universe.ads",
+          "line": 31
+        },
+        {
+          "file": "main.adb",
+          "line": 37
         }
       ]
     },
     " 7": {
-      "name": "Main",
-      "sloc": [
-        {
-          "file": "main.adb",
-          "line": 20
-        }
-      ]
-    },
-    " 8": {
-      "name": "Main.Univ.Get_Velocity",
-      "sloc": [
-        {
-          "file": "universe.ads",
-          "line": 23
-        },
-        {
-          "file": "main.adb",
-          "line": 22
-        }
-      ]
-    },
-    " 9": {
       "name": "Main.Pair_Sep2",
       "sloc": [
         {
           "file": "main.adb",
-          "line": 68
+          "line": 93
+        }
+      ]
+    },
+    " 8": {
+      "name": "Main.Position_Invariant",
+      "sloc": [
+        {
+          "file": "main.adb",
+          "line": 66
+        }
+      ]
+    },
+    " 9": {
+      "name": "Main.Univ.Item_Was_Added",
+      "sloc": [
+        {
+          "file": "universe.ads",
+          "line": 46
+        },
+        {
+          "file": "main.adb",
+          "line": 37
         }
       ]
     }
@@ -948,71 +1715,22 @@
     {
       "check_tree": {
       },
-      "col": 14,
+      "col": 13,
       "entity": 1,
-      "file": "universe.ads",
+      "file": "main.adb",
       "how_proved": "flow",
-      "line": 32,
-      "msg_id": 0,
-      "rule": "MISSING_RETURN",
-      "severity": "high"
-    },
-    {
-      "check_tree": {
-      },
-      "col": 14,
-      "entity": 2,
-      "file": "universe.ads",
-      "how_proved": "flow",
-      "line": 35,
-      "msg_id": 1,
-      "rule": "MISSING_RETURN",
-      "severity": "high"
-    },
-    {
-      "check_tree": {
-      },
-      "col": 14,
-      "entity": 3,
-      "file": "universe.ads",
-      "how_proved": "flow",
-      "line": 44,
-      "msg_id": 2,
-      "rule": "MISSING_RETURN",
-      "severity": "high"
-    },
-    {
-      "check_tree": {
-      },
-      "col": 14,
-      "entity": 4,
-      "file": "universe.ads",
-      "how_proved": "flow",
-      "line": 47,
-      "msg_id": 3,
-      "rule": "MISSING_RETURN",
-      "severity": "high"
-    },
-    {
-      "check_tree": {
-      },
-      "col": 14,
-      "entity": 5,
-      "file": "universe.ads",
-      "how_proved": "flow",
-      "line": 62,
-      "msg_id": 4,
-      "rule": "MISSING_RETURN",
-      "severity": "high"
+      "line": 78,
+      "rule": "SUBPROGRAM_TERMINATION",
+      "severity": "info"
     },
     {
       "check_tree": {
       },
       "col": 13,
-      "entity": 6,
+      "entity": 2,
       "file": "universe.ads",
       "how_proved": "flow",
-      "line": 19,
+      "line": 18,
       "rule": "SUBPROGRAM_TERMINATION",
       "severity": "info"
     },
@@ -1020,10 +1738,10 @@
       "check_tree": {
       },
       "col": 4,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "flow",
-      "line": 27,
+      "line": 42,
       "rule": "UNINITIALIZED",
       "severity": "info"
     },
@@ -1031,10 +1749,54 @@
       "check_tree": {
       },
       "col": 13,
-      "entity": 8,
+      "entity": 4,
       "file": "universe.ads",
       "how_proved": "flow",
-      "line": 23,
+      "line": 28,
+      "rule": "SUBPROGRAM_TERMINATION",
+      "severity": "info"
+    },
+    {
+      "check_tree": {
+      },
+      "col": 13,
+      "entity": 5,
+      "file": "universe.ads",
+      "how_proved": "flow",
+      "line": 20,
+      "rule": "SUBPROGRAM_TERMINATION",
+      "severity": "info"
+    },
+    {
+      "check_tree": {
+      },
+      "col": 20,
+      "entity": 6,
+      "file": "universe.ads",
+      "how_proved": "flow",
+      "line": 31,
+      "rule": "UNINITIALIZED",
+      "severity": "info"
+    },
+    {
+      "check_tree": {
+      },
+      "col": 13,
+      "entity": 7,
+      "file": "main.adb",
+      "how_proved": "flow",
+      "line": 93,
+      "rule": "SUBPROGRAM_TERMINATION",
+      "severity": "info"
+    },
+    {
+      "check_tree": {
+      },
+      "col": 13,
+      "entity": 8,
+      "file": "main.adb",
+      "how_proved": "flow",
+      "line": 66,
       "rule": "SUBPROGRAM_TERMINATION",
       "severity": "info"
     },
@@ -1043,9 +1805,9 @@
       },
       "col": 13,
       "entity": 9,
-      "file": "main.adb",
+      "file": "universe.ads",
       "how_proved": "flow",
-      "line": 68,
+      "line": 46,
       "rule": "SUBPROGRAM_TERMINATION",
       "severity": "info"
     },
@@ -1056,7 +1818,7 @@
       "entity": 10,
       "file": "universe.ads",
       "how_proved": "flow",
-      "line": 17,
+      "line": 24,
       "rule": "SUBPROGRAM_TERMINATION",
       "severity": "info"
     },
@@ -1067,29 +1829,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "flow",
-      "line": 84,
-      "rule": "SUBPROGRAM_TERMINATION",
-      "severity": "info"
-    },
-    {
-      "check_tree": {
-      },
-      "col": 13,
-      "entity": 12,
-      "file": "universe.ads",
-      "how_proved": "flow",
-      "line": 27,
-      "rule": "SUBPROGRAM_TERMINATION",
-      "severity": "info"
-    },
-    {
-      "check_tree": {
-      },
-      "col": 13,
-      "entity": 13,
-      "file": "main.adb",
-      "how_proved": "flow",
-      "line": 53,
+      "line": 109,
       "rule": "SUBPROGRAM_TERMINATION",
       "severity": "info"
     }
@@ -1101,24 +1841,30 @@
     {
       "check_col": 11,
       "check_file": "main.adb",
-      "check_line": 146,
+      "check_line": 171,
       "check_tree": [
         {
           "proof_attempts": {
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
             "CVC5": {
-              "result": "Unknown\n(unknown + incomplete)",
+              "result": "Unknown\n()",
               "steps": 1,
               "time": 0
             },
             "Z3": {
               "result": "Timeout",
               "steps": 1,
-              "time": 1
+              "time": 0
             },
             "altergo": {
               "result": "Timeout",
               "steps": 1,
-              "time": 1
+              "time": 0
             }
           },
           "transformations": {
@@ -1126,35 +1872,36 @@
         }
       ],
       "col": 11,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 146,
-      "msg_id": 5,
+      "line": 171,
+      "msg_id": 0,
       "rule": "VC_PRECONDITION",
       "severity": "medium"
     },
     {
       "check_col": 11,
       "check_file": "main.adb",
-      "check_line": 148,
+      "check_line": 173,
       "check_tree": [
         {
           "proof_attempts": {
             "CVC5": {
-              "result": "Unknown\n(unknown + incomplete)",
+              "result": "Valid",
               "steps": 1,
               "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
               "steps": 1,
-              "time": 1
-            },
-            "altergo": {
-              "result": "Timeout",
-              "steps": 1,
-              "time": 1
+              "time": 0
             }
           },
           "transformations": {
@@ -1162,18 +1909,24 @@
         }
       ],
       "col": 11,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 148,
-      "msg_id": 6,
+      "line": 173,
       "rule": "VC_PRECONDITION",
-      "severity": "medium"
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
     },
     {
       "check_col": 21,
       "check_file": "main.adb",
-      "check_line": 164,
+      "check_line": 189,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1188,10 +1941,10 @@
         }
       ],
       "col": 21,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 164,
+      "line": 189,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -1205,7 +1958,7 @@
     {
       "check_col": 23,
       "check_file": "main.adb",
-      "check_line": 177,
+      "check_line": 202,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1231,10 +1984,10 @@
         }
       ],
       "col": 23,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 177,
+      "line": 202,
       "rule": "VC_PRECONDITION",
       "severity": "info",
       "stats": {
@@ -1248,7 +2001,7 @@
     {
       "check_col": 23,
       "check_file": "main.adb",
-      "check_line": 180,
+      "check_line": 205,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1274,10 +2027,10 @@
         }
       ],
       "col": 23,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 180,
+      "line": 205,
       "rule": "VC_PRECONDITION",
       "severity": "info",
       "stats": {
@@ -1291,24 +2044,24 @@
     {
       "check_col": 39,
       "check_file": "main.adb",
-      "check_line": 175,
+      "check_line": 200,
       "check_tree": [
         {
           "proof_attempts": {
             "CVC5": {
-              "result": "Unknown\n(unknown + incomplete)",
+              "result": "Unknown\n()",
               "steps": 1,
               "time": 0
             },
             "Z3": {
               "result": "Timeout",
               "steps": 1,
-              "time": 1
+              "time": 0
             },
             "altergo": {
               "result": "Timeout",
               "steps": 1,
-              "time": 1
+              "time": 0
             }
           },
           "transformations": {
@@ -1316,18 +2069,18 @@
         }
       ],
       "col": 39,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 175,
-      "msg_id": 7,
+      "line": 200,
+      "msg_id": 1,
       "rule": "VC_LOOP_INVARIANT_INIT",
       "severity": "medium"
     },
     {
       "check_col": 39,
       "check_file": "main.adb",
-      "check_line": 175,
+      "check_line": 200,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1342,10 +2095,10 @@
         }
       ],
       "col": 39,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 175,
+      "line": 200,
       "rule": "VC_LOOP_INVARIANT_PRESERV",
       "severity": "info",
       "stats": {
@@ -1359,7 +2112,7 @@
     {
       "check_col": 20,
       "check_file": "main.adb",
-      "check_line": 184,
+      "check_line": 209,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1385,10 +2138,10 @@
         }
       ],
       "col": 20,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 184,
+      "line": 209,
       "rule": "VC_PRECONDITION",
       "severity": "info",
       "stats": {
@@ -1402,7 +2155,7 @@
     {
       "check_col": 46,
       "check_file": "main.adb",
-      "check_line": 184,
+      "check_line": 209,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1428,10 +2181,10 @@
         }
       ],
       "col": 46,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 184,
+      "line": 209,
       "rule": "VC_PRECONDITION",
       "severity": "info",
       "stats": {
@@ -1445,7 +2198,7 @@
     {
       "check_col": 20,
       "check_file": "main.adb",
-      "check_line": 186,
+      "check_line": 211,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1471,10 +2224,10 @@
         }
       ],
       "col": 20,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 186,
+      "line": 211,
       "rule": "VC_PRECONDITION",
       "severity": "info",
       "stats": {
@@ -1488,7 +2241,7 @@
     {
       "check_col": 46,
       "check_file": "main.adb",
-      "check_line": 186,
+      "check_line": 211,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1514,10 +2267,10 @@
         }
       ],
       "col": 46,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 186,
+      "line": 211,
       "rule": "VC_PRECONDITION",
       "severity": "info",
       "stats": {
@@ -1531,24 +2284,30 @@
     {
       "check_col": 11,
       "check_file": "main.adb",
-      "check_line": 146,
+      "check_line": 171,
       "check_tree": [
         {
           "proof_attempts": {
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
             "CVC5": {
-              "result": "Unknown\n(unknown + incomplete)",
+              "result": "Unknown\n()",
               "steps": 1,
               "time": 0
             },
             "Z3": {
               "result": "Timeout",
               "steps": 1,
-              "time": 1
+              "time": 0
             },
             "altergo": {
               "result": "Timeout",
               "steps": 1,
-              "time": 1
+              "time": 0
             }
           },
           "transformations": {
@@ -1556,90 +2315,18 @@
         }
       ],
       "col": 11,
-      "entity": 7,
+      "entity": 3,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 146,
-      "msg_id": 8,
+      "line": 171,
+      "msg_id": 2,
       "rule": "VC_PRECONDITION",
       "severity": "medium"
     },
     {
       "check_col": 11,
       "check_file": "main.adb",
-      "check_line": 148,
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC5": {
-              "result": "Unknown\n(unknown + incomplete)",
-              "steps": 1,
-              "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": 1,
-              "time": 1
-            },
-            "altergo": {
-              "result": "Timeout",
-              "steps": 1,
-              "time": 1
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "col": 11,
-      "entity": 7,
-      "file": "main.adb",
-      "how_proved": "prover",
-      "line": 148,
-      "msg_id": 9,
-      "rule": "VC_PRECONDITION",
-      "severity": "medium"
-    },
-    {
-      "check_col": 43,
-      "check_file": "main.adb",
-      "check_line": 167,
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC5": {
-              "result": "Unknown\n(unknown + incomplete)",
-              "steps": 1,
-              "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": 1,
-              "time": 1
-            },
-            "altergo": {
-              "result": "Timeout",
-              "steps": 1,
-              "time": 1
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "col": 43,
-      "entity": 7,
-      "file": "main.adb",
-      "how_proved": "prover",
-      "line": 167,
-      "msg_id": 10,
-      "rule": "VC_PRECONDITION",
-      "severity": "medium"
-    },
-    {
-      "check_col": 44,
-      "check_file": "universe.ads",
-      "check_line": 100,
+      "check_line": 173,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1664,11 +2351,90 @@
           }
         }
       ],
-      "col": 44,
-      "entity": 6,
+      "col": 11,
+      "entity": 3,
+      "file": "main.adb",
+      "how_proved": "prover",
+      "line": 173,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 43,
+      "check_file": "main.adb",
+      "check_line": 192,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Unknown\n()",
+              "steps": 1,
+              "time": 0
+            },
+            "Z3": {
+              "result": "Timeout",
+              "steps": 1,
+              "time": 0
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 43,
+      "entity": 3,
+      "file": "main.adb",
+      "how_proved": "prover",
+      "line": 192,
+      "msg_id": 3,
+      "rule": "VC_PRECONDITION",
+      "severity": "medium"
+    },
+    {
+      "check_col": 17,
+      "check_file": "universe.ads",
+      "check_line": 116,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 17,
+      "entity": 5,
       "file": "universe.ads",
       "how_proved": "prover",
-      "line": 100,
+      "line": 116,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
       "stats": {
@@ -1680,9 +2446,9 @@
       }
     },
     {
-      "check_col": 44,
+      "check_col": 17,
       "check_file": "universe.ads",
-      "check_line": 104,
+      "check_line": 120,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1707,11 +2473,129 @@
           }
         }
       ],
-      "col": 44,
-      "entity": 8,
+      "col": 17,
+      "entity": 10,
       "file": "universe.ads",
       "how_proved": "prover",
-      "line": 104,
+      "line": 120,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 17,
+      "check_file": "universe.ads",
+      "check_line": 123,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 17,
+      "entity": 4,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 123,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 17,
+      "check_file": "universe.ads",
+      "check_line": 32,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 17,
+      "entity": 6,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 32,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 18,
+      "check_file": "universe.adb",
+      "check_line": 38,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 18,
+      "entity": 9,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 38,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
       "stats": {
@@ -1724,8 +2608,8 @@
     },
     {
       "check_col": 36,
-      "check_file": "universe.ads",
-      "check_line": 108,
+      "check_file": "universe.adb",
+      "check_line": 29,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1752,9 +2636,52 @@
       ],
       "col": 36,
       "entity": 12,
-      "file": "universe.ads",
+      "file": "universe.adb",
       "how_proved": "prover",
-      "line": 108,
+      "line": 29,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 17,
+      "check_file": "universe.adb",
+      "check_line": 30,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 17,
+      "entity": 12,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 30,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
       "stats": {
@@ -1766,189 +2693,9 @@
       }
     },
     {
-      "check_col": 7,
-      "check_file": "universe.adb",
-      "check_line": 8,
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC5": {
-              "result": "Unknown\n(unknown + incomplete)",
-              "steps": 1,
-              "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": 1,
-              "time": 1
-            },
-            "altergo": {
-              "result": "Unknown\n(unknown)",
-              "steps": 193,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "col": 7,
-      "entity": 1,
-      "file": "universe.adb",
-      "how_proved": "prover",
-      "line": 8,
-      "msg_id": 11,
-      "rule": "VC_RAISE",
-      "severity": "medium"
-    },
-    {
-      "check_col": 7,
-      "check_file": "universe.adb",
-      "check_line": 19,
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC5": {
-              "result": "Unknown\n(unknown + incomplete)",
-              "steps": 1,
-              "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": 1,
-              "time": 1
-            },
-            "altergo": {
-              "result": "Unknown\n(unknown)",
-              "steps": 97,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "col": 7,
-      "entity": 2,
-      "file": "universe.adb",
-      "how_proved": "prover",
-      "line": 19,
-      "msg_id": 12,
-      "rule": "VC_RAISE",
-      "severity": "medium"
-    },
-    {
-      "check_col": 7,
-      "check_file": "universe.adb",
-      "check_line": 57,
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC5": {
-              "result": "Unknown\n(unknown + incomplete)",
-              "steps": 1,
-              "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": 1,
-              "time": 1
-            },
-            "altergo": {
-              "result": "Unknown\n(unknown)",
-              "steps": 193,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "col": 7,
-      "entity": 3,
-      "file": "universe.adb",
-      "how_proved": "prover",
-      "line": 57,
-      "msg_id": 13,
-      "rule": "VC_RAISE",
-      "severity": "medium"
-    },
-    {
-      "check_col": 7,
-      "check_file": "universe.adb",
-      "check_line": 26,
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC5": {
-              "result": "Unknown\n(unknown + incomplete)",
-              "steps": 1,
-              "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": 1,
-              "time": 1
-            },
-            "altergo": {
-              "result": "Unknown\n(unknown)",
-              "steps": 100,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "col": 7,
-      "entity": 4,
-      "file": "universe.adb",
-      "how_proved": "prover",
-      "line": 26,
-      "msg_id": 14,
-      "rule": "VC_RAISE",
-      "severity": "medium"
-    },
-    {
-      "check_col": 7,
-      "check_file": "universe.adb",
-      "check_line": 33,
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC5": {
-              "result": "Unknown\n(unknown + incomplete)",
-              "steps": 1,
-              "time": 0
-            },
-            "Z3": {
-              "result": "Timeout",
-              "steps": 1,
-              "time": 1
-            },
-            "altergo": {
-              "result": "Unknown\n(unknown)",
-              "steps": 100,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "col": 7,
-      "entity": 5,
-      "file": "universe.adb",
-      "how_proved": "prover",
-      "line": 33,
-      "msg_id": 15,
-      "rule": "VC_RAISE",
-      "severity": "medium"
-    },
-    {
-      "check_col": 37,
-      "check_file": "main.adb",
-      "check_line": 56,
+      "check_col": 44,
+      "check_file": "universe.ads",
+      "check_line": 42,
       "check_tree": [
         {
           "proof_attempts": {
@@ -1973,12 +2720,12 @@
           }
         }
       ],
-      "col": 37,
-      "entity": 13,
-      "file": "main.adb",
+      "col": 44,
+      "entity": 12,
+      "file": "universe.ads",
       "how_proved": "prover",
-      "line": 56,
-      "rule": "VC_PRECONDITION",
+      "line": 42,
+      "rule": "VC_OVERFLOW_CHECK",
       "severity": "info",
       "stats": {
         "CVC5": {
@@ -1989,9 +2736,9 @@
       }
     },
     {
-      "check_col": 37,
-      "check_file": "main.adb",
-      "check_line": 57,
+      "check_col": 17,
+      "check_file": "universe.ads",
+      "check_line": 43,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2016,11 +2763,11 @@
           }
         }
       ],
-      "col": 37,
-      "entity": 13,
-      "file": "main.adb",
+      "col": 17,
+      "entity": 12,
+      "file": "universe.ads",
       "how_proved": "prover",
-      "line": 57,
+      "line": 43,
       "rule": "VC_PRECONDITION",
       "severity": "info",
       "stats": {
@@ -2032,8 +2779,512 @@
       }
     },
     {
-      "check_col": 37,
-      "check_file": "main.adb",
+      "check_col": 8,
+      "check_file": "universe.ads",
+      "check_line": 42,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 8,
+      "entity": 12,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 42,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 17,
+      "check_file": "universe.adb",
+      "check_line": 80,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 17,
+      "entity": 13,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 80,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 39,
+      "check_file": "universe.adb",
+      "check_line": 80,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 39,
+      "entity": 13,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 80,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "universe.adb",
+      "check_line": 79,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 13,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 79,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "universe.adb",
+      "check_line": 79,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 13,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 79,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 17,
+      "check_file": "universe.adb",
+      "check_line": 72,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 17,
+      "entity": 13,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 72,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 44,
+      "check_file": "universe.adb",
+      "check_line": 75,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 44,
+      "entity": 13,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 75,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 48,
+      "check_file": "universe.adb",
+      "check_line": 76,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 48,
+      "entity": 13,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 76,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "universe.adb",
+      "check_line": 71,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Unknown\n()",
+              "steps": 1,
+              "time": 0
+            },
+            "Z3": {
+              "result": "Unknown\n()",
+              "steps": 1,
+              "time": 0
+            },
+            "altergo": {
+              "result": "Unknown\n()",
+              "steps": 1891,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 17,
+      "entity": 13,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 72,
+      "msg_id": 4,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "medium"
+    },
+    {
+      "check_col": 15,
+      "check_file": "universe.adb",
+      "check_line": 71,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Unknown\n()",
+              "steps": 1,
+              "time": 0
+            },
+            "Z3": {
+              "result": "Timeout",
+              "steps": 1,
+              "time": 0
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 17,
+      "entity": 13,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 72,
+      "msg_id": 5,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "medium"
+    },
+    {
+      "check_col": 13,
+      "check_file": "universe.ads",
       "check_line": 59,
       "check_tree": [
         {
@@ -2059,9 +3310,9 @@
           }
         }
       ],
-      "col": 37,
+      "col": 13,
       "entity": 13,
-      "file": "main.adb",
+      "file": "universe.ads",
       "how_proved": "prover",
       "line": 59,
       "rule": "VC_PRECONDITION",
@@ -2075,8 +3326,8 @@
       }
     },
     {
-      "check_col": 37,
-      "check_file": "main.adb",
+      "check_col": 29,
+      "check_file": "universe.ads",
       "check_line": 60,
       "check_tree": [
         {
@@ -2102,9 +3353,9 @@
           }
         }
       ],
-      "col": 37,
+      "col": 29,
       "entity": 13,
-      "file": "main.adb",
+      "file": "universe.ads",
       "how_proved": "prover",
       "line": 60,
       "rule": "VC_PRECONDITION",
@@ -2118,9 +3369,1546 @@
       }
     },
     {
+      "check_col": 50,
+      "check_file": "universe.ads",
+      "check_line": 60,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 50,
+      "entity": 13,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 60,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 8,
+      "check_file": "universe.ads",
+      "check_line": 56,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 8,
+      "entity": 13,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 56,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 52,
+      "check_file": "universe.adb",
+      "check_line": 42,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 52,
+      "entity": 14,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 42,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 16,
+      "check_file": "universe.adb",
+      "check_line": 42,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 16,
+      "entity": 14,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 42,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 10,
+      "check_file": "universe.ads",
+      "check_line": 68,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 10,
+      "entity": 14,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 68,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 34,
+      "check_file": "universe.ads",
+      "check_line": 69,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 34,
+      "entity": 14,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 69,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 13,
+      "check_file": "universe.ads",
+      "check_line": 72,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 13,
+      "entity": 14,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 72,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 35,
+      "check_file": "universe.ads",
+      "check_line": 72,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 35,
+      "entity": 14,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 72,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 22,
+      "check_file": "universe.ads",
+      "check_line": 73,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 22,
+      "entity": 14,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 73,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 22,
+      "check_file": "universe.ads",
+      "check_line": 73,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 22,
+      "entity": 14,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 73,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 42,
+      "check_file": "universe.ads",
+      "check_line": 73,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 42,
+      "entity": 14,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 73,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 42,
+      "check_file": "universe.ads",
+      "check_line": 73,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 42,
+      "entity": 14,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 73,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 21,
+      "check_file": "universe.ads",
+      "check_line": 76,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 21,
+      "entity": 14,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 76,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 43,
+      "check_file": "universe.ads",
+      "check_line": 76,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 43,
+      "entity": 14,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 76,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 8,
+      "check_file": "universe.ads",
+      "check_line": 66,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 8,
+      "entity": 14,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 66,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 5,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 52,
+      "check_file": "universe.adb",
+      "check_line": 47,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 52,
+      "entity": 15,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 47,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 16,
+      "check_file": "universe.adb",
+      "check_line": 47,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 16,
+      "entity": 15,
+      "file": "universe.adb",
+      "how_proved": "prover",
+      "line": 47,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 10,
+      "check_file": "universe.ads",
+      "check_line": 84,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 10,
+      "entity": 15,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 84,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 34,
+      "check_file": "universe.ads",
+      "check_line": 85,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 34,
+      "entity": 15,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 85,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 13,
+      "check_file": "universe.ads",
+      "check_line": 88,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 13,
+      "entity": 15,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 88,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 35,
+      "check_file": "universe.ads",
+      "check_line": 88,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 35,
+      "entity": 15,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 88,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 22,
+      "check_file": "universe.ads",
+      "check_line": 89,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 22,
+      "entity": 15,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 89,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 22,
+      "check_file": "universe.ads",
+      "check_line": 89,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 22,
+      "entity": 15,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 89,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 42,
+      "check_file": "universe.ads",
+      "check_line": 89,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 42,
+      "entity": 15,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 89,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 42,
+      "check_file": "universe.ads",
+      "check_line": 89,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 42,
+      "entity": 15,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 89,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 21,
+      "check_file": "universe.ads",
+      "check_line": 92,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 21,
+      "entity": 15,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 92,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 43,
+      "check_file": "universe.ads",
+      "check_line": 92,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 43,
+      "entity": 15,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 92,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 8,
+      "check_file": "universe.ads",
+      "check_line": 82,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 8,
+      "entity": 15,
+      "file": "universe.ads",
+      "how_proved": "prover",
+      "line": 82,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 5,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 17,
+      "check_file": "main.adb",
+      "check_line": 68,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 17,
+      "entity": 8,
+      "file": "main.adb",
+      "how_proved": "prover",
+      "line": 68,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 31,
+      "check_file": "main.adb",
+      "check_line": 68,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 31,
+      "entity": 8,
+      "file": "main.adb",
+      "how_proved": "prover",
+      "line": 68,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 36,
+      "check_file": "main.adb",
+      "check_line": 71,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 1.43710000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 1.60760000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 36,
+      "entity": 8,
+      "file": "main.adb",
+      "how_proved": "prover",
+      "line": 71,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 1.60760004073381E-02
+        }
+      }
+    },
+    {
+      "check_col": 37,
+      "check_file": "main.adb",
+      "check_line": 81,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 37,
+      "entity": 1,
+      "file": "main.adb",
+      "how_proved": "prover",
+      "line": 81,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 37,
+      "check_file": "main.adb",
+      "check_line": 82,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 37,
+      "entity": 1,
+      "file": "main.adb",
+      "how_proved": "prover",
+      "line": 82,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 37,
+      "check_file": "main.adb",
+      "check_line": 84,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 37,
+      "entity": 1,
+      "file": "main.adb",
+      "how_proved": "prover",
+      "line": 84,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 37,
+      "check_file": "main.adb",
+      "check_line": 85,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 37,
+      "entity": 1,
+      "file": "main.adb",
+      "how_proved": "prover",
+      "line": 85,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
       "check_col": 24,
       "check_file": "main.adb",
-      "check_line": 69,
+      "check_line": 94,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2146,10 +4934,10 @@
         }
       ],
       "col": 24,
-      "entity": 9,
+      "entity": 7,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 69,
+      "line": 94,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
       "stats": {
@@ -2163,7 +4951,7 @@
     {
       "check_col": 9,
       "check_file": "main.adb",
-      "check_line": 69,
+      "check_line": 94,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2178,10 +4966,10 @@
         }
       ],
       "col": 9,
-      "entity": 9,
+      "entity": 7,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 69,
+      "line": 94,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2195,7 +4983,7 @@
     {
       "check_col": 44,
       "check_file": "main.adb",
-      "check_line": 69,
+      "check_line": 94,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2221,10 +5009,10 @@
         }
       ],
       "col": 44,
-      "entity": 9,
+      "entity": 7,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 69,
+      "line": 94,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
       "stats": {
@@ -2238,7 +5026,7 @@
     {
       "check_col": 29,
       "check_file": "main.adb",
-      "check_line": 69,
+      "check_line": 94,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2253,10 +5041,10 @@
         }
       ],
       "col": 29,
-      "entity": 9,
+      "entity": 7,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 69,
+      "line": 94,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2270,7 +5058,7 @@
     {
       "check_col": 26,
       "check_file": "main.adb",
-      "check_line": 70,
+      "check_line": 95,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2296,10 +5084,10 @@
         }
       ],
       "col": 26,
-      "entity": 9,
+      "entity": 7,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 70,
+      "line": 95,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
       "stats": {
@@ -2313,7 +5101,7 @@
     {
       "check_col": 11,
       "check_file": "main.adb",
-      "check_line": 70,
+      "check_line": 95,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2328,10 +5116,10 @@
         }
       ],
       "col": 11,
-      "entity": 9,
+      "entity": 7,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 70,
+      "line": 95,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2345,7 +5133,7 @@
     {
       "check_col": 46,
       "check_file": "main.adb",
-      "check_line": 70,
+      "check_line": 95,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2371,10 +5159,10 @@
         }
       ],
       "col": 46,
-      "entity": 9,
+      "entity": 7,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 70,
+      "line": 95,
       "rule": "VC_INDEX_CHECK",
       "severity": "info",
       "stats": {
@@ -2388,7 +5176,7 @@
     {
       "check_col": 31,
       "check_file": "main.adb",
-      "check_line": 70,
+      "check_line": 95,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2403,10 +5191,10 @@
         }
       ],
       "col": 31,
-      "entity": 9,
+      "entity": 7,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 70,
+      "line": 95,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2420,7 +5208,7 @@
     {
       "check_col": 23,
       "check_file": "main.adb",
-      "check_line": 95,
+      "check_line": 120,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2438,7 +5226,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 95,
+      "line": 120,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2452,7 +5240,7 @@
     {
       "check_col": 36,
       "check_file": "main.adb",
-      "check_line": 95,
+      "check_line": 120,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2470,7 +5258,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 95,
+      "line": 120,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2484,7 +5272,7 @@
     {
       "check_col": 40,
       "check_file": "main.adb",
-      "check_line": 95,
+      "check_line": 120,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2502,7 +5290,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 95,
+      "line": 120,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2516,7 +5304,7 @@
     {
       "check_col": 30,
       "check_file": "main.adb",
-      "check_line": 96,
+      "check_line": 121,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2534,7 +5322,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 96,
+      "line": 121,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2548,7 +5336,7 @@
     {
       "check_col": 43,
       "check_file": "main.adb",
-      "check_line": 96,
+      "check_line": 121,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2566,7 +5354,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 96,
+      "line": 121,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2580,7 +5368,7 @@
     {
       "check_col": 47,
       "check_file": "main.adb",
-      "check_line": 96,
+      "check_line": 121,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2598,7 +5386,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 96,
+      "line": 121,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2612,7 +5400,7 @@
     {
       "check_col": 23,
       "check_file": "main.adb",
-      "check_line": 100,
+      "check_line": 125,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2630,7 +5418,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 100,
+      "line": 125,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2644,7 +5432,7 @@
     {
       "check_col": 36,
       "check_file": "main.adb",
-      "check_line": 100,
+      "check_line": 125,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2662,7 +5450,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 100,
+      "line": 125,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2676,7 +5464,7 @@
     {
       "check_col": 40,
       "check_file": "main.adb",
-      "check_line": 100,
+      "check_line": 125,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2694,7 +5482,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 100,
+      "line": 125,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2708,7 +5496,7 @@
     {
       "check_col": 30,
       "check_file": "main.adb",
-      "check_line": 101,
+      "check_line": 126,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2726,7 +5514,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 101,
+      "line": 126,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2740,7 +5528,7 @@
     {
       "check_col": 43,
       "check_file": "main.adb",
-      "check_line": 101,
+      "check_line": 126,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2758,7 +5546,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 101,
+      "line": 126,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2772,7 +5560,7 @@
     {
       "check_col": 47,
       "check_file": "main.adb",
-      "check_line": 101,
+      "check_line": 126,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2790,7 +5578,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 101,
+      "line": 126,
       "rule": "VC_PREDICATE_CHECK",
       "severity": "info",
       "stats": {
@@ -2804,7 +5592,7 @@
     {
       "check_col": 50,
       "check_file": "main.adb",
-      "check_line": 92,
+      "check_line": 117,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2833,7 +5621,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 92,
+      "line": 117,
       "rule": "VC_PRECONDITION",
       "severity": "info",
       "stats": {
@@ -2847,7 +5635,7 @@
     {
       "check_col": 42,
       "check_file": "main.adb",
-      "check_line": 93,
+      "check_line": 118,
       "check_tree": [
         {
           "proof_attempts": {
@@ -2876,7 +5664,7 @@
       "entity": 11,
       "file": "main.adb",
       "how_proved": "prover",
-      "line": 93,
+      "line": 118,
       "rule": "VC_PRECONDITION",
       "severity": "info",
       "stats": {
@@ -2901,17 +5689,19 @@
     " 14": "all",
     " 15": "all",
     " 16": "all",
-    " 17": "spec",
-    " 18": "spec",
-    " 19": "all",
+    " 17": "all",
+    " 18": "all",
+    " 19": "spec",
     " 2": "all",
     " 20": "spec",
-    " 21": "spec",
+    " 21": "all",
     " 22": "spec",
     " 23": "spec",
     " 24": "spec",
     " 25": "spec",
-    " 26": "all",
+    " 26": "spec",
+    " 27": "spec",
+    " 28": "all",
     " 3": "all",
     " 4": "all",
     " 5": "all",
@@ -2923,367 +5713,179 @@
   "stop_reason": "STOP_REASON_NONE",
   "timings": {
     " 1": {
-      "gnat2why.vc_generation": 1.17760002613068E-02,
-      "gnatwhy3.init": 2.69502013921738E-01,
-      "gnatwhy3.register_vcs": 9.99900021270150E-06,
+      "gnat2why.vc_generation": 2.54289992153645E-02,
+      "gnatwhy3.init": 2.68552988767624E-01,
+      "gnatwhy3.register_vcs": 1.72000000020489E-04,
       "gnatwhy3.run_vcs": 3.00000010611257E-06,
-      "gnatwhy3.save_session": 1.30669986829162E-02,
-      "gnatwhy3.schedule_vcs": 8.30799899995327E-03,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 1.90000003203750E-03,
-      "gnatwhy3.transformations.detect_polymorphism": 4.09989988838788E-05,
-      "gnatwhy3.transformations.discriminate_if_poly": 9.99000008050643E-07,
-      "gnatwhy3.transformations.eliminate_algebraic": 5.32998994458467E-04,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 4.22000011894852E-04,
-      "gnatwhy3.transformations.eliminate_builtin": 3.47799900919199E-03,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 1.36999005917460E-04,
-      "gnatwhy3.transformations.eliminate_epsilon": 2.61000008322299E-04,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 1.74999004229903E-04,
-      "gnatwhy3.transformations.eliminate_inductive": 2.07000004593283E-04,
-      "gnatwhy3.transformations.eliminate_literal": 2.84998997813091E-04,
-      "gnatwhy3.transformations.eliminate_projections_sums": 2.83000001218170E-04,
-      "gnatwhy3.transformations.eliminate_recursion": 1.10000000859145E-05,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
-      "gnatwhy3.transformations.inline_trivial": 7.84999877214432E-03,
-      "gnatwhy3.transformations.introduce_premises": 4.19989992224146E-05,
-      "gnatwhy3.transformations.monomorphise_goal": 3.00000010611257E-06,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 9.99000008050643E-07,
-      "gnatwhy3.transformations.remove_unused": 2.10699904710054E-03,
-      "gnatwhy3.transformations.simplify_formula": 2.73000012384728E-04,
-      "gnatwhy3.transformations.split_goal_wp_conj": 1.83399894740433E-03,
-      "gnatwhy3.transformations.split_premise_right": 2.87000002572313E-04
+      "gnatwhy3.save_session": 1.70620009303093E-02,
+      "gnatwhy3.schedule_vcs": 3.00000010611257E-06,
+      "gnatwhy3.transformations.split_goal_wp_conj": 3.23799904435873E-03
     },
     " 10": {
-      "gnat2why.vc_generation": 4.64220009744167E-02
+      "gnat2why.vc_generation": 1.21499998494983E-02,
+      "gnatwhy3.init": 2.61950999498367E-01,
+      "gnatwhy3.register_vcs": 1.10000000859145E-05,
+      "gnatwhy3.run_vcs": 9.99000008050643E-07,
+      "gnatwhy3.save_session": 1.41179990023375E-02,
+      "gnatwhy3.schedule_vcs": 9.99000008050643E-07,
+      "gnatwhy3.transformations.split_goal_wp_conj": 2.30800011195242E-03
     },
     " 11": {
-      "gnat2why.vc_generation": 1.10609997063875E-02,
-      "gnatwhy3.init": 3.17200988531113E-01,
-      "gnatwhy3.register_vcs": 9.48000000789762E-04,
-      "gnatwhy3.run_vcs": 1.76000001374632E-04,
-      "gnatwhy3.save_session": 2.06669997423887E-02,
-      "gnatwhy3.schedule_vcs": 3.84900011122227E-02,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 6.72399904578924E-03,
-      "gnatwhy3.transformations.detect_polymorphism": 3.38000012561679E-04,
-      "gnatwhy3.transformations.discriminate_if_poly": 3.99900000047637E-06,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 8.59998981468379E-04,
-      "gnatwhy3.transformations.eliminate_builtin": 4.87999897450209E-03,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 4.93000028654933E-04,
-      "gnatwhy3.transformations.eliminate_epsilon": 4.78000001749024E-04,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 1.49699894245714E-03,
-      "gnatwhy3.transformations.eliminate_inductive": 5.17998996656388E-04,
-      "gnatwhy3.transformations.eliminate_literal": 7.54998996853828E-04,
-      "gnatwhy3.transformations.eliminate_projections_sums": 1.13900005817413E-03,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 9.99000008050643E-07,
-      "gnatwhy3.transformations.inline_trivial": 3.00650000572205E-02,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 3.99900000047637E-06,
-      "gnatwhy3.transformations.remove_unused": 7.36099900677800E-03,
-      "gnatwhy3.transformations.simplify_formula": 1.05900003109127E-03,
-      "gnatwhy3.transformations.split_goal_wp_conj": 1.50100002065301E-02
+      "gnat2why.vc_generation": 1.74250006675720E-02,
+      "gnatwhy3.init": 3.24802994728088E-01,
+      "gnatwhy3.register_vcs": 1.00699905306101E-03,
+      "gnatwhy3.run_vcs": 7.00000009601354E-06,
+      "gnatwhy3.save_session": 1.88829991966486E-02,
+      "gnatwhy3.schedule_vcs": 3.99900000047637E-06,
+      "gnatwhy3.transformations.split_goal_wp_conj": 1.69380009174347E-02
     },
     " 12": {
-      "gnat2why.vc_generation": 2.52609997987747E-02,
-      "gnatwhy3.init": 2.71979987621307E-01,
-      "gnatwhy3.register_vcs": 1.20000004244503E-05,
-      "gnatwhy3.run_vcs": 3.00000010611257E-06,
-      "gnatwhy3.save_session": 1.08580002561212E-02,
-      "gnatwhy3.schedule_vcs": 7.29699898511171E-03,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 1.55799905769527E-03,
-      "gnatwhy3.transformations.detect_polymorphism": 3.89989982068073E-05,
-      "gnatwhy3.transformations.discriminate_if_poly": 1.99900000552589E-06,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 1.17000003228895E-04,
-      "gnatwhy3.transformations.eliminate_builtin": 1.23499904293567E-03,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 1.04999002360273E-04,
-      "gnatwhy3.transformations.eliminate_epsilon": 1.11000001197681E-04,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 1.06999003037345E-04,
-      "gnatwhy3.transformations.eliminate_inductive": 1.93999003386125E-04,
-      "gnatwhy3.transformations.eliminate_literal": 2.37999003729783E-04,
-      "gnatwhy3.transformations.eliminate_projections_sums": 2.22000002395362E-04,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
-      "gnatwhy3.transformations.inline_trivial": 4.68399887904525E-03,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 1.99900000552589E-06,
-      "gnatwhy3.transformations.remove_unused": 1.19700003415346E-03,
-      "gnatwhy3.transformations.simplify_formula": 1.61000003572553E-04,
-      "gnatwhy3.transformations.split_goal_wp_conj": 1.85700005386025E-03
+      "gnat2why.vc_generation": 1.73470005393028E-02,
+      "gnatwhy3.init": 2.87954986095428E-01,
+      "gnatwhy3.register_vcs": 7.35000008717179E-04,
+      "gnatwhy3.run_vcs": 3.99900000047637E-06,
+      "gnatwhy3.save_session": 1.97310000658035E-02,
+      "gnatwhy3.schedule_vcs": 3.00000010611257E-06,
+      "gnatwhy3.transformations.split_goal_wp_conj": 5.19700022414327E-03
     },
     " 13": {
-      "gnat2why.vc_generation": 5.31000026967376E-04,
-      "gnatwhy3.init": 2.73593008518219E-01,
-      "gnatwhy3.register_vcs": 1.67000005603768E-04,
-      "gnatwhy3.run_vcs": 1.20000004244503E-05,
-      "gnatwhy3.save_session": 1.22429989278316E-02,
-      "gnatwhy3.schedule_vcs": 1.94610003381968E-02,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 1.62100000306964E-03,
-      "gnatwhy3.transformations.detect_polymorphism": 2.11998994927853E-04,
-      "gnatwhy3.transformations.discriminate_if_poly": 3.89989982068073E-05,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 4.99000016134232E-04,
-      "gnatwhy3.transformations.eliminate_builtin": 1.30100001115352E-03,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 5.68000017665327E-04,
-      "gnatwhy3.transformations.eliminate_epsilon": 4.14000009186566E-04,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 6.56999007333070E-04,
-      "gnatwhy3.transformations.eliminate_inductive": 2.88998999167234E-04,
-      "gnatwhy3.transformations.eliminate_literal": 8.07998992968351E-04,
-      "gnatwhy3.transformations.eliminate_projections_sums": 6.38998986687511E-04,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 9.99000008050643E-07,
-      "gnatwhy3.transformations.inline_trivial": 1.89880002290010E-02,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 7.99900044512469E-06,
-      "gnatwhy3.transformations.remove_unused": 6.31699897348881E-03,
-      "gnatwhy3.transformations.simplify_formula": 5.40998997166753E-04,
-      "gnatwhy3.transformations.split_goal_wp_conj": 3.16999899223447E-03
+      "gnat2why.vc_generation": 2.36079990863800E-02,
+      "gnatwhy3.init": 3.65994989871979E-01,
+      "gnatwhy3.register_vcs": 4.99500008299947E-03,
+      "gnatwhy3.run_vcs": 9.00000031833770E-06,
+      "gnatwhy3.save_session": 3.55909988284111E-02,
+      "gnatwhy3.schedule_vcs": 1.10000000859145E-05,
+      "gnatwhy3.transformations.split_goal_wp_conj": 4.66540008783340E-02
     },
-    " 17": {
-      "gnat2why.vc_generation": 2.03200001269579E-02
+    " 14": {
+      "gnat2why.vc_generation": 2.70109996199608E-02,
+      "gnatwhy3.init": 3.27461004257202E-01,
+      "gnatwhy3.register_vcs": 3.21200001053512E-03,
+      "gnatwhy3.run_vcs": 9.00000031833770E-06,
+      "gnatwhy3.save_session": 2.66880001872778E-02,
+      "gnatwhy3.schedule_vcs": 7.00000009601354E-06,
+      "gnatwhy3.transformations.split_goal_wp_conj": 1.98010001331568E-02
     },
-    " 18": {
-      "gnat2why.vc_generation": 2.01000002562068E-04
+    " 15": {
+      "gnat2why.vc_generation": 2.53049992024899E-02,
+      "gnatwhy3.init": -1.03473998606205E-01,
+      "gnatwhy3.register_vcs": 3.40900011360645E-03,
+      "gnatwhy3.run_vcs": 9.99900021270150E-06,
+      "gnatwhy3.save_session": 2.24300008267164E-02,
+      "gnatwhy3.schedule_vcs": 6.00000021222513E-06,
+      "gnatwhy3.transformations.split_goal_wp_conj": -4.01618003845215E-01
+    },
+    " 19": {
+      "gnat2why.vc_generation": 2.35309991985559E-02
     },
     " 2": {
-      "gnat2why.vc_generation": 2.29029990732670E-02,
-      "gnatwhy3.init": 2.71501988172531E-01,
-      "gnatwhy3.register_vcs": 2.20000001718290E-05,
-      "gnatwhy3.run_vcs": 3.99900000047637E-06,
-      "gnatwhy3.save_session": 1.04930000379682E-02,
-      "gnatwhy3.schedule_vcs": 9.08199883997440E-03,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 2.01299902983010E-03,
-      "gnatwhy3.transformations.detect_polymorphism": 5.60000007681083E-05,
-      "gnatwhy3.transformations.discriminate_if_poly": 1.99900000552589E-06,
-      "gnatwhy3.transformations.eliminate_algebraic": 5.29000011738390E-04,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 4.48000006144866E-04,
-      "gnatwhy3.transformations.eliminate_builtin": 3.62000009045005E-03,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 1.17000003228895E-04,
-      "gnatwhy3.transformations.eliminate_epsilon": 5.63998997677118E-04,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 2.13998995604925E-04,
-      "gnatwhy3.transformations.eliminate_inductive": 3.15999001031741E-04,
-      "gnatwhy3.transformations.eliminate_literal": 3.87998996302485E-04,
-      "gnatwhy3.transformations.eliminate_projections_sums": 2.77000013738871E-04,
-      "gnatwhy3.transformations.eliminate_recursion": 1.10000000859145E-05,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 1.99900000552589E-06,
-      "gnatwhy3.transformations.inline_trivial": 8.33300035446882E-03,
-      "gnatwhy3.transformations.introduce_premises": 4.30000000051223E-05,
-      "gnatwhy3.transformations.monomorphise_goal": 7.00000009601354E-06,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 9.99000008050643E-07,
-      "gnatwhy3.transformations.remove_unused": 2.57600005716085E-03,
-      "gnatwhy3.transformations.simplify_formula": 4.90000005811453E-04,
-      "gnatwhy3.transformations.split_goal_wp_conj": 2.17700004577637E-03,
-      "gnatwhy3.transformations.split_premise_right": 1.21999000839423E-04
+      "gnat2why.vc_generation": 5.42020015418530E-02
     },
     " 20": {
+      "gnat2why.vc_generation": 2.05999996978790E-04
+    },
+    " 22": {
       "gnat2why.vc_generation": 2.80000003840541E-05
     },
-    " 21": {
-      "gnat2why.vc_generation": 3.00000010611257E-06
-    },
     " 23": {
-      "gnat2why.vc_generation": 3.45999986166134E-04
-    },
-    " 24": {
-      "gnat2why.vc_generation": 1.92999999853782E-04
+      "gnat2why.vc_generation": 3.99999998990097E-06
     },
     " 25": {
-      "gnat2why.vc_generation": 2.33210008591413E-02
+      "gnat2why.vc_generation": 2.85999994957820E-04
+    },
+    " 26": {
+      "gnat2why.vc_generation": 8.49999996717088E-05
+    },
+    " 27": {
+      "gnat2why.vc_generation": 1.95799991488457E-02
     },
     " 3": {
-      "gnat2why.vc_generation": 2.02089995145798E-02,
-      "gnatwhy3.init": 2.72581994533539E-01,
-      "gnatwhy3.register_vcs": 7.99900044512469E-06,
-      "gnatwhy3.run_vcs": 3.00000010611257E-06,
-      "gnatwhy3.save_session": 8.47600027918816E-03,
-      "gnatwhy3.schedule_vcs": 7.57500017061830E-03,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 1.90599902998656E-03,
-      "gnatwhy3.transformations.detect_polymorphism": 3.50000009348150E-05,
-      "gnatwhy3.transformations.discriminate_if_poly": 1.99900000552589E-06,
-      "gnatwhy3.transformations.eliminate_algebraic": 4.00999007979408E-04,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 3.68000008165836E-04,
-      "gnatwhy3.transformations.eliminate_builtin": 3.40000004507601E-03,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 9.40000027185306E-05,
-      "gnatwhy3.transformations.eliminate_epsilon": 2.26998992729932E-04,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 1.50000007124618E-04,
-      "gnatwhy3.transformations.eliminate_inductive": 1.80000002728775E-04,
-      "gnatwhy3.transformations.eliminate_literal": 2.96999001875520E-04,
-      "gnatwhy3.transformations.eliminate_projections_sums": 2.50000011874363E-04,
-      "gnatwhy3.transformations.eliminate_recursion": 1.10000000859145E-05,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 1.99900000552589E-06,
-      "gnatwhy3.transformations.inline_trivial": 7.76199903339148E-03,
-      "gnatwhy3.transformations.introduce_premises": 2.40000008489005E-05,
-      "gnatwhy3.transformations.monomorphise_goal": 3.00000010611257E-06,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 9.99000008050643E-07,
-      "gnatwhy3.transformations.remove_unused": 1.94800004828721E-03,
-      "gnatwhy3.transformations.simplify_formula": 2.49000004259869E-04,
-      "gnatwhy3.transformations.split_goal_wp_conj": 1.80600001476705E-03,
-      "gnatwhy3.transformations.split_premise_right": 2.74999008979648E-04
+      "gnat2why.vc_generation": 2.17499993741512E-02,
+      "gnatwhy3.init": 5.68830013275146E-01,
+      "gnatwhy3.register_vcs": 6.70900009572506E-03,
+      "gnatwhy3.run_vcs": 1.20000004244503E-05,
+      "gnatwhy3.save_session": 4.25180010497570E-02,
+      "gnatwhy3.schedule_vcs": 1.20000004244503E-05,
+      "gnatwhy3.transformations.split_goal_wp_conj": 7.24110007286072E-02
     },
     " 4": {
-      "gnat2why.vc_generation": 2.66239996999502E-02,
-      "gnatwhy3.init": 2.79213994741440E-01,
-      "gnatwhy3.register_vcs": 2.59989992628107E-05,
-      "gnatwhy3.run_vcs": 6.00000021222513E-06,
-      "gnatwhy3.save_session": 1.74729991704226E-02,
-      "gnatwhy3.schedule_vcs": 1.02899987250566E-02,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 2.36700009554625E-03,
-      "gnatwhy3.transformations.detect_polymorphism": 7.30000028852373E-05,
-      "gnatwhy3.transformations.discriminate_if_poly": 1.99900000552589E-06,
-      "gnatwhy3.transformations.eliminate_algebraic": 5.08998986333609E-04,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 5.21000009030104E-04,
-      "gnatwhy3.transformations.eliminate_builtin": 5.82099892199039E-03,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 1.76999004906975E-04,
-      "gnatwhy3.transformations.eliminate_epsilon": 3.34999000187963E-04,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 2.84998997813091E-04,
-      "gnatwhy3.transformations.eliminate_inductive": 1.20599905494601E-03,
-      "gnatwhy3.transformations.eliminate_literal": 1.00299902260303E-03,
-      "gnatwhy3.transformations.eliminate_projections_sums": 1.92000006791204E-04,
-      "gnatwhy3.transformations.eliminate_recursion": 1.80000006366754E-05,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
-      "gnatwhy3.transformations.inline_trivial": 1.18599990382791E-02,
-      "gnatwhy3.transformations.introduce_premises": 5.68000017665327E-04,
-      "gnatwhy3.transformations.monomorphise_goal": 7.00000009601354E-06,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 9.99000008050643E-07,
-      "gnatwhy3.transformations.remove_unused": 3.18100000731647E-03,
-      "gnatwhy3.transformations.simplify_formula": 6.91000022925436E-04,
-      "gnatwhy3.transformations.split_goal_wp_conj": 2.61699897237122E-03,
-      "gnatwhy3.transformations.split_premise_right": 1.51999003719538E-04
+      "gnat2why.vc_generation": 1.73979997634888E-02,
+      "gnatwhy3.init": 2.66606003046036E-01,
+      "gnatwhy3.register_vcs": 1.20000004244503E-05,
+      "gnatwhy3.run_vcs": 9.99000008050643E-07,
+      "gnatwhy3.save_session": 1.49950003251433E-02,
+      "gnatwhy3.schedule_vcs": 1.99900000552589E-06,
+      "gnatwhy3.transformations.split_goal_wp_conj": 1.82799901813269E-03
     },
     " 5": {
-      "gnat2why.vc_generation": 2.10200008004904E-02,
-      "gnatwhy3.init": 2.91399002075195E-01,
-      "gnatwhy3.register_vcs": 2.49990007432643E-05,
-      "gnatwhy3.run_vcs": 6.00000021222513E-06,
-      "gnatwhy3.save_session": 1.34209990501404E-02,
-      "gnatwhy3.schedule_vcs": 1.06969987973571E-02,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 2.40899901837111E-03,
-      "gnatwhy3.transformations.detect_polymorphism": 7.30000028852373E-05,
-      "gnatwhy3.transformations.discriminate_if_poly": 1.99900000552589E-06,
-      "gnatwhy3.transformations.eliminate_algebraic": 5.32998994458467E-04,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 5.79999003093690E-04,
-      "gnatwhy3.transformations.eliminate_builtin": 5.88899897411466E-03,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 1.44998994073831E-04,
-      "gnatwhy3.transformations.eliminate_epsilon": 3.39999009156600E-04,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 2.91000003926456E-04,
-      "gnatwhy3.transformations.eliminate_inductive": 1.23499904293567E-03,
-      "gnatwhy3.transformations.eliminate_literal": 9.22998995520175E-04,
-      "gnatwhy3.transformations.eliminate_projections_sums": 1.93999003386125E-04,
-      "gnatwhy3.transformations.eliminate_recursion": 1.80000006366754E-05,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 9.99000008050643E-07,
-      "gnatwhy3.transformations.inline_trivial": 1.20259989053011E-02,
-      "gnatwhy3.transformations.introduce_premises": 5.52000012248755E-04,
-      "gnatwhy3.transformations.monomorphise_goal": 7.00000009601354E-06,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 9.99000008050643E-07,
-      "gnatwhy3.transformations.remove_unused": 3.46900010481477E-03,
-      "gnatwhy3.transformations.simplify_formula": 7.21000018529594E-04,
-      "gnatwhy3.transformations.split_goal_wp_conj": 2.58599896915257E-03,
-      "gnatwhy3.transformations.split_premise_right": 1.46000005770475E-04
+      "gnat2why.vc_generation": 3.19999991916120E-04,
+      "gnatwhy3.init": 2.68745005130768E-01,
+      "gnatwhy3.register_vcs": 1.20000004244503E-05,
+      "gnatwhy3.run_vcs": 1.99900000552589E-06,
+      "gnatwhy3.save_session": 1.46749988198280E-02,
+      "gnatwhy3.schedule_vcs": 1.99900000552589E-06,
+      "gnatwhy3.transformations.split_goal_wp_conj": 2.03499896451831E-03
     },
     " 6": {
-      "gnat2why.vc_generation": 3.18000005790964E-04,
-      "gnatwhy3.init": 2.87106990814209E-01,
-      "gnatwhy3.register_vcs": 1.20000004244503E-05,
+      "gnat2why.vc_generation": 2.10570003837347E-02,
+      "gnatwhy3.init": 2.86547005176544E-01,
+      "gnatwhy3.register_vcs": 3.22000007145107E-04,
       "gnatwhy3.run_vcs": 3.00000010611257E-06,
-      "gnatwhy3.save_session": 1.14460000768304E-02,
-      "gnatwhy3.schedule_vcs": 7.22099887207150E-03,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 1.62100000306964E-03,
-      "gnatwhy3.transformations.detect_polymorphism": 3.89989982068073E-05,
-      "gnatwhy3.transformations.discriminate_if_poly": 1.99900000552589E-06,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 1.19999000162352E-04,
-      "gnatwhy3.transformations.eliminate_builtin": 1.17900001350790E-03,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 1.04999002360273E-04,
-      "gnatwhy3.transformations.eliminate_epsilon": 1.18000003567431E-04,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 1.06999003037345E-04,
-      "gnatwhy3.transformations.eliminate_inductive": 1.95999004063196E-04,
-      "gnatwhy3.transformations.eliminate_literal": 2.66999006271362E-04,
-      "gnatwhy3.transformations.eliminate_projections_sums": 2.24999006604776E-04,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
-      "gnatwhy3.transformations.inline_trivial": 4.29200008511543E-03,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 1.99900000552589E-06,
-      "gnatwhy3.transformations.remove_unused": 1.20800000149757E-03,
-      "gnatwhy3.transformations.simplify_formula": 1.34000001708046E-04,
-      "gnatwhy3.transformations.split_goal_wp_conj": 1.96600006893277E-03
+      "gnatwhy3.save_session": 1.23420003801584E-02,
+      "gnatwhy3.schedule_vcs": 9.99000008050643E-07,
+      "gnatwhy3.transformations.split_goal_wp_conj": 3.70300002396107E-03
     },
     " 7": {
-      "gnat2why.vc_generation": 1.42559995874763E-02,
-      "gnatwhy3.init": 5.54167985916138E-01,
-      "gnatwhy3.register_vcs": 4.94100013747811E-03,
-      "gnatwhy3.run_vcs": 3.89989982068073E-05,
-      "gnatwhy3.save_session": 3.67680005729198E-02,
-      "gnatwhy3.schedule_vcs": 3.15836012363434E-01,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 2.93620005249977E-02,
-      "gnatwhy3.transformations.detect_polymorphism": 8.08299891650677E-03,
-      "gnatwhy3.transformations.discriminate_if_poly": 2.70000000455184E-05,
-      "gnatwhy3.transformations.eliminate_algebraic": 2.49300003051758E-02,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 2.10360009223223E-02,
-      "gnatwhy3.transformations.eliminate_builtin": 3.04579995572567E-02,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 7.31599889695644E-03,
-      "gnatwhy3.transformations.eliminate_epsilon": 1.61830000579357E-02,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 1.43259987235069E-02,
-      "gnatwhy3.transformations.eliminate_inductive": 1.71990003436804E-02,
-      "gnatwhy3.transformations.eliminate_literal": 2.76280008256435E-02,
-      "gnatwhy3.transformations.eliminate_projections_sums": 9.61299892514944E-03,
-      "gnatwhy3.transformations.eliminate_recursion": 5.60399889945984E-03,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 1.70000002981396E-05,
-      "gnatwhy3.transformations.inline_trivial": 3.69222998619080E-01,
-      "gnatwhy3.transformations.introduce_premises": 1.01690003648400E-02,
-      "gnatwhy3.transformations.monomorphise_goal": 9.22998995520175E-04,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 2.40000008489005E-05,
-      "gnatwhy3.transformations.remove_unused": 1.15154996514320E-01,
-      "gnatwhy3.transformations.simplify_formula": 3.44719998538494E-02,
-      "gnatwhy3.transformations.split_goal_wp_conj": 6.69659972190857E-02,
-      "gnatwhy3.transformations.split_premise_right": 1.92600004374981E-02
+      "gnat2why.vc_generation": 1.92859992384911E-02,
+      "gnatwhy3.init": 2.88996994495392E-01,
+      "gnatwhy3.register_vcs": 1.34999005240388E-04,
+      "gnatwhy3.run_vcs": 3.00000010611257E-06,
+      "gnatwhy3.save_session": 1.27400001510978E-02,
+      "gnatwhy3.schedule_vcs": 3.00000010611257E-06,
+      "gnatwhy3.transformations.split_goal_wp_conj": 5.41300000622869E-03
     },
     " 8": {
-      "gnat2why.vc_generation": 1.64000000804663E-02,
-      "gnatwhy3.init": 2.72707998752594E-01,
-      "gnatwhy3.register_vcs": 1.29990003188141E-05,
-      "gnatwhy3.run_vcs": 3.00000010611257E-06,
-      "gnatwhy3.save_session": 1.78909990936518E-02,
-      "gnatwhy3.schedule_vcs": 7.09800003096461E-03,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 1.49599905125797E-03,
-      "gnatwhy3.transformations.detect_polymorphism": 3.99989985453431E-05,
+      "gnat2why.vc_generation": 1.01100001484156E-03,
+      "gnatwhy3.init": 2.74753004312515E-01,
+      "gnatwhy3.register_vcs": 8.50200001150370E-03,
+      "gnatwhy3.run_vcs": 4.99899988426478E-06,
+      "gnatwhy3.save_session": 8.18299874663353E-03,
+      "gnatwhy3.schedule_vcs": 1.38299986720085E-02,
+      "gnatwhy3.transformations.counterexamples_dependent_intros": 2.66200001351535E-03,
+      "gnatwhy3.transformations.detect_polymorphism": 9.07998997718096E-04,
       "gnatwhy3.transformations.discriminate_if_poly": 1.99900000552589E-06,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 1.18000003567431E-04,
-      "gnatwhy3.transformations.eliminate_builtin": 1.22099905274808E-03,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 1.05999002698809E-04,
-      "gnatwhy3.transformations.eliminate_epsilon": 1.11000001197681E-04,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 1.09000000520609E-04,
-      "gnatwhy3.transformations.eliminate_inductive": 1.97999004740268E-04,
-      "gnatwhy3.transformations.eliminate_literal": 2.41999005083926E-04,
-      "gnatwhy3.transformations.eliminate_projections_sums": 2.18000001041219E-04,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 9.99000008050643E-07,
-      "gnatwhy3.transformations.inline_trivial": 4.42099897190928E-03,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 1.99900000552589E-06,
-      "gnatwhy3.transformations.remove_unused": 1.36100000236183E-03,
-      "gnatwhy3.transformations.simplify_formula": 1.46998994750902E-04,
-      "gnatwhy3.transformations.split_goal_wp_conj": 1.84899894520640E-03
+      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 7.58000009227544E-04,
+      "gnatwhy3.transformations.eliminate_builtin": 1.67599902488291E-03,
+      "gnatwhy3.transformations.eliminate_definition_conditionally": 6.16998993791640E-04,
+      "gnatwhy3.transformations.eliminate_epsilon": 3.00999003229663E-04,
+      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 8.21000023279339E-04,
+      "gnatwhy3.transformations.eliminate_inductive": 3.50999005604535E-04,
+      "gnatwhy3.transformations.eliminate_literal": 3.45998996635899E-04,
+      "gnatwhy3.transformations.eliminate_projections_sums": 4.50999010354280E-04,
+      "gnatwhy3.transformations.encoding_smt_if_poly": 1.99900000552589E-06,
+      "gnatwhy3.transformations.inline_trivial": 8.12000036239624E-03,
+      "gnatwhy3.transformations.prepare_for_counterexmp": 9.99000008050643E-07,
+      "gnatwhy3.transformations.remove_unused": 3.03200003691018E-03,
+      "gnatwhy3.transformations.simplify_formula": 6.66000007186085E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 5.54199889302254E-03
     },
     " 9": {
-      "gnat2why.vc_generation": 1.87599994242191E-02,
-      "gnatwhy3.init": 2.71795988082886E-01,
-      "gnatwhy3.register_vcs": 1.25000005937181E-04,
-      "gnatwhy3.run_vcs": 7.00000009601354E-06,
-      "gnatwhy3.save_session": 1.35049987584352E-02,
-      "gnatwhy3.schedule_vcs": 2.92339995503426E-02,
-      "gnatwhy3.transformations.counterexamples_dependent_intros": 3.66699905134737E-03,
-      "gnatwhy3.transformations.detect_polymorphism": 1.59999006427824E-04,
-      "gnatwhy3.transformations.discriminate_if_poly": 4.99899988426478E-06,
-      "gnatwhy3.transformations.eliminate_algebraic_if_poly": 3.53000010363758E-04,
-      "gnatwhy3.transformations.eliminate_builtin": 1.81499903555959E-03,
-      "gnatwhy3.transformations.eliminate_definition_conditionally": 1.61000003572553E-04,
-      "gnatwhy3.transformations.eliminate_epsilon": 3.02000000374392E-04,
-      "gnatwhy3.transformations.eliminate_gnatprove_guard_epsilon": 3.85999010177329E-04,
-      "gnatwhy3.transformations.eliminate_inductive": 1.40000003739260E-04,
-      "gnatwhy3.transformations.eliminate_literal": 3.14000004436821E-04,
-      "gnatwhy3.transformations.eliminate_projections_sums": 2.18000001041219E-04,
-      "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
-      "gnatwhy3.transformations.inline_trivial": 3.59379984438419E-02,
-      "gnatwhy3.transformations.prepare_for_counterexmp": 4.99899988426478E-06,
-      "gnatwhy3.transformations.remove_unused": 6.29399903118610E-03,
-      "gnatwhy3.transformations.simplify_formula": 5.79999003093690E-04,
-      "gnatwhy3.transformations.split_goal_wp_conj": 5.45499892905354E-03
+      "gnat2why.vc_generation": 1.70610006898642E-02,
+      "gnatwhy3.init": 2.63186007738113E-01,
+      "gnatwhy3.register_vcs": 4.89990015921649E-05,
+      "gnatwhy3.run_vcs": 1.59989995154319E-05,
+      "gnatwhy3.save_session": 1.23250000178814E-02,
+      "gnatwhy3.schedule_vcs": 9.99000008050643E-07,
+      "gnatwhy3.transformations.split_goal_wp_conj": 1.94999901577830E-03
     },
     "global": {
-      "flow analysis": 9.91600006818771E-03,
-      "globals (advanced)": 3.59360016882420E-02,
-      "globals (basic)": 4.02499996125698E-02,
-      "init_why_sections": 1.25299999490380E-03,
-      "marking": 3.03600002080202E-02,
-      "properties (advanced)": 2.84999987343326E-04,
-      "translation of standard": 1.19900004938245E-03
+      "flow analysis": 1.29070002585649E-02,
+      "globals (advanced)": 3.83570007979870E-02,
+      "globals (basic)": 6.44930005073547E-02,
+      "init_why_sections": 1.51400000322610E-03,
+      "marking": 2.80969999730587E-02,
+      "properties (advanced)": 4.37000009696931E-04,
+      "translation of standard": 2.00699991546571E-03
     }
   }
 }

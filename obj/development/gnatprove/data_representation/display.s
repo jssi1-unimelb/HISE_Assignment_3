@@ -137,15 +137,15 @@ display_E:
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",@progbits,1
-.LASF4:
-	.ascii	"GNU Ada 15.1.0 -Og -gnatA -ffunction-sections -fdata-section"
-	.ascii	"s -g -gnatwa -gnatw.X -gnatVa -gnaty3 -gnatya -gnatyA -gnaty"
-	.ascii	"B -gnatyb -gnatyc -gnaty-d -gnatye -gnatyf -gna"
-	.string	"tyh -gnatyi -gnatyI -gnatyk -gnatyl -gnatym -gnatyn -gnatyO -gnatyp -gnatyr -gnatyS -gnatyt -gnatyu -gnatyx -gnatW8 -gnatR2js -gnatws -gnatis -gnatec=/tmp/GPR.1127/GNAT-TEMP-000003.TMP -gnatem=/tmp/GPR.1127/GNAT-TEMP-000004.TMP -mtune=generic -march=x86-64"
 .LASF3:
 	.string	"big_numbers"
 .LASF2:
 	.string	"numerics"
+.LASF4:
+	.ascii	"GNU Ada 15.1.0 -Og -gnatA -ffunction-sections -fdata-section"
+	.ascii	"s -g -gnatwa -gnatw.X -gnatVa -gnaty3 -gnatya -gnatyA -gnaty"
+	.ascii	"B -gnatyb -gnatyc -gnaty-d -gnatye -gnatyf -gnaty"
+	.string	"h -gnatyi -gnatyI -gnatyk -gnatyl -gnatym -gnatyn -gnatyO -gnatyp -gnatyr -gnatyS -gnatyt -gnatyu -gnatyx -gnatW8 -gnatR2js -gnatws -gnatis -gnatec=/tmp/GPR.54021/GNAT-TEMP-000003.TMP -gnatem=/tmp/GPR.54021/GNAT-TEMP-000004.TMP -mtune=generic -march=x86-64"
 .LASF5:
 	.string	"big_reals"
 	.section	.debug_line_str,"MS",@progbits,1

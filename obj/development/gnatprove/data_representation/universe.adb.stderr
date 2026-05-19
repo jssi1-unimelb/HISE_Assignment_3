@@ -1,1 +1,5 @@
-universe.ads:30:01: (style) multiple blank lines [-gnatyu]
+universe.adb:29:09: (style) bad casing of "item_count" declared at universe.ads:108 [-gnatyr]
+universe.adb:29:25: (style) bad casing of "item_count" declared at universe.ads:108 [-gnatyr]
+universe.adb:30:18: (style) bad casing of "item_count" declared at universe.ads:108 [-gnatyr]
+universe.adb:38:19: (style) bad casing of "item_count" declared at universe.ads:108 [-gnatyr]
+universe.ads:45:07: (style) space required [-gnatyt]
