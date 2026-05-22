@@ -66,18 +66,23 @@ is
       with Ghost;
    begin
       for I in 1 .. U.item_count loop
-         pragma
-           Loop_Invariant
-             (for all J in 1 .. I =>
-                Get_Position (U, J)
-                = Spatial.To_Position
-                    (Vector.Add
-                       (Spatial.To_Vector (Get_Position (U_Old, J)),
-                        Spatial.Vel_To_Vector (Get_Velocity (U_Old, J)))));
-         pragma
-           Loop_Invariant
-             (for all J in 1 .. I =>
-                Get_Position (U, J) = Get_Position (U_Old, J));
+         --  Task 3: processed items have moved; unprocessed items are still
+         --  equal to the old universe. This proves Tick's postcondition.
+         pragma Loop_Invariant (Item_Count (U) = Item_Count (U_Old)); -- T3
+         pragma -- T3
+           Loop_Invariant -- T3
+             (for all J in 1 .. I - 1 => -- T3
+                Get_Position (U, J) -- T3
+                = Spatial.Move (Get_Position (U_Old, J), -- T3
+                                Get_Velocity (U_Old, J)) -- T3
+                and then Get_Velocity (U, J) = Get_Velocity (U_Old, J) -- T3
+                and then Get_Radius (U, J) = Get_Radius (U_Old, J)); -- T3
+         pragma -- T3
+           Loop_Invariant -- T3
+             (for all J in I .. Item_Count (U) => -- T3
+                Get_Position (U, J) = Get_Position (U_Old, J) -- T3
+                and then Get_Velocity (U, J) = Get_Velocity (U_Old, J) -- T3
+                and then Get_Radius (U, J) = Get_Radius (U_Old, J)); -- T3
 
          U.items (I).pos := Spatial.Move (U.items (I).pos, U.items (I).vel);
       end loop;
