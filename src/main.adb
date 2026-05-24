@@ -23,6 +23,21 @@
 --  Pre  => Item_Count (U) < Max_Items;
 --  Ensures the number of items in the universe does not exceed the max number
 --  of items
+--
+--------------------------------------------------------------------------------
+--  Task 7: Reflection
+--
+--  Our proof shows that if the simulation continues past the collision check,
+--  then the two objects are safely separated on the current frame. In other
+--  words, the proof establishes safety for every frame that is actually shown:
+--  Squared_Dist (U, 1, 2) is greater than Pair_Sep2 (1, 2). However, it does
+--  not prove that every early stop means a collision would definitely have
+--  happened if the simulation kept running. The collision check looks at the
+--  current straight-line trajectories after the most recent bounce. It is
+--  possible that a later wall bounce might change one object's velocity before
+--  the two objects actually reach each other. So the check is conservative:
+--  it may stop early to stay safe. In other words, some warnings may be false
+--  alarms. 
 
 with Universe;
 with Spatial;
