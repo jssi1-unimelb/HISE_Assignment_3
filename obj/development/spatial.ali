@@ -74,7 +74,7 @@ D a-tags.ads		20250425081800 fbca0ad5 ada.tags%s
 D a-unccon.ads		20250425081800 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20250425081800 9111f9c1 interfaces%s
 D i-c.ads		20250425081800 e94c966a interfaces.c%s
-D spatial.ads		20260519014937 01ce2b0a spatial%s
+D spatial.ads		20260524113638 01ce2b0a spatial%s
 D system.ads		20250425081800 14286b0f system%s
 D s-assert.ads		20250425081800 9c4520c7 system.assertions%s
 D s-exctab.ads		20250425081800 91bef6ef system.exception_table%s
@@ -93,7 +93,7 @@ D s-stoele.ads		20250425081800 ccded4e8 system.storage_elements%s
 D s-stratt.ads		20250425081800 516607ae system.stream_attributes%s
 D s-traent.ads		20250425081800 c81cbf8c system.traceback_entries%s
 D s-unstyp.ads		20250425081800 fa2a7f59 system.unsigned_types%s
-D vector.ads		20260519014937 1ec89a95 vector%s
+D vector.ads		20260524113638 1ec89a95 vector%s
 G a e
 G c Z s s [pos_x spatial 10 13 none]
 G c Z s s [pos_y spatial 11 13 none]

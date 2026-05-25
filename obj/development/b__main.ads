@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#28960809#;
+   u00001 : constant Version_32 := 16#d1a937b8#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#b2cfab41#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -418,24 +418,28 @@ package ada_main is
    pragma Export (C, u00188, "system__stream_attributes__xdrB");
    u00189 : constant Version_32 := 16#e4218e58#;
    pragma Export (C, u00189, "system__stream_attributes__xdrS");
-   u00190 : constant Version_32 := 16#e21629df#;
-   pragma Export (C, u00190, "displayB");
-   u00191 : constant Version_32 := 16#3b995ec7#;
-   pragma Export (C, u00191, "displayS");
-   u00192 : constant Version_32 := 16#20f07383#;
-   pragma Export (C, u00192, "spatialS");
-   u00193 : constant Version_32 := 16#1a8e38c8#;
-   pragma Export (C, u00193, "vectorB");
-   u00194 : constant Version_32 := 16#213e5889#;
-   pragma Export (C, u00194, "vectorS");
-   u00195 : constant Version_32 := 16#be33ff8d#;
-   pragma Export (C, u00195, "universeB");
-   u00196 : constant Version_32 := 16#d5a08c9f#;
-   pragma Export (C, u00196, "universeS");
-   u00197 : constant Version_32 := 16#0ddbd91f#;
-   pragma Export (C, u00197, "system__memoryB");
-   u00198 : constant Version_32 := 16#0cbcf715#;
-   pragma Export (C, u00198, "system__memoryS");
+   u00190 : constant Version_32 := 16#712c1a9f#;
+   pragma Export (C, u00190, "collision_mathB");
+   u00191 : constant Version_32 := 16#b41f1381#;
+   pragma Export (C, u00191, "collision_mathS");
+   u00192 : constant Version_32 := 16#1a8e38c8#;
+   pragma Export (C, u00192, "vectorB");
+   u00193 : constant Version_32 := 16#213e5889#;
+   pragma Export (C, u00193, "vectorS");
+   u00194 : constant Version_32 := 16#e21629df#;
+   pragma Export (C, u00194, "displayB");
+   u00195 : constant Version_32 := 16#02a0b07b#;
+   pragma Export (C, u00195, "displayS");
+   u00196 : constant Version_32 := 16#20f07383#;
+   pragma Export (C, u00196, "spatialS");
+   u00197 : constant Version_32 := 16#1732d186#;
+   pragma Export (C, u00197, "universeB");
+   u00198 : constant Version_32 := 16#ec996223#;
+   pragma Export (C, u00198, "universeS");
+   u00199 : constant Version_32 := 16#0ddbd91f#;
+   pragma Export (C, u00199, "system__memoryB");
+   u00200 : constant Version_32 := 16#0cbcf715#;
+   pragma Export (C, u00200, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -630,6 +634,8 @@ package ada_main is
    --  ada.float_text_io%b
    --  vector%s
    --  vector%b
+   --  collision_math%s
+   --  collision_math%b
    --  spatial%s
    --  universe%s
    --  universe%b

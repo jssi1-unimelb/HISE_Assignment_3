@@ -46,14 +46,14 @@ RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 
-U universe%b		universe.adb		be33ff8d OO PK GE
+U universe%b		universe.adb		edbbe4fa OO PK GE
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 Z universe%s		universe.adb		universe.ali
 
-U universe%s		universe.ads		d5a08c9f BN OO PK GE
+U universe%s		universe.ads		ec996223 BN OO PK GE
 W ada%s			ada.ads			ada.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
@@ -61,33 +61,33 @@ W ada.numerics.big_numbers.big_reals%s  a-nbnbre.adb  a-nbnbre.ali
 W spatial%s		spatial.ads		spatial.ali
 W vector%s		vector.adb		vector.ali
 
-D ada.ads		20260519015838 76789da1 ada%s
-D a-finali.ads		20260519015838 bf4f806b ada.finalization%s
-D a-inteio.ads		20260519015838 f64b89a4 ada.integer_text_io%s
-D a-ioexce.ads		20260519015838 40018c65 ada.io_exceptions%s
-D a-numeri.ads		20260519015838 84bea7a3 ada.numerics%s
-D a-nubinu.ads		20260519015838 93f1f3d1 ada.numerics.big_numbers%s
-D a-nbnbin.ads		20260519015838 b754d391 ada.numerics.big_numbers.big_integers%s
-D a-nbnbre.ads		20260519015838 3ff6c21c ada.numerics.big_numbers.big_reals%s
-D a-stream.ads		20260519015838 17477cbd ada.streams%s
-D a-string.ads		20260519015838 90ac6797 ada.strings%s
-D a-sttebu.ads		20260519015838 f1ad67a2 ada.strings.text_buffers%s
-D a-stuten.ads		20260519015838 c6ced0ae ada.strings.utf_encoding%s
-D a-textio.ads		20260519015838 34ef47de ada.text_io%s
-D a-tiinio.ads		20260519015838 76699c8f ada.text_io.integer_io%s
-D a-unccon.ads		20260519015838 0e9b276f ada.unchecked_conversion%s
-D interfac.ads		20260519015838 9111f9c1 interfaces%s
-D i-cstrea.ads		20260519015838 ffd01b9d interfaces.c_streams%s
-D spatial.ads		20260519014937 01ce2b0a spatial%s
-D system.ads		20260519015838 14286b0f system%s
-D s-crtl.ads		20260519015838 beb39b9e system.crtl%s
-D s-ficobl.ads		20260519015838 dc5161d4 system.file_control_block%s
-D s-finroo.ads		20260519015838 0a7c3ed4 system.finalization_root%s
-D s-parame.ads		20260519015838 3597fc11 system.parameters%s
-D s-wchcon.ads		20260519015838 d9032363 system.wch_con%s
-D universe.ads		20260519084327 f550ff1c universe%s
-D universe.adb		20260519102710 89c7ceeb universe%b
-D vector.ads		20260519014937 1ec89a95 vector%s
+D ada.ads		20260504095215 76789da1 ada%s
+D a-finali.ads		20260504095214 bf4f806b ada.finalization%s
+D a-inteio.ads		20260504095214 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20260504095214 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20260504095214 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20260504095214 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbin.ads		20260504095214 b754d391 ada.numerics.big_numbers.big_integers%s
+D a-nbnbre.ads		20260504095214 3ff6c21c ada.numerics.big_numbers.big_reals%s
+D a-stream.ads		20260504095214 17477cbd ada.streams%s
+D a-string.ads		20260504095214 90ac6797 ada.strings%s
+D a-sttebu.ads		20260504095214 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260504095214 c6ced0ae ada.strings.utf_encoding%s
+D a-textio.ads		20260504095215 34ef47de ada.text_io%s
+D a-tiinio.ads		20260504095215 76699c8f ada.text_io.integer_io%s
+D a-unccon.ads		20260504095215 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260504095215 9111f9c1 interfaces%s
+D i-cstrea.ads		20260504095215 ffd01b9d interfaces.c_streams%s
+D spatial.ads		20260524113638 01ce2b0a spatial%s
+D system.ads		20260504095215 14286b0f system%s
+D s-crtl.ads		20260504095215 beb39b9e system.crtl%s
+D s-ficobl.ads		20260504095215 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20260504095215 0a7c3ed4 system.finalization_root%s
+D s-parame.ads		20260504095215 3597fc11 system.parameters%s
+D s-wchcon.ads		20260504095215 d9032363 system.wch_con%s
+D universe.ads		20260524113638 cc6911a0 universe%s
+D universe.adb		20260525091913 e3763b20 universe%b
+D vector.ads		20260524113638 1ec89a95 vector%s
 G a Z
 X 1 ada.ads
 18K9*Ada 22e8 25|1r6 2r5 26|1r6 2r6 53r10 54r10 55r10 56r10 57r10 58r10 59r10
@@ -101,102 +101,101 @@ X 6 a-nubinu.ads
 19K22*Big_Numbers 30e29 25|1r19 2r18
 X 8 a-nbnbre.ads
 20K34*Big_Reals 181e39 25|1w31 2r30
-25R9*Big_Real 179e14 25|28r63 38r13 50r13 101r13 122r63 26|14r18 25r13 37r13
-69V14*"="{boolean} 25|73s40 89s40
+25R9*Big_Real 179e14 25|28r63 38r13 60r13 116r13 137r63 26|14r18 25r13 37r13
+69V14*"="{boolean} 25|48s48 53s40 75s40 88s40 104s40
 117V13*To_String{string} 26|56s27 58s27
 X 13 a-textio.ads
 58K13*Text_IO 785e16 26|1w10 53r14 55r14 56r14 57r14 58r14 59r14 60r14
 284U14*New_Line 26|60s22
 515U14*Put 26|53s22 55s22 56s22 57s22 58s22 59s22
 X 18 spatial.ads
-5K9*Spatial 59e12 25|3w6 12r13 13r13 21r45 25r45 36r13 37r13 48r13 49r13
-. 60r15 69r12 85r12 99r13 100r13 115r45 119r45 26|10r18 11r9 12r18 13r9 23r13
-. 24r13 35r13 36r13 42r30 47r30 56r38 58r38 73r19 75r25 76r25 82r29
-7R9*Position<27|7R9> 25|12r21 21r53 36r21 48r21 99r21 115r53 26|10r26 23r21
+5K9*Spatial 59e12 25|3w6 12r13 13r13 21r45 25r45 36r13 37r13 58r13 59r13
+. 72r15 84r12 100r12 114r13 115r13 130r45 134r45 26|10r18 11r9 12r18 13r9
+. 23r13 24r13 35r13 36r13 42r30 47r30 56r38 58r38 87r29
+7R9*Position<27|7R9> 25|12r21 21r53 36r21 58r21 114r21 130r53 26|10r26 23r21
 . 35r21
-8R9*Velocity<27|7R9> 25|13r21 25r53 37r21 49r21 100r21 119r53 26|12r26 24r21
+8R9*Velocity<27|7R9> 25|13r21 25r53 37r21 59r21 115r21 134r53 26|12r26 24r21
 . 36r21
 10V13*Pos_X{8|25R9} 26|56s46
 11V13*Pos_Y{8|25R9} 26|58s46
-13V13*To_Position{7R9} 26|11s17 73s27
+13V13*To_Position{7R9} 26|11s17
 14V13*To_Velocity{8R9} 26|13s17
-16V13*To_Vector{27|7R9} 26|75s33
-17V13*Vel_To_Vector{27|7R9} 26|76s33
-19V13*Move{7R9} 25|60s23 26|82s37
-21V13*Negate_Vel_X{8R9} 25|69s20 26|42s38
-23V13*Negate_Vel_Y{8R9} 25|85s20 26|47s38
+19V13*Move{7R9} 25|72s23 26|87s37
+21V13*Negate_Vel_X{8R9} 25|84s20 26|42s38
+23V13*Negate_Vel_Y{8R9} 25|100s20 26|47s38
 X 25 universe.ads
-7i4 Max_Items{positive} 40r37 51r46 104r48 108r39
-9k9*Universe 7z4 125l5 125e13 26|5b14 85l5 85t13
-16R9*Universe 18r29 21r11 25r11 28r29 31r28 35r20 47r13 53r31 62r45 78r45
-. 94r25 106c9 109e14 111r29 115r11 119r11 122r29 26|9r28 22r20 34r13 40r45
+7i4 Max_Items{positive} 42r37 61r46 119r48 123r39
+9k9*Universe 7z4 140l5 140e13 26|5b14 90l5 90t13
+16R9*Universe 18r29 21r11 25r11 28r29 31r28 35r20 57r13 63r31 77r45 93r45
+. 109r25 121c9 124e14 126r29 130r11 134r11 137r29 26|9r28 22r20 34r13 40r45
 . 45r45 50r25 64r31 65r15
-18V13*Item_Count{integer} 18>25 22s45 26s45 29s45 32s17 40s14 42s8 42s25
-. 51s23 56s8 56s25 58s29 64s43 66s8 66s25 71s29 80s43 82s8 82s25 87s29 111b13
-18r25 U{16R9} 112r8
-20V13*Get_Position{18|7R9} 21>7 21>21 59s13 60s29 72s13 72s35 88s13 88s35
-. 114b13 26|72s17 75s44 80s17 80s39
-21r7 U{16R9} 22r57 116r8
-21i21 Index{integer} 22r16 22r36 116r17
-24V13*Get_Velocity{18|8R9} 25>7 25>21 60s50 68s10 69s34 76s21 76s43 84s10
-. 85s34 92s21 92s43 118b13 26|42s52 47s52 76s48
-25r7 U{16R9} 26r57 120r8
-25i21 Index{integer} 26r16 26r36 120r17
-28V13*Get_Radius{8|25R9} 28>25 28>39 73s22 73s42 89s22 89s42 122b13
-28r25 U{16R9} 29r57 123r8
-28i39 Index{integer} 29r16 29r36 123r17
+18V13*Item_Count{integer} 18>25 22s45 26s45 29s45 32s17 42s14 44s8 44s25
+. 46s34 47s34 48s32 50s29 61s23 68s8 68s25 70s29 79s43 81s8 81s25 86s29 95s43
+. 97s8 97s25 102s29 126b13
+18r25 U{16R9} 127r8
+20V13*Get_Position{18|7R9} 21>7 21>21 46s17 51s13 51s35 71s13 73s18 87s13
+. 87s35 103s13 103s35 129b13
+21r7 U{16R9} 22r57 131r8
+21i21 Index{integer} 22r16 22r36 131r17
+24V13*Get_Velocity{18|8R9} 25>7 25>21 47s17 52s22 52s44 73s43 74s22 74s44
+. 83s10 84s34 91s21 91s43 99s10 100s34 107s21 107s43 133b13 26|42s52 47s52
+25r7 U{16R9} 26r57 135r8
+25i21 Index{integer} 26r16 26r36 135r17
+28V13*Get_Radius{8|25R9} 28>25 28>39 48s17 53s22 53s42 75s22 75s42 88s22
+. 88s42 104s22 104s42 137b13
+28r25 U{16R9} 29r57 138r8
+28i39 Index{integer} 29r16 29r36 138r17
 31U14*Init 31<20 26|9b14 19l8 19t12
 31r20 U{16R9} 32r29 26|9b20 16m7 18m7
 34U14*Add_Item 35=7 36>7 37>7 38>7 26|21b14 31l8 31t16
-35r7 U{16R9} 40r26 42r20 42r37 43r33 26|22b7 29m7 29r23 30m7 30r16
-36r7 pos{18|7R9} 43r36 26|23b7 27r36
-37r7 vel{18|8R9} 43r41 26|24b7 27r41
-38r7 rad{8|25R9} 43r46 26|25b7 27r46
-46V13*Item_Was_Added{boolean} 43s17 47>7 48>7 49>7 50>7 26|33b13
-47r7 U{16R9} 51r35 26|38r8 38r17
-48r7 pos{18|7R9} 26|38r41
-49r7 vel{18|8R9} 26|38r53
-50r7 rad{8|25R9} 26|38r65
-53U14*Tick 53=20 26|64b14 84l8 84t12
-53r20 U{16R9} 56r20 56r37 58r41 59r27 60r43 60r64 26|64b20 65r27 68r21 72r31
-. 80r31 82m10 82r43 82r60
-58i19 I{integer} 59r30 60r46 60r67
-62U14*Reflect_Velocity_X 62=34 62>55 26|40b14 43l8 43t26
-62r34 U{16R9} 64r55 66r20 66r37 68r24 69r48 71r41 72r27 72r49 73r34 73r54
-. 76r35 76r57 26|40b34 42m7 42r66
-62i55 Index{integer} 64r14 64r34 68r27 69r55 75r24 26|40b55 42r16 42r69
-71i19 I{integer} 72r30 72r56 73r37 73r61 75r19 76r38 76r64
-78U14*Reflect_Velocity_Y 78=34 78>55 26|45b14 48l8 48t26
-78r34 U{16R9} 80r55 82r20 82r37 84r24 85r48 87r41 88r27 88r49 89r34 89r54
-. 92r35 92r57 26|45b34 47m7 47r66
-78i55 Index{integer} 80r14 80r34 84r27 85r55 91r24 26|45b55 47r16 47r69
-87i19 I{integer} 88r30 88r56 89r37 89r61 91r19 92r38 92r64
-94U14*Print 94>21 26|50b14 62l8 62t13
-94r21 U{16R9} 26|50b21 52r16 52r33 56r53 58r53
-98R9 Universe_Item 102e14 104r62 26|27r18
-99r7 pos{18|7R9} 116r24 26|17m21 38m34 56r65 58r65 82m22 82r55
-100r7 vel{18|8R9} 120r24 26|17m38 38m46 42m23 47m23 82r72
-101r7 rad{8|25R9} 123r24 26|17m55 38m58
-104A9 ItemArray(98R9)<integer> 107r20
-107a7 items{104A9} 116r10 120r10 123r10 26|16m9 30m9 38r10 42m9 47m9 52r18
-. 56r55 58r55 82m12 82r45 82r62
-108i7 item_count{integer} 112r10 26|18m9 29m9 29r25 30r18 38r19 52r35 68r23
+35r7 U{16R9} 42r26 44r20 44r37 45r33 46r31 46r46 47r31 47r46 48r29 48r44
+. 50r41 51r27 51r49 52r36 52r58 53r34 53r54 26|22b7 29m7 29r23 30m7 30r16
+36r7 pos{18|7R9} 45r36 46r52 26|23b7 27r36
+37r7 vel{18|8R9} 45r41 47r52 26|24b7 27r41
+38r7 rad{8|25R9} 45r46 48r50 26|25b7 27r46
+50i19 I{integer} 51r30 51r56 52r39 52r65 53r37 53r61
+56V13*Item_Was_Added{boolean} 45s17 57>7 58>7 59>7 60>7 26|33b13
+57r7 U{16R9} 61r35 26|38r8 38r17
+58r7 pos{18|7R9} 26|38r41
+59r7 vel{18|8R9} 26|38r53
+60r7 rad{8|25R9} 26|38r65
+63U14*Tick 63=20 26|64b14 89l8 89t12
+63r20 U{16R9} 68r20 68r37 70r41 71r27 73r32 73r57 74r36 74r58 75r34 75r54
+. 26|64b20 65r27 68r21 87m10 87r43 87r60
+70i19 I{integer} 71r30 73r39 73r64 74r39 74r65 75r37 75r61
+77U14*Reflect_Velocity_X 77=34 77>55 26|40b14 43l8 43t26
+77r34 U{16R9} 79r55 81r20 81r37 83r24 84r48 86r41 87r27 87r49 88r34 88r54
+. 91r35 91r57 26|40b34 42m7 42r66
+77i55 Index{integer} 79r14 79r34 83r27 84r55 90r24 26|40b55 42r16 42r69
+86i19 I{integer} 87r30 87r56 88r37 88r61 90r19 91r38 91r64
+93U14*Reflect_Velocity_Y 93=34 93>55 26|45b14 48l8 48t26
+93r34 U{16R9} 95r55 97r20 97r37 99r24 100r48 102r41 103r27 103r49 104r34
+. 104r54 107r35 107r57 26|45b34 47m7 47r66
+93i55 Index{integer} 95r14 95r34 99r27 100r55 106r24 26|45b55 47r16 47r69
+102i19 I{integer} 103r30 103r56 104r37 104r61 106r19 107r38 107r64
+109U14*Print 109>21 26|50b14 62l8 62t13
+109r21 U{16R9} 26|50b21 52r16 52r33 56r53 58r53
+113R9 Universe_Item 117e14 119r62 26|27r18
+114r7 pos{18|7R9} 131r24 26|17m21 38m34 56r65 58r65 87m22 87r55
+115r7 vel{18|8R9} 135r24 26|17m38 38m46 42m23 47m23 87r72
+116r7 rad{8|25R9} 138r24 26|17m55 38m58
+119A9 ItemArray(113R9)<integer> 122r20
+122a7 items{119A9} 131r10 135r10 138r10 26|16m9 30m9 38r10 42m9 47m9 52r18
+. 56r55 58r55 87m12 87r45 87r62
+123i7 item_count{integer} 127r10 26|18m9 29m9 29r25 30r18 38r19 52r35 68r23
 X 26 universe.adb
 10r7 init_pos{18|7R9} 17r28
 12r7 init_vel{18|8R9} 17r45
 14r7 init_rad{8|25R9} 17r62
-27r7 new_item{25|98R9} 30r33
+27r7 new_item{25|113R9} 30r33
 52i11 I{integer} 54r35 56r62 58r62
-65r7 U_Old{25|16R9} 75r58 76r62 80r53
-68i11 I{integer} 71r33 79r33 82r19 82r52 82r69
-71i23 J{integer} 72r34 75r65 76r69
-79i23 J{integer} 80r34 80r60
+65r7 U_Old{25|16R9}
+68i11 I{integer} 87r19 87r52 87r69
 X 27 vector.ads
-4K9*Vector 25|4w6 14r13 26|74r22 27|26e11
+4K9*Vector 25|4w6 14r13 27|26e11
 7R9*Vector 25|14r20 27|10e14
 8r7*X{8|25R9} 26|11m31 13m31
 9r7*Y{8|25R9} 26|11m41 13m41
-12V13*Add{7R9} 26|74s29
 
 QQ SPARKVERSION FSF 15.0
 GG EK_END_MARKER

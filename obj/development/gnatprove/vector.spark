@@ -69,7 +69,7 @@
   "stop_reason": "STOP_REASON_NONE",
   "timings": {
     " 1": {
-      "gnat2why.vc_generation": 1.49399996735156E-03
+      "gnat2why.vc_generation": 2.14100000448525E-03
     },
     " 2": {
       "gnat2why.vc_generation": 1.99999999495049E-06
@@ -78,19 +78,19 @@
       "gnat2why.vc_generation": 1.99999999495049E-06
     },
     " 4": {
-      "gnat2why.vc_generation": 9.99999997475243E-07
+      "gnat2why.vc_generation": 1.99999999495049E-06
     },
     " 5": {
       "gnat2why.vc_generation": 9.99999997475243E-07
     },
     "global": {
-      "flow analysis": 3.79999983124435E-05,
-      "globals (advanced)": 2.25840006023645E-02,
-      "globals (basic)": 2.42740008980036E-02,
-      "init_why_sections": 3.57000011717901E-04,
-      "marking": 1.07720000669360E-02,
-      "properties (advanced)": 2.49999993684469E-05,
-      "translation of standard": 1.15000002551824E-03
+      "flow analysis": 5.40000000910368E-05,
+      "globals (advanced)": 4.14480008184910E-02,
+      "globals (basic)": 4.44569997489452E-02,
+      "init_why_sections": 6.07000023592263E-04,
+      "marking": 2.30229999870062E-02,
+      "properties (advanced)": 3.30000002577435E-05,
+      "translation of standard": 1.99200003407896E-03
     }
   }
 }

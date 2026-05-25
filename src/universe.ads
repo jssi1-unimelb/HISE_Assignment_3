@@ -39,16 +39,18 @@ is
    with
      --  Task 3: allow adding the first item after Init, and state exactly
      --  which item is appended while all existing items stay unchanged.
-     Pre  => Item_Count (U) in 0 .. Max_Items - 1, -- T3
+     Pre  => Item_Count (U) < Max_Items, -- T3
      Post => -- T3
-       Item_Count (U) = Item_Count (U'Old) + 1 -- T3
+       Item_Count (U)
+       = Item_Count (U'Old) + 1 -- T3
        and then Item_Was_Added (U, pos, vel, rad) -- T3
        and then Get_Position (U, Item_Count (U)) = pos -- T3
        and then Get_Velocity (U, Item_Count (U)) = vel -- T3
        and then Get_Radius (U, Item_Count (U)) = rad -- T3
        and then -- T3
          (for all I in 1 .. Item_Count (U'Old) => -- T3
-            Get_Position (U, I) = Get_Position (U'Old, I) -- T3
+            Get_Position (U, I)
+            = Get_Position (U'Old, I) -- T3
             and then Get_Velocity (U, I) = Get_Velocity (U'Old, I) -- T3
             and then Get_Radius (U, I) = Get_Radius (U'Old, I)); -- T3
 

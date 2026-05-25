@@ -34,9 +34,10 @@ package body ada_main is
    E131 : Short_Integer; pragma Import (Ada, E131, "system__file_io_E");
    E105 : Short_Integer; pragma Import (Ada, E105, "ada__text_io_E");
    E180 : Short_Integer; pragma Import (Ada, E180, "ada__numerics__big_numbers__big_integers_E");
-   E194 : Short_Integer; pragma Import (Ada, E194, "vector_E");
-   E196 : Short_Integer; pragma Import (Ada, E196, "universe_E");
-   E191 : Short_Integer; pragma Import (Ada, E191, "display_E");
+   E193 : Short_Integer; pragma Import (Ada, E193, "vector_E");
+   E191 : Short_Integer; pragma Import (Ada, E191, "collision_math_E");
+   E198 : Short_Integer; pragma Import (Ada, E198, "universe_E");
+   E195 : Short_Integer; pragma Import (Ada, E195, "display_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -233,9 +234,10 @@ package body ada_main is
       E105 := E105 + 1;
       Ada.Numerics.Big_Numbers.Big_Integers'Elab_Spec;
       E180 := E180 + 1;
-      E194 := E194 + 1;
-      E196 := E196 + 1;
+      E193 := E193 + 1;
       E191 := E191 + 1;
+      E198 := E198 + 1;
+      E195 := E195 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -274,6 +276,7 @@ package body ada_main is
 
 --  BEGIN Object file/option list
    --   /workspaces/HISE_Assignment_3/obj/development/vector.o
+   --   /workspaces/HISE_Assignment_3/obj/development/collision_math.o
    --   /workspaces/HISE_Assignment_3/obj/development/spatial.o
    --   /workspaces/HISE_Assignment_3/obj/development/universe.o
    --   /workspaces/HISE_Assignment_3/obj/development/display.o

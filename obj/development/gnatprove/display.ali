@@ -57,41 +57,41 @@ W ada.text_io%s		a-textio.adb		a-textio.ali
 W spatial%s		spatial.ads		spatial.ali
 W vector%s		vector.adb		vector.ali
 
-U display%s		display.ads		3b995ec7 BN OO PK GE
+U display%s		display.ads		02a0b07b BN OO PK GE
 W ada%s			ada.ads			ada.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
 W ada.numerics.big_numbers.big_reals%s  a-nbnbre.adb  a-nbnbre.ali
 W universe%s		universe.adb		universe.ali
 
-D ada.ads		20260519015838 76789da1 ada%s
-D a-finali.ads		20260519015838 bf4f806b ada.finalization%s
-D a-flteio.ads		20260519015838 e18a47a0 ada.float_text_io%s
-D a-ioexce.ads		20260519015838 40018c65 ada.io_exceptions%s
-D a-numeri.ads		20260519015838 84bea7a3 ada.numerics%s
-D a-nubinu.ads		20260519015838 93f1f3d1 ada.numerics.big_numbers%s
-D a-nbnbin.ads		20260519015838 b754d391 ada.numerics.big_numbers.big_integers%s
-D a-nbnbre.ads		20260519015838 3ff6c21c ada.numerics.big_numbers.big_reals%s
-D a-stream.ads		20260519015838 17477cbd ada.streams%s
-D a-string.ads		20260519015838 90ac6797 ada.strings%s
-D a-sttebu.ads		20260519015838 f1ad67a2 ada.strings.text_buffers%s
-D a-stuten.ads		20260519015838 c6ced0ae ada.strings.utf_encoding%s
-D a-textio.ads		20260519015838 34ef47de ada.text_io%s
-D a-tiflio.ads		20260519015838 48a0360d ada.text_io.float_io%s
-D a-unccon.ads		20260519015838 0e9b276f ada.unchecked_conversion%s
-D display.ads		20260519014937 f13f63c7 display%s
-D display.adb		20260519014937 d94afbf9 display%b
-D interfac.ads		20260519015838 9111f9c1 interfaces%s
-D i-cstrea.ads		20260519015838 ffd01b9d interfaces.c_streams%s
-D spatial.ads		20260519014937 01ce2b0a spatial%s
-D system.ads		20260519015838 14286b0f system%s
-D s-crtl.ads		20260519015838 beb39b9e system.crtl%s
-D s-ficobl.ads		20260519015838 dc5161d4 system.file_control_block%s
-D s-finroo.ads		20260519015838 0a7c3ed4 system.finalization_root%s
-D s-parame.ads		20260519015838 3597fc11 system.parameters%s
-D s-wchcon.ads		20260519015838 d9032363 system.wch_con%s
-D universe.ads		20260519084327 f550ff1c universe%s
-D vector.ads		20260519014937 1ec89a95 vector%s
+D ada.ads		20260504095215 76789da1 ada%s
+D a-finali.ads		20260504095214 bf4f806b ada.finalization%s
+D a-flteio.ads		20260504095214 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20260504095214 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20260504095214 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20260504095214 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbin.ads		20260504095214 b754d391 ada.numerics.big_numbers.big_integers%s
+D a-nbnbre.ads		20260504095214 3ff6c21c ada.numerics.big_numbers.big_reals%s
+D a-stream.ads		20260504095214 17477cbd ada.streams%s
+D a-string.ads		20260504095214 90ac6797 ada.strings%s
+D a-sttebu.ads		20260504095214 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260504095214 c6ced0ae ada.strings.utf_encoding%s
+D a-textio.ads		20260504095215 34ef47de ada.text_io%s
+D a-tiflio.ads		20260504095215 48a0360d ada.text_io.float_io%s
+D a-unccon.ads		20260504095215 0e9b276f ada.unchecked_conversion%s
+D display.ads		20260524113638 f13f63c7 display%s
+D display.adb		20260524113638 d94afbf9 display%b
+D interfac.ads		20260504095215 9111f9c1 interfaces%s
+D i-cstrea.ads		20260504095215 ffd01b9d interfaces.c_streams%s
+D spatial.ads		20260524113638 01ce2b0a spatial%s
+D system.ads		20260504095215 14286b0f system%s
+D s-crtl.ads		20260504095215 beb39b9e system.crtl%s
+D s-ficobl.ads		20260504095215 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20260504095215 0a7c3ed4 system.finalization_root%s
+D s-parame.ads		20260504095215 3597fc11 system.parameters%s
+D s-wchcon.ads		20260504095215 d9032363 system.wch_con%s
+D universe.ads		20260524113638 cc6911a0 universe%s
+D vector.ads		20260524113638 1ec89a95 vector%s
 G a Z
 X 1 ada.ads
 18K9*Ada 22e8 16|2r6 3r5 17|1r6 2r6 63r32 65r7 73r11
@@ -105,7 +105,7 @@ X 6 a-nubinu.ads
 X 8 a-nbnbre.ads
 20K34*Big_Reals 181e39 16|2w31 3r30
 25R9*Big_Real 179e14 16|18r34 17|29r27 71r34
-69V14*"="{boolean} 16|73s40 89s40
+69V14*"="{boolean} 16|48s48 53s40 75s40 88s40 104s40
 117V13*To_String{string} 17|30s30
 X 13 a-textio.ads
 58K13*Text_IO 785e16 17|1w10 63r36 73r15
@@ -140,50 +140,58 @@ X 16 display.ads
 17r20 Arena_X_Max{8|25R9} 17|70b20 76r43
 18r7 Arena_Y_Min{8|25R9} 17|71b7 77r43
 18r20 Arena_Y_Max{8|25R9} 17|71b20 78r43
-7i4 Max_Items{positive} 40r37[6] 51r46[6] 104r48[6] 108r39[6] 17|17r38[16|6]
+7i4 Max_Items{positive} 42r37[6] 61r46[6] 119r48[6] 123r39[6] 17|17r38[16|6]
 . 47r28[16|6]
 16R9 Universe 10r32[6] 18r29[6] 21r11[6] 25r11[6] 28r29[6] 31r28[6] 35r20[6]
-. 47r13[6] 53r31[6] 62r45[6] 78r45[6] 94r25[6] 109e14[6] 111r29[6] 115r11[6]
-. 119r11[6] 122r29[6] 17|35r32[16|6]
-18V13 Item_Count{integer} 22s45[6] 26s45[6] 29s45[6] 32s17[6] 40s14[6] 42s8[6]
-. 42s25[6] 51s23[6] 56s8[6] 56s25[6] 58s29[6] 64s43[6] 66s8[6] 66s25[6] 71s29[6]
-. 80s43[6] 82s8[6] 82s25[6] 87s29[6] 17|46s26[16|6]
-18r25 U{27|16R9[6]} 112r8[6]
-20V13 Get_Position{20|7R9} 59s13[6] 60s29[6] 72s13[6] 72s35[6] 88s13[6] 88s35[6]
-. 17|48s25[16|6]
-21r7 U{27|16R9[6]} 22r57[6] 116r8[6]
-21i21 Index{integer} 22r16[6] 22r36[6] 116r17[6]
-24V13 Get_Velocity{20|8R9} 60s50[6] 68s10[6] 69s34[6] 76s21[6] 76s43[6] 84s10[6]
-. 85s34[6] 92s21[6] 92s43[6] 17|49s48[16|6]
-25r7 U{27|16R9[6]} 26r57[6] 120r8[6]
-25i21 Index{integer} 26r16[6] 26r36[6] 120r17[6]
-28V13 Get_Radius{8|25R9} 73s22[6] 73s42[6] 89s22[6] 89s42[6] 17|55s36[16|6]
-28r25 U{27|16R9[6]} 29r57[6] 123r8[6]
-28i39 Index{integer} 29r16[6] 29r36[6] 123r17[6]
+. 57r13[6] 63r31[6] 77r45[6] 93r45[6] 109r25[6] 124e14[6] 126r29[6] 130r11[6]
+. 134r11[6] 137r29[6] 17|35r32[16|6]
+18V13 Item_Count{integer} 22s45[6] 26s45[6] 29s45[6] 32s17[6] 42s14[6] 44s8[6]
+. 44s25[6] 46s34[6] 47s34[6] 48s32[6] 50s29[6] 61s23[6] 68s8[6] 68s25[6]
+. 70s29[6] 79s43[6] 81s8[6] 81s25[6] 86s29[6] 95s43[6] 97s8[6] 97s25[6] 102s29[6]
+. 17|46s26[16|6]
+18r25 U{27|16R9[6]} 127r8[6]
+20V13 Get_Position{20|7R9} 46s17[6] 51s13[6] 51s35[6] 71s13[6] 73s18[6] 87s13[6]
+. 87s35[6] 103s13[6] 103s35[6] 17|48s25[16|6]
+21r7 U{27|16R9[6]} 22r57[6] 131r8[6]
+21i21 Index{integer} 22r16[6] 22r36[6] 131r17[6]
+24V13 Get_Velocity{20|8R9} 47s17[6] 52s22[6] 52s44[6] 73s43[6] 74s22[6] 74s44[6]
+. 83s10[6] 84s34[6] 91s21[6] 91s43[6] 99s10[6] 100s34[6] 107s21[6] 107s43[6]
+. 17|49s48[16|6]
+25r7 U{27|16R9[6]} 26r57[6] 135r8[6]
+25i21 Index{integer} 26r16[6] 26r36[6] 135r17[6]
+28V13 Get_Radius{8|25R9} 48s17[6] 53s22[6] 53s42[6] 75s22[6] 75s42[6] 88s22[6]
+. 88s42[6] 104s22[6] 104s42[6] 17|55s36[16|6]
+28r25 U{27|16R9[6]} 29r57[6] 138r8[6]
+28i39 Index{integer} 29r16[6] 29r36[6] 138r17[6]
 31r20 U{27|16R9[6]} 32r29[6]
-35r7 U{27|16R9[6]} 40r26[6] 42r20[6] 42r37[6] 43r33[6]
-36r7 pos{20|7R9} 43r36[6]
-37r7 vel{20|8R9} 43r41[6]
-38r7 rad{8|25R9} 43r46[6]
-46V13 Item_Was_Added{boolean} 43s17[6]
-47r7 U{27|16R9[6]} 51r35[6]
-53r20 U{27|16R9[6]} 56r20[6] 56r37[6] 58r41[6] 59r27[6] 60r43[6] 60r64[6]
-58i19 I{integer} 59r30[6] 60r46[6] 60r67[6]
-62r34 U{27|16R9[6]} 64r55[6] 66r20[6] 66r37[6] 68r24[6] 69r48[6] 71r41[6]
-. 72r27[6] 72r49[6] 73r34[6] 73r54[6] 76r35[6] 76r57[6]
-62i55 Index{integer} 64r14[6] 64r34[6] 68r27[6] 69r55[6] 75r24[6]
-71i19 I{integer} 72r30[6] 72r56[6] 73r37[6] 73r61[6] 75r19[6] 76r38[6] 76r64[6]
-78r34 U{27|16R9[6]} 80r55[6] 82r20[6] 82r37[6] 84r24[6] 85r48[6] 87r41[6]
-. 88r27[6] 88r49[6] 89r34[6] 89r54[6] 92r35[6] 92r57[6]
-78i55 Index{integer} 80r14[6] 80r34[6] 84r27[6] 85r55[6] 91r24[6]
-87i19 I{integer} 88r30[6] 88r56[6] 89r37[6] 89r61[6] 91r19[6] 92r38[6] 92r64[6]
-98R9 Universe_Item 102e14[6] 104r62[6]
-99r7 pos{20|7R9} 116r24[6]
-100r7 vel{20|8R9} 120r24[6]
-101r7 rad{8|25R9} 123r24[6]
-104A9 ItemArray(27|98R9[6])<integer> 107r20[6]
-107a7 items{27|104A9[6]} 116r10[6] 120r10[6] 123r10[6]
-108i7 item_count{integer} 112r10[6]
+35r7 U{27|16R9[6]} 42r26[6] 44r20[6] 44r37[6] 45r33[6] 46r31[6] 46r46[6]
+. 47r31[6] 47r46[6] 48r29[6] 48r44[6] 50r41[6] 51r27[6] 51r49[6] 52r36[6]
+. 52r58[6] 53r34[6] 53r54[6]
+36r7 pos{20|7R9} 45r36[6] 46r52[6]
+37r7 vel{20|8R9} 45r41[6] 47r52[6]
+38r7 rad{8|25R9} 45r46[6] 48r50[6]
+50i19 I{integer} 51r30[6] 51r56[6] 52r39[6] 52r65[6] 53r37[6] 53r61[6]
+56V13 Item_Was_Added{boolean} 45s17[6]
+57r7 U{27|16R9[6]} 61r35[6]
+63r20 U{27|16R9[6]} 68r20[6] 68r37[6] 70r41[6] 71r27[6] 73r32[6] 73r57[6]
+. 74r36[6] 74r58[6] 75r34[6] 75r54[6]
+70i19 I{integer} 71r30[6] 73r39[6] 73r64[6] 74r39[6] 74r65[6] 75r37[6] 75r61[6]
+77r34 U{27|16R9[6]} 79r55[6] 81r20[6] 81r37[6] 83r24[6] 84r48[6] 86r41[6]
+. 87r27[6] 87r49[6] 88r34[6] 88r54[6] 91r35[6] 91r57[6]
+77i55 Index{integer} 79r14[6] 79r34[6] 83r27[6] 84r55[6] 90r24[6]
+86i19 I{integer} 87r30[6] 87r56[6] 88r37[6] 88r61[6] 90r19[6] 91r38[6] 91r64[6]
+93r34 U{27|16R9[6]} 95r55[6] 97r20[6] 97r37[6] 99r24[6] 100r48[6] 102r41[6]
+. 103r27[6] 103r49[6] 104r34[6] 104r54[6] 107r35[6] 107r57[6]
+93i55 Index{integer} 95r14[6] 95r34[6] 99r27[6] 100r55[6] 106r24[6]
+102i19 I{integer} 103r30[6] 103r56[6] 104r37[6] 104r61[6] 106r19[6] 107r38[6]
+. 107r64[6]
+113R9 Universe_Item 117e14[6] 119r62[6]
+114r7 pos{20|7R9} 131r24[6]
+115r7 vel{20|8R9} 135r24[6]
+116r7 rad{8|25R9} 138r24[6]
+119A9 ItemArray(27|113R9[6])<integer> 122r20[6]
+122a7 items{27|119A9[6]} 131r10[6] 135r10[6] 138r10[6]
+123i7 item_count{integer} 127r10[6]
 X 17 display.adb
 8R9 World_Point 14e14 17r52
 9f7 X{float} 52m16 147r54
@@ -240,11 +248,11 @@ X 20 spatial.ads
 10V13*Pos_X{8|25R9} 17|52s39
 11V13*Pos_Y{8|25R9} 17|53s39
 17V13*Vel_To_Vector{28|7R9} 17|49s28
-19V13*Move{7R9} 16|60s23
-21V13*Negate_Vel_X{8R9} 16|69s20
-23V13*Negate_Vel_Y{8R9} 16|85s20
+19V13*Move{7R9} 16|72s23
+21V13*Negate_Vel_X{8R9} 16|84s20
+23V13*Negate_Vel_Y{8R9} 16|100s20
 X 27 universe.ads
-9k9*Universe 16|1w6 6r29 27|125e13
+9k9*Universe 16|1w6 6r29 27|140e13
 X 28 vector.ads
 4K9*Vector 17|3w6 37r13 28|26e11
 7R9*Vector 17|37r20 28|10e14

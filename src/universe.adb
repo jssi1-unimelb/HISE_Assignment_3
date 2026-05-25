@@ -73,14 +73,16 @@ is
            Loop_Invariant -- T3
              (for all J in 1 .. I - 1 => -- T3
                 Get_Position (U, J) -- T3
-                = Spatial.Move (Get_Position (U_Old, J), -- T3
-                                Get_Velocity (U_Old, J)) -- T3
+                = Spatial.Move
+                    (Get_Position (U_Old, J), -- T3
+                     Get_Velocity (U_Old, J)) -- T3
                 and then Get_Velocity (U, J) = Get_Velocity (U_Old, J) -- T3
                 and then Get_Radius (U, J) = Get_Radius (U_Old, J)); -- T3
          pragma -- T3
            Loop_Invariant -- T3
              (for all J in I .. Item_Count (U) => -- T3
-                Get_Position (U, J) = Get_Position (U_Old, J) -- T3
+                Get_Position (U, J)
+                = Get_Position (U_Old, J) -- T3
                 and then Get_Velocity (U, J) = Get_Velocity (U_Old, J) -- T3
                 and then Get_Radius (U, J) = Get_Radius (U_Old, J)); -- T3
 

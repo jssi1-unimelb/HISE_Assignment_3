@@ -4196,11 +4196,6 @@ vector_E:
 	.string	"ada__tags__dispatch_table"
 .LASF31:
 	.string	"system__finalization_primitives__attach_object_to_node"
-.LASF34:
-	.ascii	"GNU Ada 15.1.0 -Og -gnatA -ffunction-sections -fdata-section"
-	.ascii	"s -g -gnatwa -gnatw.X -gnatVa -gnaty3 -gnatya -gnatyA -gnaty"
-	.ascii	"B -gnatyb -gnatyc -gnaty-d -gnatye -gnatyf -gna"
-	.string	"tyh -gnatyi -gnatyI -gnatyk -gnatyl -gnatym -gnatyn -gnatyO -gnatyp -gnatyr -gnatyS -gnatyt -gnatyu -gnatyx -gnatW8 -gnatR2js -gnatws -gnatis -gnatec=/tmp/GPR.1127/GNAT-TEMP-000003.TMP -gnatem=/tmp/GPR.1127/GNAT-TEMP-000004.TMP -mtune=generic -march=x86-64"
 .LASF9:
 	.string	"system__address"
 .LASF33:
@@ -4241,6 +4236,11 @@ vector_E:
 	.string	"system__secondary_stack__ss_mark"
 .LASF7:
 	.string	"_parent"
+.LASF34:
+	.ascii	"GNU Ada 15.1.0 -Og -gnatA -ffunction-sections -fdata-section"
+	.ascii	"s -g -gnatwa -gnatw.X -gnatVa -gnaty3 -gnatya -gnatyA -gnaty"
+	.ascii	"B -gnatyb -gnatyc -gnaty-d -gnatye -gnatyf -gna"
+	.string	"tyh -gnatyi -gnatyI -gnatyk -gnatyl -gnatym -gnatyn -gnatyO -gnatyp -gnatyr -gnatyS -gnatyt -gnatyu -gnatyx -gnatW8 -gnatR2js -gnatws -gnatis -gnatec=/tmp/GPR.1051/GNAT-TEMP-000003.TMP -gnatem=/tmp/GPR.1051/GNAT-TEMP-000004.TMP -mtune=generic -march=x86-64"
 .LASF36:
 	.string	"big_reals"
 .LASF6:
