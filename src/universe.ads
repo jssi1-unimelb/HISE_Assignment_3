@@ -1,3 +1,8 @@
+--  Authors:
+--  Student 1: Ivee Laine Duran, 1091194
+--  Student 2: Jiachen Si, 1085839
+--------------------------------------------------------------------------------
+
 with Ada.Numerics.Big_Numbers.Big_Reals;
 use Ada.Numerics.Big_Numbers.Big_Reals;
 with Spatial;
