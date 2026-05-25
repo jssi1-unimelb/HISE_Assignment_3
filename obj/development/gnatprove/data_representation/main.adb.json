@@ -1,14 +1,14 @@
 [
 {
   "name": "Main.Univ.Max_Items",
-  "location": "universe.ads:7:4 [main.adb:54:4]",
+  "location": "universe.ads:7:4 [main.adb:57:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Univ.Universe_Item",
-  "location": "universe.ads:113:9 [main.adb:54:4]",
+  "location": "universe.ads:115:9 [main.adb:57:3]",
   "Size": 1280,
   "Alignment": 8,
   "record": [
@@ -35,7 +35,7 @@
 ,
 {
   "name": "Main.Univ.Itemarray",
-  "location": "universe.ads:119:9 [main.adb:54:4]",
+  "location": "universe.ads:121:9 [main.adb:57:3]",
   "Size": 12800,
   "Alignment": 8,
   "Component_Size": 1280
@@ -43,7 +43,7 @@
 ,
 {
   "name": "Main.Univ.Universe",
-  "location": "universe.ads:121:9 [main.adb:54:4]",
+  "location": "universe.ads:123:9 [main.adb:57:3]",
   "Size": 12864,
   "Alignment": 8,
   "record": [
@@ -64,91 +64,91 @@
 ,
 {
   "name": "Main.Fc.Num",
-  "location": "a-nbnbre.ads:84:12 [main.adb:56:4]",
+  "location": "a-nbnbre.ads:84:12 [main.adb:59:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Fc.Conv.To_Big_Integer.Result",
-  "location": "a-nbnbin.adb:206:10 [a-nbnbre.adb:120:7 [main.adb:56:4]]",
+  "location": "a-nbnbin.adb:206:10 [a-nbnbre.adb:120:7 [main.adb:59:3]]",
   "Size": 128,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Disp.Max_Frames",
-  "location": "display.ads:7:4 [main.adb:57:4]",
+  "location": "display.ads:7:4 [main.adb:60:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.U",
-  "location": "main.adb:59:4",
+  "location": "main.adb:62:3",
   "Size": 12864,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Arena_X_Min",
-  "location": "main.adb:61:4",
+  "location": "main.adb:64:3",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Arena_X_Max",
-  "location": "main.adb:62:4",
+  "location": "main.adb:65:3",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Arena_Y_Min",
-  "location": "main.adb:63:4",
+  "location": "main.adb:66:3",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Arena_Y_Max",
-  "location": "main.adb:64:4",
+  "location": "main.adb:67:3",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Initial_Positions",
-  "location": "main.adb:66:4",
+  "location": "main.adb:69:3",
   "Size": "??",
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Initial_Velocities",
-  "location": "main.adb:72:4",
+  "location": "main.adb:75:3",
   "Size": "??",
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Initial_Radii",
-  "location": "main.adb:78:4",
+  "location": "main.adb:81:3",
   "Size": "??",
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Tick_Count",
-  "location": "main.adb:81:4",
+  "location": "main.adb:84:3",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Bounce_Flags",
-  "location": "main.adb:220:9",
+  "location": "main.adb:215:8",
   "Size": 16,
   "Alignment": 1,
   "record": [
@@ -169,7 +169,7 @@
 ,
 {
   "name": "Main.Bounce_Array",
-  "location": "main.adb:225:9",
+  "location": "main.adb:220:8",
   "Size": 32,
   "Alignment": 1,
   "Component_Size": 16
@@ -177,252 +177,252 @@
 ,
 {
   "name": "Main.Detect_Bounces.Result",
-  "location": "main.adb:231:7",
+  "location": "main.adb:226:5",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Detect_Bounces.B_2.P",
-  "location": "main.adb:235:13",
+  "location": "main.adb:230:9",
   "Size": 512,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Detect_Bounces.B_2.R",
-  "location": "main.adb:236:13",
+  "location": "main.adb:231:9",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Print_Collision.B_4.V",
-  "location": "main.adb:261:13",
+  "location": "main.adb:256:9",
   "Size": 512,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Print_Collision.B_4.P",
-  "location": "main.adb:263:13",
+  "location": "main.adb:258:9",
   "Size": 512,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.B_8.Flags",
-  "location": "main.adb:359:10",
+  "location": "main.adb:355:7",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Univ.Init.Init_Pos",
-  "location": "universe.adb:10:7 [main.adb:54:4]",
+  "location": "universe.adb:10:7 [main.adb:57:3]",
   "Size": 512,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Univ.Init.Init_Vel",
-  "location": "universe.adb:12:7 [main.adb:54:4]",
+  "location": "universe.adb:12:7 [main.adb:57:3]",
   "Size": 512,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Univ.Init.Init_Rad",
-  "location": "universe.adb:14:7 [main.adb:54:4]",
+  "location": "universe.adb:14:7 [main.adb:57:3]",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Univ.Add_Item.New_Item",
-  "location": "universe.adb:27:7 [main.adb:54:4]",
+  "location": "universe.adb:27:7 [main.adb:57:3]",
   "Size": 1280,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.Conv.Int",
-  "location": "a-nbnbin.ads:95:12 [a-nbnbre.adb:120:7 [main.adb:56:4]]",
+  "location": "a-nbnbin.ads:95:12 [a-nbnbre.adb:120:7 [main.adb:59:3]]",
   "Size": 64,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.To_Big_Real.A",
-  "location": "a-nbnbre.adb:135:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:135:10 [main.adb:59:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Fc.To_Big_Real.E",
-  "location": "a-nbnbre.adb:136:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:136:10 [main.adb:59:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Fc.To_Big_Real.F",
-  "location": "a-nbnbre.adb:137:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:137:10 [main.adb:59:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Fc.To_Big_Real.M",
-  "location": "a-nbnbre.adb:138:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:138:10 [main.adb:59:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Fc.To_Big_Real.N",
-  "location": "a-nbnbre.adb:140:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:140:10 [main.adb:59:3]",
   "Size": 128,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.To_Big_Real.D",
-  "location": "a-nbnbre.adb:140:13 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:140:13 [main.adb:59:3]",
   "Size": 128,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.M",
-  "location": "a-nbnbre.adb:184:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:184:10 [main.adb:59:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.One",
-  "location": "a-nbnbre.adb:185:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:185:10 [main.adb:59:3]",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.Two",
-  "location": "a-nbnbre.adb:186:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:186:10 [main.adb:59:3]",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.Half",
-  "location": "a-nbnbre.adb:187:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:187:10 [main.adb:59:3]",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.Twoi",
-  "location": "a-nbnbre.adb:188:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:188:10 [main.adb:59:3]",
   "Size": 128,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.Log2_Estimate.Log",
-  "location": "a-nbnbre.adb:201:13 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:201:13 [main.adb:59:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.Log2_Estimate.Pow",
-  "location": "a-nbnbre.adb:202:13 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:202:13 [main.adb:59:3]",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.Minus_Log2_Estimate.Log",
-  "location": "a-nbnbre.adb:218:13 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:218:13 [main.adb:59:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.Minus_Log2_Estimate.Pow",
-  "location": "a-nbnbre.adb:219:13 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:219:13 [main.adb:59:3]",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.V",
-  "location": "a-nbnbre.adb:232:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:232:10 [main.adb:59:3]",
   "Size": 256,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.E",
-  "location": "a-nbnbre.adb:233:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:233:10 [main.adb:59:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.L",
-  "location": "a-nbnbre.adb:234:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:234:10 [main.adb:59:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.A",
-  "location": "a-nbnbre.adb:236:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:236:10 [main.adb:59:3]",
   "Size": 128,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.B",
-  "location": "a-nbnbre.adb:236:13 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:236:13 [main.adb:59:3]",
   "Size": 128,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.Q",
-  "location": "a-nbnbre.adb:236:16 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:236:16 [main.adb:59:3]",
   "Size": 128,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.X",
-  "location": "a-nbnbre.adb:236:19 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:236:19 [main.adb:59:3]",
   "Size": 128,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.N",
-  "location": "a-nbnbre.adb:237:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:237:10 [main.adb:59:3]",
   "Size": 64,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Fc.From_Big_Real.R",
-  "location": "a-nbnbre.adb:238:10 [main.adb:56:4]",
+  "location": "a-nbnbre.adb:238:10 [main.adb:59:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Disp.World_Point",
-  "location": "display.adb:8:9 [main.adb:57:4]",
+  "location": "display.adb:8:9 [main.adb:60:3]",
   "Size": 160,
   "Alignment": 4,
   "record": [
@@ -461,7 +461,7 @@
 ,
 {
   "name": "Main.Disp.Point_Array",
-  "location": "display.adb:16:9 [main.adb:57:4]",
+  "location": "display.adb:16:9 [main.adb:60:3]",
   "Size": 1600,
   "Alignment": 4,
   "Component_Size": 160
@@ -469,7 +469,7 @@
 ,
 {
   "name": "Main.Disp.Frame",
-  "location": "display.adb:19:9 [main.adb:57:4]",
+  "location": "display.adb:19:9 [main.adb:60:3]",
   "Size": 1632,
   "Alignment": 4,
   "record": [
@@ -490,7 +490,7 @@
 ,
 {
   "name": "Main.Disp.Frame_Array",
-  "location": "display.adb:24:9 [main.adb:57:4]",
+  "location": "display.adb:24:9 [main.adb:60:3]",
   "Size": 8976000,
   "Alignment": 4,
   "Component_Size": 1632
@@ -498,77 +498,77 @@
 ,
 {
   "name": "Main.Disp.Frames",
-  "location": "display.adb:26:4 [main.adb:57:4]",
+  "location": "display.adb:26:4 [main.adb:60:3]",
   "Size": 8976000,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Disp.Frame_Count",
-  "location": "display.adb:27:4 [main.adb:57:4]",
+  "location": "display.adb:27:4 [main.adb:60:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Disp.To_Float.S",
-  "location": "display.adb:30:7 [main.adb:57:4]",
+  "location": "display.adb:30:7 [main.adb:60:3]",
   "Size": "??",
   "Alignment": 1
 }
 ,
 {
   "name": "Main.Disp.Capture.Pos",
-  "location": "display.adb:36:7 [main.adb:57:4]",
+  "location": "display.adb:36:7 [main.adb:60:3]",
   "Size": 512,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Disp.Capture.Vel",
-  "location": "display.adb:37:7 [main.adb:57:4]",
+  "location": "display.adb:37:7 [main.adb:60:3]",
   "Size": 512,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Disp.Capture.F",
-  "location": "display.adb:38:7 [main.adb:57:4]",
+  "location": "display.adb:38:7 [main.adb:60:3]",
   "Size": 1632,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Disp.Save.File",
-  "location": "display.adb:74:7 [main.adb:57:4]",
+  "location": "display.adb:74:7 [main.adb:60:3]",
   "Size": 64,
   "Alignment": 8
 }
 ,
 {
   "name": "Main.Disp.Save.Axmin",
-  "location": "display.adb:75:7 [main.adb:57:4]",
+  "location": "display.adb:75:7 [main.adb:60:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Disp.Save.Axmax",
-  "location": "display.adb:76:7 [main.adb:57:4]",
+  "location": "display.adb:76:7 [main.adb:60:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Disp.Save.Aymin",
-  "location": "display.adb:77:7 [main.adb:57:4]",
+  "location": "display.adb:77:7 [main.adb:60:3]",
   "Size": 32,
   "Alignment": 4
 }
 ,
 {
   "name": "Main.Disp.Save.Aymax",
-  "location": "display.adb:78:7 [main.adb:57:4]",
+  "location": "display.adb:78:7 [main.adb:60:3]",
   "Size": 32,
   "Alignment": 4
 }

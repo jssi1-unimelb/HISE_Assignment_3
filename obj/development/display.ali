@@ -53,7 +53,7 @@ W ada.text_io%s		a-textio.adb		a-textio.ali
 W spatial%s		spatial.ads		spatial.ali
 W vector%s		vector.adb		vector.ali
 
-U display%s		display.ads		02a0b07b BN EE NE OO PK GE
+U display%s		display.ads		f7073b91 BN EE NE OO PK GE
 W ada%s			ada.ads			ada.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 W ada.numerics.big_numbers%s  a-nubinu.ads	a-nubinu.ali
@@ -105,7 +105,7 @@ D s-stratt.ads		20250425081800 516607ae system.stream_attributes%s
 D s-traent.ads		20250425081800 c81cbf8c system.traceback_entries%s
 D s-unstyp.ads		20250425081800 fa2a7f59 system.unsigned_types%s
 D s-wchcon.ads		20250425081800 d9032363 system.wch_con%s
-D universe.ads		20260524113638 cc6911a0 universe%s
+D universe.ads		20260525114302 39ce9a4a universe%s
 D vector.ads		20260524113638 1ec89a95 vector%s
 G a e
 G c Z s b [display standard 8 9 none]
@@ -218,7 +218,7 @@ X 24 spatial.ads
 17V13*Vel_To_Vector{47|7R9} 20|49s28
 X 46 universe.ads
 7i4 Max_Items{positive} 20|17r38[19|6] 47r28[19|6]
-9k9*Universe 19|1w6 6r29 46|140e13
+9k9*Universe 19|1w6 6r29 46|142e13
 16R9 Universe 19|10r32[6] 20|35r32[19|6]
 18V13 Item_Count{integer} 20|46s26[19|6]
 20V13 Get_Position{24|7R9} 20|48s25[19|6]

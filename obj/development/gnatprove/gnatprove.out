@@ -2,30 +2,31 @@
 Summary of SPARK analysis
 =========================
 
----------------------------------------------------------------------------------------------------------
-SPARK Analysis results        Total       Flow                             Provers   Justified   Unproved
----------------------------------------------------------------------------------------------------------
-Data Dependencies                 .          .                                   .           .          .
-Flow Dependencies                 .          .                                   .           .          .
-Initialization                    2          2                                   .           .          .
-Non-Aliasing                      .          .                                   .           .          .
-Run-time Checks                 255          .         255 (CVC5 15%, Trivial 85%)           .          .
-Assertions                       39          .                39 (CVC5 98%, Z3 2%)           .          .
-Functional Contracts             92          .    92 (CVC5 98%, Trivial 1%, Z3 1%)           .          .
-LSP Verification                  .          .                                   .           .          .
-Termination                      25         25                                   .           .          .
-Concurrency                       .          .                                   .           .          .
----------------------------------------------------------------------------------------------------------
-Total                           413    27 (7%)                           386 (93%)           .          .
+----------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total       Flow                              Provers   Justified   Unproved
+----------------------------------------------------------------------------------------------------------
+Data Dependencies                 .          .                                    .           .          .
+Flow Dependencies                 .          .                                    .           .          .
+Initialization                    2          2                                    .           .          .
+Non-Aliasing                      .          .                                    .           .          .
+Run-time Checks                 259          .          259 (CVC5 15%, Trivial 85%)           .          .
+Assertions                       45          .                 45 (CVC5 98%, Z3 2%)           .          .
+Functional Contracts            105          .    105 (CVC5 99%, Trivial 1%, Z3 1%)           .          .
+LSP Verification                  .          .                                    .           .          .
+Termination                      25         25                                    .           .          .
+Concurrency                       .          .                                    .           .          .
+----------------------------------------------------------------------------------------------------------
+Total                           436    27 (6%)                            409 (94%)           .          .
 
 
-max steps used for successful proof: 5606
+max steps used for successful proof: 3728
 
 ============================
 Most difficult proved checks
 ============================
 
-universe.ads:68:8: postcondition proved in max 1 seconds
+main.adb:303:28: loop invariant after first iteration proved in max 1 seconds
+main.adb:345:12: assertion proved in max 1 seconds
 
 ========================
 Detailed analysis report
@@ -48,38 +49,38 @@ in unit collision_math, 12 subprograms and packages out of 12 analyzed
 in unit display, 0 subprograms and packages out of 0 analyzed
 flow analysis and proof skipped for this unit (generic unit is not analyzed)
 in unit main, 24 subprograms and packages out of 32 analyzed
-  Main at main.adb:51 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (41 checks)
-  Main.Detect_Bounces at main.adb:227 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (14 checks)
-  Main.Disp at main.adb:57 skipped; body is SPARK_Mode => Off
-  Main.Disp.Capture at display.ads:10, instantiated at main.adb:57 skipped; body is SPARK_Mode => Off
-  Main.Disp.Save at display.ads:15, instantiated at main.adb:57 skipped; body is SPARK_Mode => Off
-  Main.FC at main.adb:56 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
-  Main.FC.Conv at a-nbnbre.adb:120, instantiated at main.adb:56 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
-  Main.FC.Conv.From_Big_Integer at a-nbnbin.ads:101, instantiated at a-nbnbre.adb:120, instantiated at main.adb:56 skipped; body is SPARK_Mode => Off
-  Main.FC.Conv.To_Big_Integer at a-nbnbin.ads:98, instantiated at a-nbnbre.adb:120, instantiated at main.adb:56 skipped; body is SPARK_Mode => Off
-  Main.FC.From_Big_Real at a-nbnbre.ads:90, instantiated at main.adb:56 skipped; body is SPARK_Mode => Off
-  Main.FC.To_Big_Real at a-nbnbre.ads:87, instantiated at main.adb:56 skipped; body is SPARK_Mode => Off
+  Main at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (41 checks)
+  Main.Detect_Bounces at main.adb:222 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (14 checks)
+  Main.Disp at main.adb:60 skipped; body is SPARK_Mode => Off
+  Main.Disp.Capture at display.ads:10, instantiated at main.adb:60 skipped; body is SPARK_Mode => Off
+  Main.Disp.Save at display.ads:15, instantiated at main.adb:60 skipped; body is SPARK_Mode => Off
+  Main.FC at main.adb:59 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
+  Main.FC.Conv at a-nbnbre.adb:120, instantiated at main.adb:59 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
+  Main.FC.Conv.From_Big_Integer at a-nbnbin.ads:101, instantiated at a-nbnbre.adb:120, instantiated at main.adb:59 skipped; body is SPARK_Mode => Off
+  Main.FC.Conv.To_Big_Integer at a-nbnbin.ads:98, instantiated at a-nbnbre.adb:120, instantiated at main.adb:59 skipped; body is SPARK_Mode => Off
+  Main.FC.From_Big_Real at a-nbnbre.ads:90, instantiated at main.adb:59 skipped; body is SPARK_Mode => Off
+  Main.FC.To_Big_Real at a-nbnbre.ads:87, instantiated at main.adb:59 skipped; body is SPARK_Mode => Off
   Main.Lemma_Advance_Position at main.adb:109 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (31 checks)
-  Main.Lemma_No_Collision_Pair at main.adb:184 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (16 checks)
-  Main.No_Future_Collision_Pair at main.adb:169 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (6 checks)
-  Main.Pair_Sep2 at main.adb:160 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (8 checks)
-  Main.Position_At_Tick at main.adb:88 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (7 checks)
+  Main.Lemma_No_Collision_Pair at main.adb:183 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (16 checks)
+  Main.No_Future_Collision_Pair at main.adb:168 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (6 checks)
+  Main.Pair_Sep2 at main.adb:159 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (8 checks)
+  Main.Position_At_Tick at main.adb:91 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (7 checks)
   Main.Position_Invariant at main.adb:103 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
-  Main.Print_Collision at main.adb:253 skipped; body is SPARK_Mode => Off
-  Main.Reset_Universe at main.adb:286 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (3 checks)
-  Main.Squared_Dist at main.adb:145 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (4 checks)
-  Main.Univ at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
-  Main.Univ.Add_Item at universe.ads:34, instantiated at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (18 checks)
-  Main.Univ.Get_Position at universe.ads:20, instantiated at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (1 checks)
-  Main.Univ.Get_Radius at universe.ads:28, instantiated at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (1 checks)
-  Main.Univ.Get_Velocity at universe.ads:24, instantiated at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (1 checks)
-  Main.Univ.Init at universe.ads:31, instantiated at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (1 checks)
-  Main.Univ.Item_Count at universe.ads:18, instantiated at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
-  Main.Univ.Item_Was_Added at universe.ads:56, instantiated at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (1 checks)
-  Main.Univ.Reflect_Velocity_X at universe.ads:77, instantiated at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (13 checks)
-  Main.Univ.Reflect_Velocity_Y at universe.ads:93, instantiated at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (13 checks)
-  Main.Univ.Tick at universe.ads:63, instantiated at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (10 checks)
-  Main.Univ.Universe at universe.ads:121, instantiated at main.adb:54 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
+  Main.Print_Collision at main.adb:248 skipped; body is SPARK_Mode => Off
+  Main.Reset_Universe at main.adb:281 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (3 checks)
+  Main.Squared_Dist at main.adb:144 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (4 checks)
+  Main.Univ at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
+  Main.Univ.Add_Item at universe.ads:34, instantiated at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (18 checks)
+  Main.Univ.Get_Position at universe.ads:20, instantiated at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (1 checks)
+  Main.Univ.Get_Radius at universe.ads:28, instantiated at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (1 checks)
+  Main.Univ.Get_Velocity at universe.ads:24, instantiated at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (1 checks)
+  Main.Univ.Init at universe.ads:31, instantiated at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (1 checks)
+  Main.Univ.Item_Count at universe.ads:18, instantiated at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
+  Main.Univ.Item_Was_Added at universe.ads:58, instantiated at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (1 checks)
+  Main.Univ.Reflect_Velocity_X at universe.ads:79, instantiated at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (13 checks)
+  Main.Univ.Reflect_Velocity_Y at universe.ads:95, instantiated at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (13 checks)
+  Main.Univ.Tick at universe.ads:65, instantiated at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (33 checks)
+  Main.Univ.Universe at universe.ads:123, instantiated at main.adb:57 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
 in unit spatial, 12 subprograms and packages out of 12 analyzed
   Spatial at spatial.ads:5 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)
   Spatial.Move at spatial.ads:19 flow analyzed (0 errors, 0 checks, 0 warnings and 0 pragma Assume statements) and proved (0 checks)

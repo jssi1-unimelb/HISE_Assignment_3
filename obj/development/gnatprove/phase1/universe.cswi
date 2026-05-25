@@ -1,4 +1,4 @@
-20260525114308
+20260525114315
 -c
 -x
 ada
@@ -34,3 +34,6 @@ ada
 -gnatyu
 -gnatyx
 -gnatW8
+-gnatc
+-gnates=/workspaces/HISE_Assignment_3/obj/development/gnatprove/3497a2ec.tmp
+-gnatis

@@ -582,52 +582,52 @@
   "stop_reason": "STOP_REASON_NONE",
   "timings": {
     " 1": {
-      "gnat2why.vc_generation": 1.86999997822568E-04
+      "gnat2why.vc_generation": 1.69999999343418E-04
     },
     " 2": {
-      "gnat2why.vc_generation": 5.18599990755320E-03
+      "gnat2why.vc_generation": 4.67400019988418E-03
     },
     " 3": {
-      "gnat2why.vc_generation": 4.52999986009672E-04,
-      "gnatwhy3.init": 3.58651012182236E-01,
-      "gnatwhy3.register_vcs": 1.59989995154319E-05,
-      "gnatwhy3.run_vcs": 1.99900000552589E-06,
-      "gnatwhy3.save_session": 1.72930005937815E-02,
+      "gnat2why.vc_generation": 4.53999993624166E-04,
+      "gnatwhy3.init": 3.67267996072769E-01,
+      "gnatwhy3.register_vcs": 1.40000001920271E-05,
+      "gnatwhy3.run_vcs": 9.99000008050643E-07,
+      "gnatwhy3.save_session": 1.51370000094175E-02,
       "gnatwhy3.schedule_vcs": 9.99000008050643E-07,
-      "gnatwhy3.transformations.split_goal_wp_conj": 1.13800005055964E-03
+      "gnatwhy3.transformations.split_goal_wp_conj": 1.05199904646724E-03
     },
     " 4": {
-      "gnat2why.vc_generation": 9.89999971352518E-05
+      "gnat2why.vc_generation": 9.40000027185306E-05
     },
     " 5": {
-      "gnat2why.vc_generation": 2.43250001221895E-02,
-      "gnatwhy3.init": 3.52742999792099E-01,
-      "gnatwhy3.register_vcs": 5.60000007681083E-05,
+      "gnat2why.vc_generation": 2.28049997240305E-02,
+      "gnatwhy3.init": 3.19326996803284E-01,
+      "gnatwhy3.register_vcs": 5.70000011066440E-05,
       "gnatwhy3.run_vcs": 1.99900000552589E-06,
-      "gnatwhy3.save_session": 1.59639995545149E-02,
+      "gnatwhy3.save_session": 1.45049989223480E-02,
       "gnatwhy3.schedule_vcs": 1.99900000552589E-06,
-      "gnatwhy3.transformations.split_goal_wp_conj": 1.00899895187467E-03
+      "gnatwhy3.transformations.split_goal_wp_conj": 9.91999055258930E-04
     },
     " 6": {
-      "gnat2why.vc_generation": 1.63999997312203E-04
+      "gnat2why.vc_generation": 9.30000023799948E-05
     },
     " 7": {
-      "gnat2why.vc_generation": 1.57000002218410E-04
+      "gnat2why.vc_generation": 9.60000033956021E-05
     },
     " 8": {
-      "gnat2why.vc_generation": 1.65000004926696E-04
+      "gnat2why.vc_generation": 9.20000020414591E-05
     },
     " 9": {
-      "gnat2why.vc_generation": 1.78999995114282E-04
+      "gnat2why.vc_generation": 8.90000010258518E-05
     },
     "global": {
-      "flow analysis": 4.93199983611703E-03,
-      "globals (advanced)": 4.61679995059967E-02,
-      "globals (basic)": 4.97459992766380E-02,
-      "init_why_sections": 6.61999976728112E-04,
-      "marking": 1.66529994457960E-02,
-      "properties (advanced)": 5.70000011066440E-05,
-      "translation of standard": 1.83099997229874E-03
+      "flow analysis": 4.36699995771050E-03,
+      "globals (advanced)": 4.18360009789467E-02,
+      "globals (basic)": 4.26849983632565E-02,
+      "init_why_sections": 7.62999989092350E-04,
+      "marking": 1.45220002159476E-02,
+      "properties (advanced)": 4.89999983983580E-05,
+      "translation of standard": 1.46299996413291E-03
     }
   }
 }
